@@ -10,12 +10,12 @@ public:
             for(int j=n-1;j>i;j--){
                 if(nums[i]<nums[j]){
                     swap(nums[j],nums[i]);
-                    sort(nums.begin()+i+1,nums.end());
+                    reverse(nums.begin()+i+1,nums.end());
                     return;
                 }
             }
         }
 
-        sort(nums.begin(),nums.end());
+        reverse(nums.begin(),nums.end());
     }
 };
