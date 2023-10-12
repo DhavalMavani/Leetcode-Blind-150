@@ -3,7 +3,7 @@
 
 class Solution {
 private:
-    bool helper(vector<vector<char>>& board, vector<vector<bool>>& row, vector<vector<bool>>& col, vector<vector<bool>>& area, int rowNo ){
+    bool helper(vector<vector<char>>& board, vector<vector<bool>>& row, vector<vector<bool>>& col, vector<vector<bool>>& area, int rowNo, int colNo ){
         // i==colNo
 
         
@@ -11,7 +11,7 @@ private:
             return true;
         }
 
-        for(int i=0;i<9;i++){
+        for(int i=colNo;i<9;i++){
             
             if(board[rowNo][i]!='.'){
                 continue;
@@ -24,7 +24,7 @@ private:
                         row[rowNo][x-1]=true;
                         col[i][x-1]=true;
                         area[areaNo][x-1]=true;
-                        if( helper(board,row,col,area,rowNo) ){
+                        if( helper(board,row,col,area,rowNo,colNo+1) ){
                             return true;
                         }
                         row[rowNo][x-1]=false;
@@ -37,7 +37,7 @@ private:
             }
         }
 
-        return helper(board,row,col,area,rowNo+1);
+        return helper(board,row,col,area,rowNo+1,0);
     }
 
 
@@ -62,7 +62,7 @@ public:
             }
         }
 
-        helper(board,row,col,area,0);
+        helper(board,row,col,area,0,0);
         
     }
 };
