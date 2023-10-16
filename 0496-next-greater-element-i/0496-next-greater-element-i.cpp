@@ -11,7 +11,7 @@ public:
             if(ump.find(nums2[i]) == ump.end() ){
                 continue;
             }
-            for(int j=i;j<nums2.size();j++){
+            for(int j=i+1;j<nums2.size();j++){
                 if(nums2[j]>nums2[i]){
                     ans[ ump[nums2[i]] ]=nums2[j];
                     break;
