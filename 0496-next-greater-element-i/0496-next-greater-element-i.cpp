@@ -7,16 +7,19 @@ public:
         }
 
         vector<int> ans(nums1.size(),-1);
-        for(int i=0;i<nums2.size();i++){
-            if(ump.find(nums2[i]) == ump.end() ){
-                continue;
+        stack <int> st;
+
+        int i=0;
+        while( i<nums2.size() ){
+            while(!st.empty() && nums2[i]>st.top() ){
+                ans[ ump[st.top()] ] =nums2[i];
+                st.pop();
             }
-            for(int j=i+1;j<nums2.size();j++){
-                if(nums2[j]>nums2[i]){
-                    ans[ ump[nums2[i]] ]=nums2[j];
-                    break;
-                }
+            if( ump.find(nums2[i]) != ump.end() ){
+                st.emplace(nums2[i]);
             }
+            i++;
+
         }
 
         return ans;
