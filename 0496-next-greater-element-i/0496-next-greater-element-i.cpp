@@ -9,8 +9,8 @@ public:
         vector<int> ans(nums1.size(),-1);
         stack <int> st;
 
-        int i=0;
-        while( i<nums2.size() ){
+        
+        for(int i=0;i<nums2.size();i++){
             while(!st.empty() && nums2[i]>st.top() ){
                 ans[ ump[st.top()] ] =nums2[i];
                 st.pop();
@@ -18,8 +18,6 @@ public:
             if( ump.find(nums2[i]) != ump.end() ){
                 st.emplace(nums2[i]);
             }
-            i++;
-
         }
 
         return ans;
