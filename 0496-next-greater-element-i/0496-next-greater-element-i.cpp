@@ -17,6 +17,7 @@ public:
             }
             if( ump.find(nums2[i]) != ump.end() ){
                 st.emplace(nums2[i]);
+                cout<<st.top()<<" ";
             }
         }
 
