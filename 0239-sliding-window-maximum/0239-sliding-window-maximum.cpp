@@ -3,39 +3,24 @@ public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
         vector<int> ans;
         deque <int> dq;
-        dq.emplace_back(nums[0]);
- 
-        for(int i=1;i<k;i++){
-            if(dq.size()==k){
+        int l=0,r=0;
+
+        while(r<nums.size()){
+            while(!dq.empty() && nums[dq.back()]<nums[r]){
+                dq.pop_back();
+            }
+
+            dq.emplace_back(r);
+
+            if(  dq.front() < l ){
                 dq.pop_front();
             }
-            if(nums[i]<dq.back()){
-                dq.emplace_back(nums[i]);
+            
+            if(r+1>=k){
+                ans.emplace_back(nums[dq.front()]);
+                l++;
             }
-            else{
-                while(!dq.empty() && dq.back()<nums[i]){
-                    dq.pop_back();
-                }
-                dq.emplace_back(nums[i]);
-            }
-        }
-        ans.emplace_back(dq.front());
-
-        for(int i=k;i<nums.size();i++){
-
-            if(dq.size()==k || nums[i-k]==dq.front()){
-                dq.pop_front();
-            }
-            if(nums[i]<dq.back()){
-                dq.emplace_back(nums[i]);
-            }
-            else{
-                while(!dq.empty() && dq.back()<nums[i]){
-                    dq.pop_back();
-                }
-                dq.emplace_back(nums[i]);
-            }
-            ans.emplace_back(dq.front());
+            r++;
         }
 
         return ans;
