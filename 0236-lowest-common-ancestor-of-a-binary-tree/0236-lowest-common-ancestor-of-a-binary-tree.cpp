@@ -19,10 +19,10 @@ public:
         TreeNode* l=findLCA(node->left,p,q);
         TreeNode* r=findLCA(node->right,p,q);
 
-        if(l!=NULL && r!=NULL){
+        if(l && r){
             return node;
         }
-        else if(l!=NULL){
+        else if(l){
             return l;
         }
         else{
