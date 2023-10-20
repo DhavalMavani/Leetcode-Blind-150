@@ -39,7 +39,7 @@ public:
 
         int n=min(routeP.size(),routeQ.size());
 
-        TreeNode* ans=root;
+        TreeNode* ans;
         for(int i=0;i<n;i++){
             if(routeP[routeP.size()-i-1]!=routeQ[routeQ.size()-i-1]){
                 break;
