@@ -36,16 +36,15 @@ public:
         vector<TreeNode*> routeQ;
         routeP=findPath(root,p);
         routeQ=findPath(root,q);
-        reverse(routeP.begin(),routeP.end());
-        reverse(routeQ.begin(),routeQ.end());
+
         int n=min(routeP.size(),routeQ.size());
 
         TreeNode* ans=root;
         for(int i=0;i<n;i++){
-            if(routeP[i]!=routeQ[i]){
+            if(routeP[routeP.size()-i-1]!=routeQ[routeQ.size()-i-1]){
                 break;
             }
-            ans=routeP[i];
+            ans=routeP[routeP.size()-i-1];
         }
         return ans;
     }
