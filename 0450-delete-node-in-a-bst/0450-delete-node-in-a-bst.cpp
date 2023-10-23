@@ -55,8 +55,12 @@ public:
                 }
             }
         }
-        dfs(node->left,key,node);
-        dfs(node->right,key,node);
+        if(key<node->val){
+            dfs(node->left,key,node);
+        }
+        else{
+            dfs(node->right,key,node);
+        }
     }
 
     TreeNode* deleteNode(TreeNode* root, int key) {
