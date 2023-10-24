@@ -9,25 +9,46 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
-class Solution {
-public:
-    int ans=0;
-    vector<int> validateBSTandSum(TreeNode* node){
-        if(!node){
-            return {0,INT_MAX,INT_MIN};
-        }
-        vector <int> l=validateBSTandSum(node->left);
-        vector <int> r=validateBSTandSum(node->right);
-
-        if(l[2]<node->val && node->val<r[1]){
-            ans= max(node->val+l[0]+r[0], ans );
-            return {node->val+l[0]+r[0] , min(l[1], node->val) , max(r[2], node->val) };
-        }
-        return { max(l[0],r[0]), INT_MIN, INT_MAX};
+class NodeValue {
+public: 
+    int minNode, maxNode, maxSum;
+    
+    NodeValue(int minNode, int maxNode, int maxSum)
+    {
+        this->minNode = minNode;
+        this->maxNode = maxNode;
+        this->maxSum = maxSum;
     }
-    int maxSumBST(TreeNode* root) {
-        vector <int> temp;
-        temp=validateBSTandSum(root);
-        return ans;
+};
+
+class Solution {
+    
+private:
+    NodeValue maxSumBSTHelper(TreeNode* root)
+    {
+        if(!root) return NodeValue(INT_MAX, INT_MIN, 0);
+        
+        auto left = maxSumBSTHelper(root->left);
+        auto right = maxSumBSTHelper(root->right);
+        
+        if(left.maxNode < root->val && root->val < right.minNode)
+        {
+            //if BT is BST
+            sum = max(sum, root->val + left.maxSum + right.maxSum);
+            
+            return NodeValue(min(root->val, left.minNode), max(root->val, right.maxNode), root->val + left.maxSum + right.maxSum);
+            
+        }
+        
+        return NodeValue(INT_MIN, INT_MAX, max(left.maxSum, right.maxSum));   
+    }
+    
+public:
+    int sum=0;
+    int maxSumBST(TreeNode* root) 
+    {
+        maxSumBSTHelper(root);
+        return sum>0 ? sum : 0;
+        
     }
 };
