@@ -1,52 +1,49 @@
 class Solution {
 public:
-    void kSum(vector<int>& nums,vector<vector<int>>& ans,vector<int> res, int start,long long target, int k){
-        if(k!=2){
-            for(int i=start;i<nums.size()-k+1;i++){
-                if(i>start && nums[i-1]==nums[i]){
-                    continue;
-                }else{
-
-                res.emplace_back(nums[i]);
-                kSum(nums,ans,res,i+1,target-nums[i],k-1);
-                res.pop_back();
-                }
-            }
-            return;
-        }
-
-        int left=start,right=nums.size()-1;
-        while(left<right){
-            if(target==nums[left] + nums[right] ){
-                res.emplace_back(nums[left]);
-                res.emplace_back(nums[right]);
-                ans.emplace_back(res);
-                res.pop_back();
-                res.pop_back();
-                left++;
-                right--;
-                while(left<right && nums[left-1]==nums[left]){
-                    left++;
-                }
-            }
-            else if(nums[left]+nums[right] < target ){
-                left++;
-            }
-            else{
-                right--;
-            }
-        }
-
-
-    }
     vector<vector<int>> fourSum(vector<int>& nums, int target) {
         if(nums.size()<4){
             return {};
         }
         sort(nums.begin(),nums.end());
         vector<vector<int>> ans;
-        vector<int> res;
-        kSum(nums,ans,res,0,target,4);
+        for(int i=0;i<nums.size()-3;i++){
+            if(i>0 && nums[i]==nums[i-1]){
+                continue;
+            }
+            for(int j=i+1;j<nums.size()-2;j++){
+                if(j>i+1 && nums[j]==nums[j-1]){
+                    continue;
+                }
+                long long sum=target-nums[i];
+                sum-=nums[j];
+                int left=j+1,right=nums.size()-1;
+                while(left<right){
+                    if(sum==nums[left]+nums[right]){
+                        ans.push_back({nums[i],nums[j],nums[left],nums[right]});
+                        left++;
+                        right--;
+                        while(left<right && nums[left]==nums[left-1]){
+                            left++;
+                        } 
+                        while(left<right && nums[right]==nums[right+1]){
+                            right--;
+                        } 
+                    }
+                    else if(sum<nums[left]+nums[right]){
+                        right--;
+                        while(left<right && nums[right]==nums[right+1]){
+                            right--;
+                        } 
+                    }
+                    else{
+                        left++;
+                        while(left<right && nums[left]==nums[left-1]){
+                            left++;
+                        }
+                    }
+                }
+            }
+        }
         return ans;
     }
 };
