@@ -9,9 +9,8 @@ public:
             return dp[i1][i2];
         }
 
-        int c=INT_MIN;
         if(word1[i1]==word2[i2]){
-            return 1+ helper(word1,word2,i1+1,i2+1,dp);
+            return dp[i1][i2] = 1+ helper(word1,word2,i1+1,i2+1,dp);
         }
 
         int a=helper(word1,word2,i1+1,i2,dp);
@@ -20,7 +19,8 @@ public:
         return dp[i1][i2]= max(a,b);
     }
     int minDistance(string word1, string word2) {
-        vector<vector<int>> dp (word1.size(),vector<int>(word2.size(),-1) );
-        return word1.size()+ word2.size() - (2* helper(word1,word2,0,0,dp));
+        int m=word1.size(),n=word2.size();
+        vector<vector<int>> dp (m,vector<int>(n,-1) );
+        return m+ n - (2* helper(word1,word2,0,0,dp));
     }
 };
