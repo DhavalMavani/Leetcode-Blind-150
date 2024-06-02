@@ -17,11 +17,10 @@ public:
                         binary[i]--;
                     }
                 }
-                int temp=0;
+                curr=0;
                 for(int i=0;i<30;i++){
-                    if(binary[i]==0) temp+=1<<i;
+                    if(binary[i]==0) curr+=1<<i;
                 }
-                curr=temp;
                 ans=min(ans,abs(curr-k));
                 l++;
             }
