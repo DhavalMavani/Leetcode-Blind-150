@@ -8,17 +8,17 @@ public:
         while(r<n){
             curr=curr & nums[r];
             for(int i=0;i<30;i++){
-                if( ((nums[r]>>i)&1) == 0 ) binary[i]++;
+                if( !((nums[r]>>i)&1) ) binary[i]++;
             }
             ans=min(ans,abs(curr-k));
             while(l<r && curr<k){
                 for(int i=0;i<30;i++){
-                    if( ((nums[l]>>i)&1) ==0 ){
+                    if( !((nums[l]>>i)&1) ){
                         binary[i]--;
                     }
                 }
                 curr=0;
-                for(int i=0;i<30;i++) curr+=(binary[i]==0)*(1<<i);
+                for(int i=0;i<30;i++) curr+=(!binary[i])*(1<<i);
                 ans=min(ans,abs(curr-k));
                 l++;
             }
