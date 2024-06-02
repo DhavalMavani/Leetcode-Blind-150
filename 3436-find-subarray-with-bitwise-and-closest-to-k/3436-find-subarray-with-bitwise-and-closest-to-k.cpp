@@ -1,31 +1,49 @@
 class Solution {
 public:
-    int minimumDifference(vector<int>& nums, int k) {
-        int l=0,r=0,n=nums.size(),ans=INT_MAX;
-        vector<int> binary(30,0);
-        int curr=(1<<30)-1;
-
-        while(r<n){
-            curr=curr & nums[r];
-            for(int i=0;i<30;i++){
-                if( ((nums[r]>>i)&1) == 0 ) binary[i]++;
-            }
-            ans=min(ans,abs(curr-k));
-            while(l<r && curr<k){
-                for(int i=0;i<30;i++){
-                    if( ((nums[l]>>i)&1) ==0 ){
-                        binary[i]--;
-                    }
-                }
-                curr=0;
-                for(int i=0;i<30;i++){
-                    if(binary[i]==0) curr+=1<<i;
-                }
-                ans=min(ans,abs(curr-k));
-                l++;
-            }
-            r++;
+    // bit count 0's
+    int calculateWindow(vector<int>& bit){
+        int ans = 0;
+        for(int i=0; i<32; i++){
+            ans += (1<<i) * (bit[i] == 0);
         }
         return ans;
+    }
+
+    void addElement(vector<int>& bit, int el){
+        for(int i=0; i<32; i++){
+            if( !((el>>i) & 1) )
+                bit[i]++;
+        }
+    }
+
+    void subtractElement(vector<int>& bit, int el){
+        for(int i=0; i<32; i++){
+            if( !((el>>i) & 1))
+                bit[i]--;
+        }
+    }
+
+    int minimumDifference(vector<int>& nums, int k) {
+        int n = nums.size(), minDiff = INT_MAX;
+
+        vector<int> bit(32, 0);
+        int i=0, j=0, rangeAnd=0;
+        while(j<n){
+            addElement(bit, nums[j]);
+            rangeAnd = calculateWindow(bit);
+            minDiff = min(minDiff, abs(rangeAnd-k));
+
+            while(rangeAnd<k && i<j){
+                subtractElement(bit, nums[i]);
+                rangeAnd = calculateWindow(bit);
+                minDiff = min(minDiff, abs(rangeAnd-k));
+                i++;
+            }
+
+            j++;
+            if(minDiff == 0) return 0;
+        }
+
+        return minDiff;
     }
 };
