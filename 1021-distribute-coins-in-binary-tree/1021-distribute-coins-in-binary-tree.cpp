@@ -19,10 +19,10 @@ public:
         int l=dfs(node->left);
         int r=dfs(node->right);
 
-        int extraCoins=l+r+node->val-1;
-        res+=abs(extraCoins);
+        int coins=l+r+node->val-1;
+        res+=abs(coins);
 
-        return extraCoins;
+        return coins;
     }
 
     int distributeCoins(TreeNode* root) {
