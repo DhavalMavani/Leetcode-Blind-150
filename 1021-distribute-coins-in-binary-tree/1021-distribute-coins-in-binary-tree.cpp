@@ -13,16 +13,16 @@ class Solution {
 public:
     int res=0;
 
-    pair<int,int> dfs(TreeNode* node){
-        if(node==NULL) return {0,0};
+    int dfs(TreeNode* node){
+        if(node==NULL) return 0;
         
-        pair<int,int> l=dfs(node->left);
-        pair<int,int> r=dfs(node->right);
-        
-        int s=l.first+r.first+1, coins=l.second+r.second+node->val;
-        res+=abs(coins-s);
+        int l=dfs(node->left);
+        int r=dfs(node->right);
 
-        return {s,coins};
+        int extraCoins=l+r+node->val-1;
+        res+=abs(extraCoins);
+
+        return extraCoins;
     }
 
     int distributeCoins(TreeNode* root) {
