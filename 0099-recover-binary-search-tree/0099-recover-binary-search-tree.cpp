@@ -13,11 +13,11 @@ class Solution {
 public:
     TreeNode *first=NULL,*last=NULL,*prevNode=new TreeNode(INT_MIN);
 
-    void dfs(TreeNode* node){
+    void dfs(TreeNode* &node){
         if(node==NULL) return;
 
         dfs(node->left);
-        
+
         if( node->val<prevNode->val){
             if(!first){
                 first=prevNode;
