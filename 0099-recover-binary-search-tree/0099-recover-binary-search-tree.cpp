@@ -11,26 +11,26 @@
  */
 class Solution {
 public:
-    void recover(TreeNode* node,vector<int> &tree, int &i){
-        if(node==NULL) return;
-        recover(node->left,tree,i);
-        node->val=tree[i];
-        i++;
-        recover(node->right,tree,i);
-    }
+    TreeNode *first=NULL,*last=NULL,*prevNode=new TreeNode(INT_MIN);
 
-    void dfs(TreeNode* node,vector<int> &tree){
+    void dfs(TreeNode* node){
         if(node==NULL) return;
-        dfs(node->left,tree);
-        tree.emplace_back(node->val);
-        dfs(node->right,tree);
+
+        dfs(node->left);
+        
+        if( node->val<prevNode->val){
+            if(!first){
+                first=prevNode;
+                last=node;
+            }
+            else last=node;
+        }
+        prevNode=node;
+
+        dfs(node->right);
     }
     void recoverTree(TreeNode* root) {
-        vector<int> tree;
-        dfs(root,tree);
-        sort(tree.begin(),tree.end());
-        int i=0;
-        recover(root,tree,i);
-
+        dfs(root);
+        swap(first->val,last->val);
     }
 };
