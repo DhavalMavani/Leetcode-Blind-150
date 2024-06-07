@@ -45,3 +45,15 @@
 |  |
 | ------- |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
+# Array
+|  |
+| ------- |
+| [3387-minimum-operations-to-make-median-of-array-equal-to-k](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3387-minimum-operations-to-make-median-of-array-equal-to-k) |
+# Greedy
+|  |
+| ------- |
+| [3387-minimum-operations-to-make-median-of-array-equal-to-k](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3387-minimum-operations-to-make-median-of-array-equal-to-k) |
+# Sorting
+|  |
+| ------- |
+| [3387-minimum-operations-to-make-median-of-array-equal-to-k](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3387-minimum-operations-to-make-median-of-array-equal-to-k) |
