@@ -49,6 +49,7 @@
 |  |
 | ------- |
 | [3387-minimum-operations-to-make-median-of-array-equal-to-k](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3387-minimum-operations-to-make-median-of-array-equal-to-k) |
+| [3442-maximum-total-reward-using-operations-i](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3442-maximum-total-reward-using-operations-i) |
 # Greedy
 |  |
 | ------- |
@@ -57,3 +58,7 @@
 |  |
 | ------- |
 | [3387-minimum-operations-to-make-median-of-array-equal-to-k](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3387-minimum-operations-to-make-median-of-array-equal-to-k) |
+# Dynamic Programming
+|  |
+| ------- |
+| [3442-maximum-total-reward-using-operations-i](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3442-maximum-total-reward-using-operations-i) |
