@@ -21,6 +21,7 @@
 | [0617-merge-two-binary-trees](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0617-merge-two-binary-trees) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1021-distribute-coins-in-binary-tree) |
+| [1300-critical-connections-in-a-network](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1300-critical-connections-in-a-network) |
 # Breadth-First Search
 |  |
 | ------- |
@@ -62,3 +63,11 @@
 |  |
 | ------- |
 | [3442-maximum-total-reward-using-operations-i](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3442-maximum-total-reward-using-operations-i) |
+# Graph
+|  |
+| ------- |
+| [1300-critical-connections-in-a-network](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1300-critical-connections-in-a-network) |
+# Biconnected Component
+|  |
+| ------- |
+| [1300-critical-connections-in-a-network](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1300-critical-connections-in-a-network) |
