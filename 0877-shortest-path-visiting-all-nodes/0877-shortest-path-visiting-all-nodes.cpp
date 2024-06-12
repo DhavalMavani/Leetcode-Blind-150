@@ -5,7 +5,7 @@ public:
         vector<vector<bool>> visited(n,vector<bool>(lim,false));
         queue<pair<int,int>> q;
 
-        for(int i=0;i<n;i++) q.push ({i,0});
+        for(int i=0;i<n;i++) q.push ({i,1<<i});
         while(!q.empty()){
             int l=q.size();
             ans++;
