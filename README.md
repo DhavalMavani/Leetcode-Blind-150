@@ -27,6 +27,7 @@
 | ------- |
 | [0101-symmetric-tree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0101-symmetric-tree) |
 | [0617-merge-two-binary-trees](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0617-merge-two-binary-trees) |
+| [0877-shortest-path-visiting-all-nodes](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0877-shortest-path-visiting-all-nodes) |
 # Binary Tree
 |  |
 | ------- |
@@ -62,12 +63,22 @@
 # Dynamic Programming
 |  |
 | ------- |
+| [0877-shortest-path-visiting-all-nodes](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0877-shortest-path-visiting-all-nodes) |
 | [3442-maximum-total-reward-using-operations-i](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3442-maximum-total-reward-using-operations-i) |
 # Graph
 |  |
 | ------- |
+| [0877-shortest-path-visiting-all-nodes](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0877-shortest-path-visiting-all-nodes) |
 | [1300-critical-connections-in-a-network](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1300-critical-connections-in-a-network) |
 # Biconnected Component
 |  |
 | ------- |
 | [1300-critical-connections-in-a-network](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1300-critical-connections-in-a-network) |
+# Bit Manipulation
+|  |
+| ------- |
+| [0877-shortest-path-visiting-all-nodes](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0877-shortest-path-visiting-all-nodes) |
+# Bitmask
+|  |
+| ------- |
+| [0877-shortest-path-visiting-all-nodes](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0877-shortest-path-visiting-all-nodes) |
