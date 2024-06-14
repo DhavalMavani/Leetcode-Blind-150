@@ -74,6 +74,7 @@
 | ------- |
 | [0877-shortest-path-visiting-all-nodes](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0877-shortest-path-visiting-all-nodes) |
 | [1300-critical-connections-in-a-network](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1300-critical-connections-in-a-network) |
+| [1738-maximal-network-rank](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1738-maximal-network-rank) |
 # Biconnected Component
 |  |
 | ------- |
