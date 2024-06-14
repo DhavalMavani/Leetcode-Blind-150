@@ -44,6 +44,7 @@
 # Linked List
 |  |
 | ------- |
+| [0143-reorder-list](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0143-reorder-list) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
 # Doubly-Linked List
 |  |
@@ -89,3 +90,15 @@
 |  |
 | ------- |
 | [0417-pacific-atlantic-water-flow](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0417-pacific-atlantic-water-flow) |
+# Two Pointers
+|  |
+| ------- |
+| [0143-reorder-list](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0143-reorder-list) |
+# Stack
+|  |
+| ------- |
+| [0143-reorder-list](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0143-reorder-list) |
+# Recursion
+|  |
+| ------- |
+| [0143-reorder-list](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0143-reorder-list) |
