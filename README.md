@@ -21,6 +21,7 @@
 | [0417-pacific-atlantic-water-flow](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0417-pacific-atlantic-water-flow) |
 | [0617-merge-two-binary-trees](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0617-merge-two-binary-trees) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
+| [0801-is-graph-bipartite](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0801-is-graph-bipartite) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1021-distribute-coins-in-binary-tree) |
 | [1300-critical-connections-in-a-network](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1300-critical-connections-in-a-network) |
 # Breadth-First Search
@@ -29,6 +30,7 @@
 | [0101-symmetric-tree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0101-symmetric-tree) |
 | [0417-pacific-atlantic-water-flow](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0417-pacific-atlantic-water-flow) |
 | [0617-merge-two-binary-trees](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0617-merge-two-binary-trees) |
+| [0801-is-graph-bipartite](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0801-is-graph-bipartite) |
 | [0877-shortest-path-visiting-all-nodes](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0877-shortest-path-visiting-all-nodes) |
 # Binary Tree
 |  |
@@ -72,6 +74,7 @@
 # Graph
 |  |
 | ------- |
+| [0801-is-graph-bipartite](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0801-is-graph-bipartite) |
 | [0877-shortest-path-visiting-all-nodes](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0877-shortest-path-visiting-all-nodes) |
 | [1300-critical-connections-in-a-network](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1300-critical-connections-in-a-network) |
 | [1738-maximal-network-rank](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1738-maximal-network-rank) |
@@ -103,3 +106,7 @@
 |  |
 | ------- |
 | [0143-reorder-list](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0143-reorder-list) |
+# Union Find
+|  |
+| ------- |
+| [0801-is-graph-bipartite](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0801-is-graph-bipartite) |
