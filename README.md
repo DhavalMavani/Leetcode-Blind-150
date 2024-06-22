@@ -56,6 +56,7 @@
 |  |
 | ------- |
 | [0417-pacific-atlantic-water-flow](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0417-pacific-atlantic-water-flow) |
+| [1723-maximum-number-of-achievable-transfer-requests](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1723-maximum-number-of-achievable-transfer-requests) |
 | [3387-minimum-operations-to-make-median-of-array-equal-to-k](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3387-minimum-operations-to-make-median-of-array-equal-to-k) |
 | [3442-maximum-total-reward-using-operations-i](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3442-maximum-total-reward-using-operations-i) |
 # Greedy
@@ -86,6 +87,7 @@
 |  |
 | ------- |
 | [0877-shortest-path-visiting-all-nodes](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0877-shortest-path-visiting-all-nodes) |
+| [1723-maximum-number-of-achievable-transfer-requests](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1723-maximum-number-of-achievable-transfer-requests) |
 # Bitmask
 |  |
 | ------- |
@@ -110,3 +112,11 @@
 |  |
 | ------- |
 | [0801-is-graph-bipartite](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0801-is-graph-bipartite) |
+# Backtracking
+|  |
+| ------- |
+| [1723-maximum-number-of-achievable-transfer-requests](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1723-maximum-number-of-achievable-transfer-requests) |
+# Enumeration
+|  |
+| ------- |
+| [1723-maximum-number-of-achievable-transfer-requests](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1723-maximum-number-of-achievable-transfer-requests) |
