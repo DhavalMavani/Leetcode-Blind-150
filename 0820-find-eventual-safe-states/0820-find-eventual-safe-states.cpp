@@ -1,7 +1,5 @@
 class Solution {
 public:
-    int a=0;
-
     bool dfs(int node,vector<vector<int>>& graph, vector<int> &ans, vector<bool> &hasVisited,vector<bool> &isTerminal){
         if(hasVisited[node]) return isTerminal[node];
         hasVisited[node]=true;
