@@ -74,7 +74,7 @@ public:
             }
         }
 
-        // case 6: (col -> 3)
+        // case 6: (row -> 3)
         for(int i=0;i<row-1;i++){
             int a1=minimumArea(grid,0,col,0,i);
             for(int j=i+1;j<row;j++){
