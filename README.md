@@ -13,6 +13,7 @@
 | [0101-symmetric-tree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0101-symmetric-tree) |
 | [0617-merge-two-binary-trees](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0617-merge-two-binary-trees) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1021-distribute-coins-in-binary-tree) |
+| [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2347-count-nodes-equal-to-average-of-subtree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2347-count-nodes-equal-to-average-of-subtree) |
 # Depth-First Search
 |  |
@@ -26,6 +27,7 @@
 | [0820-find-eventual-safe-states](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0820-find-eventual-safe-states) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1021-distribute-coins-in-binary-tree) |
 | [1300-critical-connections-in-a-network](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1300-critical-connections-in-a-network) |
+| [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2347-count-nodes-equal-to-average-of-subtree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2347-count-nodes-equal-to-average-of-subtree) |
 # Breadth-First Search
 |  |
@@ -43,6 +45,7 @@
 | [0101-symmetric-tree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0101-symmetric-tree) |
 | [0617-merge-two-binary-trees](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0617-merge-two-binary-trees) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1021-distribute-coins-in-binary-tree) |
+| [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2347-count-nodes-equal-to-average-of-subtree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2347-count-nodes-equal-to-average-of-subtree) |
 # Binary Search Tree
 |  |
@@ -130,3 +133,7 @@
 |  |
 | ------- |
 | [0820-find-eventual-safe-states](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0820-find-eventual-safe-states) |
+# String
+|  |
+| ------- |
+| [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
