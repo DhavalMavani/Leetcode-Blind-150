@@ -1,49 +1,41 @@
 class Solution {
 public:
     int numBusesToDestination(vector<vector<int>>& routes, int source, int target) {
-        // explore all the bus routes 1 by 1 (bfs)
-        
-        if(source==target) return 0;
-        int n=routes.size();
-        vector<bool> visited(n,false);
-
-        // bus_stop -> bus_num
-        unordered_map<int,vector<int>> ump;
-        for(int i=0;i<n;i++){
-            for(auto &bus_stop: routes[i]) ump[bus_stop].emplace_back(i);
+        if (source == target) {
+            return 0;
         }
 
-        queue<int> q;
-        for(auto &bus_num: ump[source]){
-            if(!visited[bus_num]){
-                q.emplace(bus_num);
-                visited[bus_num]=true;
+        int maxStop = -1;
+        for (const auto& route : routes) {
+            for (int stop : route) {
+                maxStop = max(maxStop, stop);
             }
         }
-        
-        int ans=1;
-        while(!q.empty()){
-            int s=q.size();
-            for(int i=0;i<s;i++){
-                int bus_num=q.front();
-                q.pop();
-                for(auto &bus_stop: routes[bus_num]){
-                    if(bus_stop==target) return ans;
 
-                    for(auto &new_bus_num: ump[bus_stop]){
-                        if(!visited[new_bus_num]){
-                            q.emplace(new_bus_num);
-                            visited[new_bus_num]=true;
-                        }
-                    }
-                    
+        if (maxStop < target || maxStop<source) return -1;
+
+        int n = routes.size();
+        vector<int> minBusesToReach(maxStop + 1, INT_MAX);
+        minBusesToReach[source] = 0;
+
+        bool flag = true;
+        while (flag) {
+            flag = false;
+            for (const auto& route : routes) {
+                int min = n+1;
+                for (int stop : route) {
+                    min = std::min(min, minBusesToReach[stop]);
                 }
-
+                min++;
+                for (int stop : route) {
+                    if (minBusesToReach[stop] > min) {
+                        minBusesToReach[stop] = min;
+                        flag = true;
+                    }
+                }
             }
-            ans++;
-            
         }
 
-        return -1;
+        return (minBusesToReach[target] < n+1) ? minBusesToReach[target] : -1;
     }
 };
