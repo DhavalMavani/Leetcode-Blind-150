@@ -160,6 +160,7 @@
 ## Breadth-First Search
 |  |
 | ------- |
+| [0279-perfect-squares](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0279-perfect-squares) |
 | [0542-01-matrix](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0542-01-matrix) |
 | [0833-bus-routes](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0833-bus-routes) |
 | [0895-shortest-path-to-get-all-keys](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0895-shortest-path-to-get-all-keys) |
@@ -190,6 +191,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0279-perfect-squares](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0279-perfect-squares) |
 | [0542-01-matrix](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0542-01-matrix) |
 ## Depth-First Search
 |  |
@@ -199,4 +201,8 @@
 |  |
 | ------- |
 | [1753-path-with-minimum-effort](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1753-path-with-minimum-effort) |
+## Math
+|  |
+| ------- |
+| [0279-perfect-squares](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0279-perfect-squares) |
 <!---LeetCode Topics End-->
