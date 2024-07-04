@@ -5,9 +5,8 @@ public:
         
         if(dp[res]!=-1) return dp[res];
         int ans=INT_MAX;
-        for(int i=1;i*i<=res;i++){
-            ans=min(ans,1+helper(res-i*i, dp) );
-        }
+        for(int i=1;i*i<=res;i++) ans=min(ans,1+helper(res-i*i, dp) );
+
         return dp[res]=ans;
     }
 
