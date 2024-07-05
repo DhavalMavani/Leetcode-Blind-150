@@ -27,13 +27,13 @@ public:
 
     // Decodes your encoded data to tree.
     TreeNode* construct(int &ind,string &data){
-        if(ind<data.size() && data[ind]=='n'){
+        if(data[ind]=='n'){
             ind++;
             return NULL;
         }
 
         string curr;
-        while(ind<data.size() && data[ind]!='b' ){
+        while(data[ind]!='b' ){
             curr+=data[ind];
             ind++;
         }
