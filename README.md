@@ -171,11 +171,13 @@
 | [1171-shortest-path-in-binary-matrix](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1753-path-with-minimum-effort](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1753-path-with-minimum-effort) |
+| [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2914-find-the-safest-path-in-a-grid) |
 ## Union Find
 |  |
 | ------- |
 | [1753-path-with-minimum-effort](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1753-path-with-minimum-effort) |
+| [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2914-find-the-safest-path-in-a-grid) |
 ## Matrix
 |  |
@@ -229,4 +231,8 @@
 |  |
 | ------- |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0297-serialize-and-deserialize-binary-tree) |
+## Graph
+|  |
+| ------- |
+| [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
 <!---LeetCode Topics End-->
