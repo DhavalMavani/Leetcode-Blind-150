@@ -24,8 +24,8 @@ public:
             for(int i=0;i<n;i++){
                 if (i==n-1) ans.emplace_back(q.front()->val);
 
-                if(q.front()->left!=NULL) q.emplace(q.front()->left);
-                if(q.front()->right!=NULL) q.emplace(q.front()->right);
+                if(q.front()->left) q.emplace(q.front()->left);
+                if(q.front()->right) q.emplace(q.front()->right);
                 q.pop();
             }
         }
