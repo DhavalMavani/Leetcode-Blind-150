@@ -22,11 +22,12 @@ public:
             int n=q.size();
 
             for(int i=0;i<n;i++){
-                if (i==n-1) ans.emplace_back(q.front()->val);
-
-                if(q.front()->left) q.emplace(q.front()->left);
-                if(q.front()->right) q.emplace(q.front()->right);
+                TreeNode* node=q.front();
                 q.pop();
+                if (i==n-1) ans.emplace_back(node->val);
+
+                if(node->left) q.emplace(node->left);
+                if(node->right) q.emplace(node->right);
             }
         }
         return ans;
