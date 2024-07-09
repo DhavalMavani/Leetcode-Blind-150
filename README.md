@@ -152,6 +152,7 @@
 | [0895-shortest-path-to-get-all-keys](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0895-shortest-path-to-get-all-keys) |
 | [0945-snakes-and-ladders](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0945-snakes-and-ladders) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1322-minimum-moves-to-reach-target-with-rotations](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1322-minimum-moves-to-reach-target-with-rotations) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1753-path-with-minimum-effort](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1753-path-with-minimum-effort) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2914-find-the-safest-path-in-a-grid) |
@@ -173,6 +174,7 @@
 | [0895-shortest-path-to-get-all-keys](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0895-shortest-path-to-get-all-keys) |
 | [0945-snakes-and-ladders](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0945-snakes-and-ladders) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1322-minimum-moves-to-reach-target-with-rotations](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1322-minimum-moves-to-reach-target-with-rotations) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1753-path-with-minimum-effort](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1753-path-with-minimum-effort) |
 | [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
@@ -192,6 +194,7 @@
 | [0895-shortest-path-to-get-all-keys](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0895-shortest-path-to-get-all-keys) |
 | [0945-snakes-and-ladders](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0945-snakes-and-ladders) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1322-minimum-moves-to-reach-target-with-rotations](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1322-minimum-moves-to-reach-target-with-rotations) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1753-path-with-minimum-effort](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1753-path-with-minimum-effort) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2914-find-the-safest-path-in-a-grid) |
