@@ -18,8 +18,7 @@ public:
         }
     }
     int minimumMoves(vector<vector<int>>& grid) {
-        int ans=0;
-
+        
         for(int i=0;i<3;i++){
             for(int j=0;j<3;j++){
                 if(grid[i][j]==0) zero.emplace_back(i*3+j);
