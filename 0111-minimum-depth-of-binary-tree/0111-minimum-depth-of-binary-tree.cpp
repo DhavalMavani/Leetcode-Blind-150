@@ -11,20 +11,9 @@
  */
 class Solution {
 public:
-    int dfs(TreeNode* node){
-
-        int l=-1,r=-1;
-        if(node->left) l=1+dfs(node->left);
-        if(node->right) r=1+dfs(node->right);
-
-        if(l==-1 && r==-1) return 1;
-        else if(l==-1) return r;
-        else if(r==-1) return l;
-        else return min(l,r);
-
-    }
     int minDepth(TreeNode* root) {
         if(!root) return 0;
-        return dfs(root);
+        else if(!root->left || !root->right) return 1+max(minDepth(root->left),minDepth(root->right));
+        else return 1 + min (minDepth(root->left), minDepth(root->right));
     }
 };
