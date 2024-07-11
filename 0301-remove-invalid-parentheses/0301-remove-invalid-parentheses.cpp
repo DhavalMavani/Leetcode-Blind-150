@@ -13,7 +13,7 @@ public:
         return open == close;
 
     }
-    void dfs(string &s,int extra, int ind ){
+    void dfs(string &s,int &extra, int ind ){
         if(extra==0){
             if(isValid(s)){
                 string temp;
@@ -28,7 +28,9 @@ public:
         if(s[ind]=='(' || s[ind]==')'){
             char t=s[ind];
             s[ind]='#';
-            dfs(s,extra-1, ind);
+            extra--;
+            dfs(s,extra, ind);
+            extra++;
             s[ind]=t;
         }
         
