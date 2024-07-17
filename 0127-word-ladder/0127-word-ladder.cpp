@@ -24,7 +24,10 @@ public:
                     char c = word[j];
                     for (int k = 0; k < 26; k++) {
                         word[j] = k + 'a';
-                        if ( dict.count(word) )  q.push(word);
+                        if ( dict.count(word) ){
+                            q.push(word);
+                            dict.erase(word);
+                        }
                     }
                     word[j] = c;
                 }
