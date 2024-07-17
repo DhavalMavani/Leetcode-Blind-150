@@ -2,7 +2,7 @@ class Solution {
 public:
     int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
         unordered_set<string> dict;
-        for (int i = 0; i < wordList.size(); i++) dict.insert(wordList[i]);
+        for (int i = 0; i < wordList.size(); i++) dict.emplace(wordList[i]);
         
         queue<string> q;
         q.push(beginWord);
@@ -24,15 +24,11 @@ public:
                     char c = word[j];
                     for (int k = 0; k < 26; k++) {
                         word[j] = k + 'a';
-                        if (dict.find(word) != dict.end()) {
-                            q.push(word);
-                            dict.erase(word);
-                        }
+                        if ( dict.count(word) )  q.push(word);
                     }
                     word[j] = c;
                 }
             }
-            
             result++;
         }
         
