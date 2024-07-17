@@ -1,85 +1,76 @@
 class Solution {
 public:
-    bool isConnected(string s,string t){
-        int c=0;
-        for(int i=0;i<s.length();i++)
-            c+=(s[i]!=t[i]);
-        return c==1;
-    }
+    string end,begin;
+    vector<vector<string>> ans;
+    void dfs(unordered_map<string,vector<string>> &ump, string node, vector<string> path){
+        path.emplace_back(node);
+        for(auto i: ump[node]) dfs(ump,i,path);
+        
+        if(node==begin){
+            reverse(path.begin(),path.end());
+            ans.emplace_back(path);
+        }
 
+    }
     vector<vector<string>> findLadders(string beginWord, string endWord, vector<string>& wordList) {
-        vector<vector<string>> ans;        
-        vector<vector<string>> nodes;   
-        unordered_set<string> dict(wordList.begin(),wordList.end());
+        end=endWord;
+        begin=beginWord;
+        unordered_map<string,int> dict;
+        for (int i = 0; i < wordList.size(); i++) dict.insert({wordList[i],-1});
         
-        if (!dict.count(endWord)) return ans;
-        dict.erase(beginWord);
-        
-        
-        bool reached = false;
-        nodes.push_back({beginWord});
-        
-        while (dict.size() && !reached) {                        
-            vector<string> last = nodes.back();
-            vector<string> curr;
-                        
-            for (int i = 0; i < last.size() && !reached; i++) {
-                unordered_set<string> visited;
-                string from = last[i];                                
-                // check all nodes that connect
-                // to the nodes of the previous level                
-                for (auto& to : dict) {                    
-                    if (visited.count(to)) continue;
-                    if (!isConnected(from, to)) continue;                                        
-                    // if one of them is "endWord" then we can stop 
-                    // because this level is the shortest distance from begin
-                    if (to == endWord) {                        
-                        reached = true; 
-                        break;
+        if(!dict.count(endWord)) return {};
+
+        unordered_map<string,vector<string>> ump;
+
+        queue<string> q;
+        q.emplace(beginWord);
+        bool reachable=false;
+        int level = 1;
+        while (!q.empty() && !reachable) {
+            int count = q.size();
+            unordered_set<string> visitedThisLevel;
+            for (int i = 0; i < count; i++) {
+                string word = q.front();
+                q.pop();
+                if(visitedThisLevel.count(word)) continue;
+                visitedThisLevel.emplace(word);
+                
+                if (word == endWord){
+                    reachable=true;
+                    break;
+                }
+
+                dict[word]=level;
+                for (int j = 0; j < word.size(); j++) {
+                    string wordCopy=word;
+                    for (int k = 0; k < 26; k++) {
+                        wordCopy[j] = k + 'a';
+                        if (dict.count(wordCopy) && ( dict[wordCopy]==-1 ||  dict[wordCopy]==level+1)  ) {
+                            q.push(wordCopy);
+                            dict[wordCopy]=level+1;
+                            ump[wordCopy].emplace_back(word);
+                        }
                     }
-                    
-                    // otherwise,
-                    // add nodes for the current level
-                    curr.push_back(to);   
-                    visited.insert(to);                    
-                }   
-                // delete the visited to prevent forming cycles            
-                for (auto& visited : visited) {                
-                    dict.erase(visited);
                 }
             }
-            
-            // found endWord this level
-            if (reached) break;
-            
-            // can not add any new nodes to our level
-            if (!curr.size()) break;
-            
-            // otherwise, record all nodes for the current level
-            nodes.push_back(curr);            
+            level++;
         }
-        
-        // try but not find
-        if (reached == false) return ans;
-        
-        // move backward
-        ans.push_back({endWord});          
-        for (int level = nodes.size() - 1; level >= 0; level--) {                        
-            int alen = ans.size();
-            while (alen) {
-                vector<string> path = ans.back();
-                ans.pop_back();
-                string from = path.front();                
-                for (string &to : nodes[level]) {                    
-                    if (!isConnected(from, to)) continue;
-                                        
-                    vector<string> newpath = path;
-                    newpath.insert(newpath.begin(), to);
-                    ans.insert(ans.begin(), newpath);
-                }    
-                alen--;
-            }             
+
+        for(auto i: dict){
+            cout<<"("<<i.first<<" -> "<<i.second<<") ";
         }
+            cout<<endl;
+        for(auto i: ump){
+            cout<<i.first<<" -> ";
+            for(auto j: i.second){
+                cout<<j<<" , ";
+            }
+            cout<<endl;
+        }
+
+
+        if(reachable) dfs(ump,endWord,{});
         return ans;
     }
+
 };
