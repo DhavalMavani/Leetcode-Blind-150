@@ -158,6 +158,7 @@
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1753-path-with-minimum-effort](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1753-path-with-minimum-effort) |
 | [2176-parallel-courses-iii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2176-parallel-courses-iii) |
+| [2686-minimum-cost-of-a-path-with-special-roads](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2686-minimum-cost-of-a-path-with-special-roads) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2914-find-the-safest-path-in-a-grid) |
 | [3092-minimum-moves-to-spread-stones-over-grid](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3092-minimum-moves-to-spread-stones-over-grid) |
 ## Binary Search
@@ -244,6 +245,7 @@
 | [0630-course-schedule-iii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0630-course-schedule-iii) |
 | [0794-swim-in-rising-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0794-swim-in-rising-water) |
 | [1753-path-with-minimum-effort](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1753-path-with-minimum-effort) |
+| [2686-minimum-cost-of-a-path-with-special-roads](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2686-minimum-cost-of-a-path-with-special-roads) |
 ## Math
 |  |
 | ------- |
@@ -278,6 +280,7 @@
 | [1229-shortest-path-with-alternating-colors](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1229-shortest-path-with-alternating-colors) |
 | [2176-parallel-courses-iii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2176-parallel-courses-iii) |
 | [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
+| [2686-minimum-cost-of-a-path-with-special-roads](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2686-minimum-cost-of-a-path-with-special-roads) |
 ## Backtracking
 |  |
 | ------- |
@@ -299,4 +302,8 @@
 |  |
 | ------- |
 | [0630-course-schedule-iii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0630-course-schedule-iii) |
+## Shortest Path
+|  |
+| ------- |
+| [2686-minimum-cost-of-a-path-with-special-roads](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2686-minimum-cost-of-a-path-with-special-roads) |
 <!---LeetCode Topics End-->
