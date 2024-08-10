@@ -1,32 +1,33 @@
 class Solution {
 public:
+    static int calcDist(int &x1, int &y1, int &x2, int &y2) {
+        return abs(x1-x2)+abs(y1-y2);
+    }
+
     int minimumCost(vector<int>& start, vector<int>& target, vector<vector<int>>& specialRoads) {
-        int sx = start[0];
-        int sy = start[1];
-        int tx = target[0];
-        int ty = target[1];
-        priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
-        int n = specialRoads.size();
-        vector<int> dp(n, INT_MAX);
-        for (int i = 0; i != n; ++i){
-            pq.emplace(abs(tx - specialRoads[i][2]) + abs(ty - specialRoads[i][3]), i);
-        }
-        while (!pq.empty()){
-            int cost = pq.top().first;
-            int i = pq.top().second;
+        int n=specialRoads.size();
+        priority_queue< pair<int,pair<int,int>>, vector<pair<int,pair<int,int>>>, greater<pair<int,pair<int,int>>> > pq;
+        vector<int> distToSpecialRoad(n+1,INT_MAX);
+        pq.push({0,{start[0],start[1]}});
+        while(!pq.empty()){
+            int dist=pq.top().first, x=pq.top().second.first, y=pq.top().second.second;
             pq.pop();
-            if (dp[i] != INT_MAX) { continue; }
-            dp[i] = min(dp[i], cost);
-            for (int j = 0; j != n; ++j){
-                if (j == i) { continue; }
-                pq.emplace(cost + specialRoads[i][4] + abs(specialRoads[j][2] - specialRoads[i][0]) + abs(specialRoads[j][3] - specialRoads[i][1]), j);
+            if(x==target[0] && y==target[1]) return dist;
+
+            int d=dist+calcDist(x,y,target[0],target[1]);
+            if(d<distToSpecialRoad[n]){
+                distToSpecialRoad[n]=d;
+                pq.push({d,{target[0],target[1]} } );
+            }
+
+            for(int i=0;i<n;i++){
+                d=dist+calcDist(x,y,specialRoads[i][0],specialRoads[i][1]) + specialRoads[i][4];
+                if(d<distToSpecialRoad[i]){
+                    distToSpecialRoad[i]=d;
+                    pq.push({distToSpecialRoad[i],{specialRoads[i][2],specialRoads[i][3]} } );
+                }
             }
         }
-        int res = abs(sx - tx) + abs(sy - ty);
-        for (int i = 0; i != n; ++i){
-            res = min(res, abs(sx - specialRoads[i][0]) + abs(sy - specialRoads[i][1]) + specialRoads[i][4] + dp[i]);
-        }
-        return res;
-        
+        return 0;
     }
 };
