@@ -13,9 +13,8 @@ public:
         int total=0,n=nums.size();
         for(auto &i: nums) total+=i;
         vector<vector<int>> dp(n, vector<int>(n,-1));
-        int ans= helper(nums,0,n-1,dp);
-        if(ans>=total-ans) return true;
-        return false;
+        int player1= helper(nums,0,n-1,dp);
 
+        return player1>=total-player1;
     }
 };
