@@ -237,6 +237,7 @@
 | [0909-stone-game](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0909-stone-game) |
 | [1240-stone-game-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1240-stone-game-ii) |
 | [1522-stone-game-iii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1522-stone-game-iii) |
+| [1617-stone-game-iv](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1617-stone-game-iv) |
 | [2176-parallel-courses-iii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2176-parallel-courses-iii) |
 | [2739-minimize-the-total-price-of-the-trips](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2739-minimize-the-total-price-of-the-trips) |
 | [3092-minimum-moves-to-spread-stones-over-grid](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3092-minimum-moves-to-spread-stones-over-grid) |
@@ -267,6 +268,7 @@
 | [0909-stone-game](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0909-stone-game) |
 | [1240-stone-game-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1240-stone-game-ii) |
 | [1522-stone-game-iii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1522-stone-game-iii) |
+| [1617-stone-game-iv](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1617-stone-game-iv) |
 ## String
 |  |
 | ------- |
@@ -338,6 +340,7 @@
 | [0909-stone-game](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0909-stone-game) |
 | [1240-stone-game-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1240-stone-game-ii) |
 | [1522-stone-game-iii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1522-stone-game-iii) |
+| [1617-stone-game-iv](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1617-stone-game-iv) |
 ## Prefix Sum
 |  |
 | ------- |
