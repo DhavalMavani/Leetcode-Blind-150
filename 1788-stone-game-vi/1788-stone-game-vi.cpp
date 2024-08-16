@@ -10,6 +10,7 @@ public:
             if(i%2) bob+=bobValues[arr[i].second];
             else alice+=aliceValues[arr[i].second];
         }
+        arr.clear();
         if(alice>bob) return 1;
         else if(alice<bob) return -1;
         return 0;
