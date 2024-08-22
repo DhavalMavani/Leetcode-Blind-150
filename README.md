@@ -146,6 +146,7 @@
 ## Array
 |  |
 | ------- |
+| [0118-pascals-triangle](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0118-pascals-triangle) |
 | [0403-frog-jump](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0403-frog-jump) |
 | [0407-trapping-rain-water-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0407-trapping-rain-water-ii) |
 | [0486-predict-the-winner](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0486-predict-the-winner) |
@@ -240,6 +241,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0118-pascals-triangle](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0118-pascals-triangle) |
 | [0279-perfect-squares](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0279-perfect-squares) |
 | [0403-frog-jump](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0403-frog-jump) |
 | [0486-predict-the-winner](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0486-predict-the-winner) |
