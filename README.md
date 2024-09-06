@@ -160,6 +160,7 @@
 | [0993-tallest-billboard](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0993-tallest-billboard) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1240-stone-game-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1240-stone-game-ii) |
+| [1290-make-array-strictly-increasing](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1290-make-array-strictly-increasing) |
 | [1322-minimum-moves-to-reach-target-with-rotations](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1322-minimum-moves-to-reach-target-with-rotations) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1418-fair-distribution-of-cookies](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1418-fair-distribution-of-cookies) |
@@ -181,6 +182,7 @@
 |  |
 | ------- |
 | [0794-swim-in-rising-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0794-swim-in-rising-water) |
+| [1290-make-array-strictly-increasing](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1290-make-array-strictly-increasing) |
 | [1753-path-with-minimum-effort](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1753-path-with-minimum-effort) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2914-find-the-safest-path-in-a-grid) |
 ## Breadth-First Search
@@ -254,6 +256,7 @@
 | [0956-number-of-music-playlists](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0956-number-of-music-playlists) |
 | [0993-tallest-billboard](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0993-tallest-billboard) |
 | [1240-stone-game-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1240-stone-game-ii) |
+| [1290-make-array-strictly-increasing](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1290-make-array-strictly-increasing) |
 | [1418-fair-distribution-of-cookies](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1418-fair-distribution-of-cookies) |
 | [1451-minimum-number-of-taps-to-open-to-water-a-garden](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1451-minimum-number-of-taps-to-open-to-water-a-garden) |
 | [1522-stone-game-iii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1522-stone-game-iii) |
@@ -363,6 +366,7 @@
 |  |
 | ------- |
 | [0630-course-schedule-iii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0630-course-schedule-iii) |
+| [1290-make-array-strictly-increasing](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1290-make-array-strictly-increasing) |
 | [1788-stone-game-vi](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1788-stone-game-vi) |
 ## Shortest Path
 |  |
