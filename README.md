@@ -158,6 +158,7 @@
 | [0909-stone-game](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0909-stone-game) |
 | [0945-snakes-and-ladders](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0945-snakes-and-ladders) |
 | [0993-tallest-billboard](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0993-tallest-billboard) |
+| [1028-interval-list-intersections](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1028-interval-list-intersections) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1240-stone-game-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1240-stone-game-ii) |
 | [1290-make-array-strictly-increasing](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1290-make-array-strictly-increasing) |
@@ -414,4 +415,8 @@
 |  |
 | ------- |
 | [1692-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1692-number-of-ways-to-reorder-array-to-get-same-bst) |
+## Two Pointers
+|  |
+| ------- |
+| [1028-interval-list-intersections](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1028-interval-list-intersections) |
 <!---LeetCode Topics End-->
