@@ -1,20 +1,18 @@
 class Solution {
 public:
+    vector<vector<int>> dp;
+    int helper(const string &s, int i, int j) {
+        if (dp[i][j])   return dp[i][j];
+        if(i > j)       return 0;
+        if(i == j)      return 1;
 
-    int lcs(string &s1, string &s2, int i1, int i2,vector<vector<int>> &dp){
-        if(i1==s1.size() || i2==s1.size() ) return 0;
-
-        if(dp[i1][i2]!=-1) return dp[i1][i2];
-
-        if(s1[i1]==s2[i2]) return dp[i1][i2]=1+lcs(s1,s2,i1+1,i2+1,dp);
-
-        else return dp[i1][i2]=max(lcs(s1,s2,i1+1,i2,dp), lcs(s1,s2,i1,i2+1,dp));
-
+        if (s[i] == s[j]) return dp[i][j] = 2 + helper(s, i + 1, j - 1);
+        else return dp[i][j] = max(helper(s, i + 1, j), helper(s, i, j - 1));
     }
+
     int longestPalindromeSubseq(string s) {
-        string s2=s;
-        reverse(s2.begin(),s2.end());
-        vector<vector<int>> dp(s.size(),vector<int>(s.size(),-1));
-        return lcs(s,s2,0,0,dp);
+        int n = s.length();
+        dp.resize(n, vector<int> (n));
+        return helper(s, 0, n - 1);
     }
 };
