@@ -257,6 +257,7 @@
 | [0343-integer-break](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0343-integer-break) |
 | [0403-frog-jump](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0403-frog-jump) |
 | [0486-predict-the-winner](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0486-predict-the-winner) |
+| [0516-longest-palindromic-subsequence](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0516-longest-palindromic-subsequence) |
 | [0542-01-matrix](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0542-01-matrix) |
 | [0909-stone-game](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0909-stone-game) |
 | [0956-number-of-music-playlists](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0956-number-of-music-playlists) |
@@ -320,6 +321,7 @@
 | [0127-word-ladder](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0127-word-ladder) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0301-remove-invalid-parentheses](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0301-remove-invalid-parentheses) |
+| [0516-longest-palindromic-subsequence](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0516-longest-palindromic-subsequence) |
 | [1250-longest-common-subsequence](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1250-longest-common-subsequence) |
 ## Tree
 |  |
