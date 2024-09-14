@@ -158,6 +158,7 @@
 | [0895-shortest-path-to-get-all-keys](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0895-shortest-path-to-get-all-keys) |
 | [0909-stone-game](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0909-stone-game) |
 | [0945-snakes-and-ladders](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0945-snakes-and-ladders) |
+| [0966-binary-subarrays-with-sum](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0966-binary-subarrays-with-sum) |
 | [0993-tallest-billboard](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0993-tallest-billboard) |
 | [1028-interval-list-intersections](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1028-interval-list-intersections) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1171-shortest-path-in-binary-matrix) |
@@ -251,6 +252,7 @@
 | [0127-word-ladder](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0127-word-ladder) |
 | [0525-contiguous-array](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0525-contiguous-array) |
 | [0833-bus-routes](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0833-bus-routes) |
+| [0966-binary-subarrays-with-sum](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0966-binary-subarrays-with-sum) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -408,6 +410,7 @@
 |  |
 | ------- |
 | [0525-contiguous-array](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0525-contiguous-array) |
+| [0966-binary-subarrays-with-sum](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0966-binary-subarrays-with-sum) |
 | [1240-stone-game-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1240-stone-game-ii) |
 | [2002-stone-game-viii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2002-stone-game-viii) |
 ## Combinatorics
@@ -436,4 +439,8 @@
 |  |
 | ------- |
 | [1028-interval-list-intersections](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1028-interval-list-intersections) |
+## Sliding Window
+|  |
+| ------- |
+| [0966-binary-subarrays-with-sum](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0966-binary-subarrays-with-sum) |
 <!---LeetCode Topics End-->
