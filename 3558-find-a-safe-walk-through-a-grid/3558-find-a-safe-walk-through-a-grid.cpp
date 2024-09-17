@@ -1,44 +1,49 @@
 class Solution {
 public:
     bool findSafeWalk(vector<vector<int>>& grid, int health) {
-        int r=grid.size(), c=grid[0].size();
-        if(grid[0][0]) health--;
-        if(health==0) return false;
+        int n=grid.size();
+        int m=grid[0].size();
+        priority_queue<pair<int,pair<int,int>>, vector<pair<int,pair<int,int>>>>qu;  //health : {row,col}
+        vector<vector<int>>vis(n,vector<int>(m,0));
+        if(grid[0][0]==1){
+            qu.push({health-1,{0,0}});
+        }
+        else{
+        qu.push({health,{0,0}});
+        }
+        vis[0][0]=1;
+        
+        while(!qu.empty()){
+            int val=qu.top().first;
+            int row=qu.top().second.first;
+            int col=qu.top().second.second;
 
-        queue<pair<int,int>> q; // { cell, health }
-        q.push({0,health});
+            if(row==n-1 && col==m-1){
+                if(val>=1){
+                    return true;
+                }
+            }
 
-        vector<vector<bool>> visited(r*c, vector<bool>(health+1,false));
-        visited[0][health]=true;
+            qu.pop();
+            int drow[4]={0,-1,0,1};
+            int dcol[4]={-1,0,1,0};
+            
 
-        int dirs[]={0,1,0,-1,0};
-        while(!q.empty()){
-            int n=q.size();
-            for(int i=0;i<n;i++){
-                int cell=q.front().first, health=q.front().second;
-                q.pop();
-
-                int x=cell/c, y=cell%c;
-                if(x==r-1 && y==c-1) return true;
-                for(int j=0;j<4;j++){
-                    int a=x+dirs[j], b=y+dirs[j+1];
-                    int cellNum=a*c+b;
-                    if(a>=0 && a<r && b>=0 && b<c  ){
-
-                        if(grid[a][b] && health>=2 && !visited[cellNum][health-1]){
-                            visited[cellNum][health-1]=true;
-                            q.push({a*c+b,health-1});
-                        }
-                        else if(!grid[a][b] && !visited[cellNum][health]){
-                            visited[cellNum][health]=true;
-                            q.push({a*c+b,health});
-                        }
-                        
-                    }
+            for(int i=0;i<4;i++){
+                int n_row=row+drow[i];
+                int n_col=col+dcol[i];
+                if(n_row>=0 && n_row<n && n_col>=0 && n_col<m  &&  !vis[n_row][n_col] && grid[n_row][n_col]==0){
+                    vis[n_row][n_col]=1;
+                    qu.push({val,{n_row,n_col}});
+                }
+                else if (n_row>=0 && n_row<n && n_col>=0 && n_col<m  &&  !vis[n_row][n_col] && grid[n_row][n_col]!=0){
+                    vis[n_row][n_col]=1;
+                    qu.push({val-1,{n_row,n_col}});
                 }
             }
         }
-        
+
         return false;
+
     }
 };
