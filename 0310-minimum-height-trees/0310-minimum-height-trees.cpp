@@ -13,7 +13,10 @@ public:
 
         queue<int> q;
         for(int i=0;i<n;i++){
-            if(inDegree[i]==1) q.emplace(i);
+            if(inDegree[i]==1){
+                q.emplace(i);
+                inDegree[i]--;
+            }
         }
 
         while(n>2){
@@ -24,11 +27,8 @@ public:
                 q.pop();
                 for(auto &node: graph[curr]){
                     inDegree[node]--;
-                    if(inDegree[node]==1){
-                        q.emplace(node);
-                    }
+                    if(inDegree[node]==1) q.emplace(node);
                 }
-
             }
         }
 
