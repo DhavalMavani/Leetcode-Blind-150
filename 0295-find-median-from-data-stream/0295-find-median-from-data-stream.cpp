@@ -5,33 +5,29 @@ public:
     
     void addNum(int num) {
         int s1=maxHeap.size(), s2=minHeap.size();
-        if(!s1){
+
+        if(!s1 || maxHeap.top()>num){
             maxHeap.emplace(num);
-            return;
-        }
-        if(s1>=s2){
-            if(maxHeap.top()>num ){
-                minHeap.emplace(maxHeap.top());
-                maxHeap.pop();
-                maxHeap.emplace(num);
-            }
-            else minHeap.emplace(num);
+            s1++;
         }
         else{
-            if(num>minHeap.top() ){
-                maxHeap.emplace(minHeap.top());
-                minHeap.pop();
-                minHeap.emplace(num);
-            }
-            else maxHeap.emplace(num);
+            minHeap.emplace(num);
+            s2++;
+        }
+
+        if(s1>s2+1){
+            minHeap.emplace(maxHeap.top());
+            maxHeap.pop();
+        }
+        else if(s2>s1){
+            maxHeap.emplace(minHeap.top());
+            minHeap.pop();
         }
     }
     
     double findMedian() {
-        int s1=maxHeap.size(), s2=minHeap.size();
-        if(s1==s2) return (double(maxHeap.top())+minHeap.top())/2;
-        else if(s1>s2) return maxHeap.top();
-        else return minHeap.top();
+        if(maxHeap.size()==minHeap.size()) return (double(maxHeap.top())+minHeap.top())/2;
+        return maxHeap.top();
     }
 };
 
