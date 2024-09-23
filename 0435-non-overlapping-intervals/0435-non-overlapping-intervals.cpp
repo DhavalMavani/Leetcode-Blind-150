@@ -1,19 +1,17 @@
 class Solution {
 public:
-    static bool comp(vector<int> &p1, vector<int> &p2){
-        return p1[1]<p2[1];
-    }
     int eraseOverlapIntervals(vector<vector<int>>& intervals) {
-        sort(intervals.begin(),intervals.end(),comp);
-        
-        int n=intervals.size(),lastEndTime=intervals[0][1], longest=1;
+        sort(intervals.begin(),intervals.end());
+        int temp=intervals[0][1],n=intervals.size(),ans=0,i=1;
 
-        for(int i=1;i<n;i++){
-            if(intervals[i][0]>=lastEndTime){
-                lastEndTime=intervals[i][1];
-                longest++;
+        while(i<n){
+            if(intervals[i][0]>=temp ) temp = intervals[i][1] ;
+            else{
+                temp= min( temp, intervals[i][1]) ;
+                ans++;
             }
+            i++;
         }
-        return n-longest;
+        return ans;
     }
 };
