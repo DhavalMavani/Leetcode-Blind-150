@@ -2,12 +2,12 @@ class Solution {
 public:
     int eraseOverlapIntervals(vector<vector<int>>& intervals) {
         sort(intervals.begin(),intervals.end());
-        int temp=intervals[0][1],n=intervals.size(),ans=0,i=1;
+        int endTime=intervals[0][1],n=intervals.size(),ans=0;
 
         for(int i=1;i<n;i++){
-            if(intervals[i][0]>=temp ) temp = intervals[i][1] ;
+            if(intervals[i][0]>=endTime ) endTime = intervals[i][1];
             else{
-                temp= min( temp, intervals[i][1]) ;
+                endTime = min( endTime, intervals[i][1]) ;
                 ans++;
             }
         }
