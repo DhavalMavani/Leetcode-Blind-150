@@ -10,26 +10,29 @@
  * };
  */
 class BSTIterator {
-public:
-    vector<int> inOrder;
-    int ind=0;
-    void dfs(TreeNode* node){
-        if(!node) return;
-        dfs(node->left);
-        inOrder.emplace_back(node->val);
-        dfs(node->right);
+private:
+    stack<TreeNode*> st;
+    void pushAll(TreeNode* node){
+        for( ;node!=NULL; st.emplace(node), node=node->left);
     }
+public:
+    int ind=0;
+ 
     BSTIterator(TreeNode* root) {
-        dfs(root);
+        pushAll(root);
     }
     
     int next() {
-        return inOrder[ind++];
+        TreeNode* t=st.top();
+        st.pop();
+        pushAll(t->right);
+        return t->val;
     }
     
     bool hasNext() {
-        return ind!=inOrder.size();
+        return !st.empty();
     }
+
 };
 
 /**
