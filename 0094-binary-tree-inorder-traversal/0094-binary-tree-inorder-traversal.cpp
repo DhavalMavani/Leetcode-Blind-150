@@ -25,9 +25,7 @@ public:
                 st.pop();
                 st.emplace(t);
             }
-            else {
-                st.emplace(st.top()->left);
-            }
+            else st.emplace(st.top()->left);
         }
         return {};
     }
