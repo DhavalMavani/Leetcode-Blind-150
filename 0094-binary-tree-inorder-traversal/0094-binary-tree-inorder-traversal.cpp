@@ -16,7 +16,7 @@ public:
         stack<TreeNode*> st;
         st.emplace(root);
 
-        while(!st.empty()){
+        while(true){
             if(st.top()==NULL){
                 if(st.size()==1) return ans;
                 st.pop();
