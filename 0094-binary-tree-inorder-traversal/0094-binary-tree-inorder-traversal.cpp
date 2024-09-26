@@ -18,10 +18,10 @@ public:
 
         while(true){
             if(st.top()==NULL){
-                if(st.size()==1) return ans;
                 st.pop();
+                if(st.empty()) return ans;
                 ans.emplace_back(st.top()->val);
-                auto t=st.top()->right;
+                TreeNode* t=st.top()->right;
                 st.pop();
                 st.emplace(t);
             }
