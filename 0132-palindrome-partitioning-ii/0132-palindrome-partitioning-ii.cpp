@@ -1,30 +1,30 @@
 class Solution {
 public:
-    int helper(string &s,int l,vector<vector<bool>> &dp, vector<int>& dp2){
-        int ans=1e9,n=s.size();
-        if(l==n) return 0;
-        if(dp2[l]!=-1) return dp2[l];
-
-        for(int i=l;i<n;i++){
-            if(dp[l][i]) ans=min(ans,1+helper(s,i+1,dp,dp2));
+    bool isPalindrome(string &s,int l,int r){
+        while(l<r){
+            if(s[l]!=s[r]) return false;
+            l++;
+            r--;
         }
-        return dp2[l]=ans;
+        return true;
     }
 
-    int minCut(string s) {
-        int n=s.size();
-        vector<vector<bool>> dp(n,vector<bool>(n,false));
+    int helper(string &s,int index,vector<int> &dp){
+        if(index>=s.size()) return 0;
+        int ans=INT_MAX;
 
-        for(int i=0;i<n;i++) dp[i][i]=1;
-        for(int i=1;i<n;i++) if(s[i-1]==s[i]) dp[i-1][i]=1;
+        if(dp[index]!=-1) return dp[index];
 
-        for(int len=3;len<=n;len++){
-            for(int ind=len-1;ind<n;ind++){
-                if(s[ind-len+1]==s[ind] && dp[ind-len+2][ind-1]) dp[ind-len+1][ind]=1;
+        for(int i=index;i<s.size();i++){
+            if(isPalindrome(s,index,i)){
+                ans=min(ans, 1+helper(s,i+1,dp) );
             }
         }
-        vector<int> dp2(n,-1);
 
-        return helper(s,0,dp,dp2)-1;
+        return dp[index]=ans;
+    }
+    int minCut(string s) {
+        vector<int> dp(s.size(),-1);
+        return helper(s,0,dp)-1;
     }
 };
