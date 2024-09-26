@@ -1,60 +1,30 @@
 class Solution {
 public:
+    int helper(string &s,int l,vector<vector<bool>> &dp, vector<int>& dp2){
+        int ans=1e9,n=s.size();
+        if(l==n) return 0;
+        if(dp2[l]!=-1) return dp2[l];
 
-    //["a", "a", "n", "a", "n", "a"]
-
-bool is_palindrome(string& s, int start, int end) {
-    while (start < end) {
-        if (s[start] != s[end]) return false;
-        start++;
-        end--;
+        for(int i=l;i<n;i++){
+            if(dp[l][i]) ans=min(ans,1+helper(s,i+1,dp,dp2));
+        }
+        return dp2[l]=ans;
     }
-    return true;
-}
 
-int solve(string s, int n) {
-    ios_base::sync_with_stdio(0);
-        cin.tie(0);
-        cout.tie(0);
-    int cuts = 0;
-    int i = 0;
+    int minCut(string s) {
+        int n=s.size();
+        vector<vector<bool>> dp(n,vector<bool>(n,false));
 
-    while (i < n) {
-        int j = i + 1;
-        int c = 0;
-        int index = 0;
+        for(int i=0;i<n;i++) dp[i][i]=1;
+        for(int i=1;i<n;i++) if(s[i-1]==s[i]) dp[i-1][i]=1;
 
-        while (j < n) {
-            if (is_palindrome(s, i, j)) {
-                c++;
-                if(c>0) c=1;
-                index = j;
+        for(int len=3;len<=n;len++){
+            for(int ind=len-1;ind<n;ind++){
+                if(s[ind-len+1]==s[ind] && dp[ind-len+2][ind-1]) dp[ind-len+1][ind]=1;
             }
-            j++;
         }
+        vector<int> dp2(n,-1);
 
-        if (c > 0) {
-            cuts += c;
-            i = index + 1;
-        } else {
-            cuts++;
-            i++;
-        }
-    }
-
-    return cuts;
-}
-
-int minCut(string s) {
-    if(s == "aaabaa") return 1;
-    else if(s == "ababbbabbaba") return 3;
-    else if(s == "bbaababaabaabaaababbabaabbaaababaaabababaabaababbbaaaaaabbabaababbabaaababbabbbaaaaaaba") return 13;
-    else if(s == "aaabaaabaababab") return 2;
-    else if(s == "abaaaaabba") return 2;
-    else if(s == "fiefhgdcdcgfeibggchibffahiededbbegegdfibdbfdadfbdbceaadeceeefiheibahgececggaehbdcgebaigfacifhdbecbebfhiefchaaheiichgdbheacfbhfiaffaecicbegdgeiaiccghggdfggbebdaefcagihbdhhigdgbghbahhhdagbdaefeccfiaifffcfehfcdiiieibadcedibbedgfegibefagfccahfcbegdfdhhdgfhgbchiaieehdgdabhidhfeecgfiibediiafacagigbhchcdhbaigdcedggehhgdhedaebchcafcdehcffdiagcafcgiidhdhedgaaegdchibhdaegdfdaiiidcihifbfidechicighbcbgibadbabieaafgeagfhebfaheaeeibagdfhadifafghbfihehgcgggffgbfccgafigieadfehieafaehaggeeaaaehggffccddchibegfhdfafhadgeieggiigacbfgcagigbhbhefcadafhafdiegahbhccidbeeagcgebehheebfaechceefdiafgeddhdfcadfdafbhiifigcbddahbabbeedidhaieagheihhgffbfbiacgdaifbedaegbhigghfeiahcdieghhdabdggfcgbafgibiifdeefcbegcfcdihaeacihgdchihdadifeifdgecbchgdgdcifedacfddhhbcagaicbebbiadgbddcbagbafeadhddaeebdgdebafabghcabdhdgieiahggddigefddccfccibifgbfcdccghgceigdfdbghdihechfabhbacifgbiiiihcgifhdbhfcaiefhccibebcahidachfabicbdabibiachahggffiibbgchbidfbbhfcicfafgcagaaadbacddfiigdiiffhbbehaaacidggfbhgeaghigihggfcdcidbfccahhgaffiibbhidhdacacdfebedbiacaidaachegffaiiegeabfdgdcgdacfcfhdcbfiaaifgfaciacfghagceaaebhhibbieehhcbiggabefbeigcbhbcidbfhfcgdddgdffghidbbbfbdhcgabaagddcebaechbbiegeiggbabdhgghciheabdibefdfghbfbfebidhicdhbeghebeddgfdfhefebiiebdchifbcbahaddhbfafbbcebiigadhgcfbebgbebhfddgdeehhgdegaeedfadegfeihcgeefbbagbbacbgggciehdhiggcgaaicceeaefgcehfhfdciaghcbbgdihbhecfbgffefhgiefgeiggcebgaacefidghdfdhiabgibchdicdehahbibeddegfciaeaffgbefbbeihbafbagagedgbdadfdggfeaebaidchgdbcifhahgfdcehbahhdggcdggceiabhhafghegfdiegbcadgaecdcdddfhicabdfhbdiiceiegiedecdifhbhhfhgdbhibbdgafhgdcheefdhifgddchadbdggiidhbhegbdfdidhhfbehibiaacdfbiagcbheabaaebfeaeafbgigiefeaeheabifgcfibiddadicheahgbfhbhddaheghddceedigddhchecaghdegigbegcbfgbggdgbbigegffhcfcbbebdchffhddbfhhfgegggibhafiebcfgeaeehgdgbccbfghagfdbdfcbcigbigaccecfehcffahiafgabfcaefbghccieehhhiighcfeabffggfchfdgcfhadgidabdceediefdccceidcfbfiiaidechhbhdccccaigeegcaicabbifigcghcefaafaefd") return 1345;
-    else if(s == "eegiicgaeadbcfacfhifdbiehbgejcaeggcgbahfcajfhjjdgj") return 42;
-    else if(s == "adabdcaebdcebdcacaaaadbbcadabcbeabaadcbcaaddebdbddcbdacdbbaedbdaaecabdceddccbdeeddccdaabbabbdedaaabcdadbdabeacbeadbaddcbaacdbabcccbaceedbcccedbeecbccaecadccbdbdccbcbaacccbddcccbaedbacdbcaccdcaadcbaebebcceabbdcdeaabdbabadeaaaaedbdbcebcbddebccacacddebecabccbbdcbecbaeedcdacdcbdbebbacddddaabaedabbaaabaddcdaadcccdeebcabacdadbaacdccbeceddeebbbdbaaaaabaeecccaebdeabddacbedededebdebabdbcbdcbadbeeceecdcdbbdcbdbeeebcdcabdeeacabdeaedebbcaacdadaecbccbededceceabdcabdeabbcdecdedadcaebaababeedcaacdbdacbccdbcece") return 273;
-    
-    return solve(s, s.size() ) - 1; 
+        return helper(s,0,dp,dp2)-1;
     }
 };
