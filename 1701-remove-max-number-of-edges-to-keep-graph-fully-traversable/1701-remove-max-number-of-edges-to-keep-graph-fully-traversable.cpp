@@ -41,21 +41,29 @@ public:
         sort(edges.begin(),edges.end(),greater<>());
         DSU* alice= new DSU(n+1);
         DSU* bob= new DSU(n+1);
-        int ans=0;
+        int removedEdges=0, bobEdges=0,aliceEdges=0;
         for(int i=0;i<edges.size();i++){
             if(edges[i][0]==3){
                 bob->merge(edges[i][1],edges[i][2]);
-                if ( alice->merge(edges[i][1],edges[i][2]) ) ans++;
+                if ( alice->merge(edges[i][1],edges[i][2]) ){
+                    removedEdges++;
+                }else{
+                    aliceEdges++;
+                    bobEdges++;
+                }
+
             }
             else if(edges[i][0]==2){
-                if (bob->merge(edges[i][1],edges[i][2]) ) ans++;
+                if (bob->merge(edges[i][1],edges[i][2]) ) removedEdges++;
+                else bobEdges++;
             }
             else{
-                if ( alice->merge(edges[i][1],edges[i][2]) ) ans++;
+                if ( alice->merge(edges[i][1],edges[i][2]) ) removedEdges++;
+                else aliceEdges++;
             }
         }
 
-        if(alice->rank[alice->findUltimateParent(1)]<n || bob->rank[bob->findUltimateParent(1)]<n) return -1;
-        return ans;
+        if(bobEdges!=n-1 || aliceEdges!=n-1) return -1;
+        return removedEdges;
     }
 };
