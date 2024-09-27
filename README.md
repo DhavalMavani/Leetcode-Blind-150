@@ -180,6 +180,7 @@
 | [1753-path-with-minimum-effort](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1753-path-with-minimum-effort) |
 | [1788-stone-game-vi](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1788-stone-game-vi) |
 | [1808-stone-game-vii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1808-stone-game-vii) |
+| [1962-single-threaded-cpu](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1962-single-threaded-cpu) |
 | [2002-stone-game-viii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2002-stone-game-viii) |
 | [2176-parallel-courses-iii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2176-parallel-courses-iii) |
 | [2686-minimum-cost-of-a-path-with-special-roads](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2686-minimum-cost-of-a-path-with-special-roads) |
@@ -327,6 +328,7 @@
 | [0794-swim-in-rising-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0794-swim-in-rising-water) |
 | [1753-path-with-minimum-effort](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1753-path-with-minimum-effort) |
 | [1788-stone-game-vi](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1788-stone-game-vi) |
+| [1962-single-threaded-cpu](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1962-single-threaded-cpu) |
 | [2686-minimum-cost-of-a-path-with-special-roads](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2686-minimum-cost-of-a-path-with-special-roads) |
 ## Math
 |  |
@@ -434,6 +436,7 @@
 | [0646-maximum-length-of-pair-chain](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0646-maximum-length-of-pair-chain) |
 | [1290-make-array-strictly-increasing](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1290-make-array-strictly-increasing) |
 | [1788-stone-game-vi](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1788-stone-game-vi) |
+| [1962-single-threaded-cpu](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1962-single-threaded-cpu) |
 | [3485-maximize-score-of-numbers-in-ranges](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3485-maximize-score-of-numbers-in-ranges) |
 | [3571-length-of-the-longest-increasing-path](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3571-length-of-the-longest-increasing-path) |
 ## Shortest Path
