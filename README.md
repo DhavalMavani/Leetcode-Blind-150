@@ -236,6 +236,7 @@
 | ------- |
 | [0794-swim-in-rising-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0794-swim-in-rising-water) |
 | [1692-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1692-number-of-ways-to-reorder-array-to-get-same-bst) |
+| [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
 | [1753-path-with-minimum-effort](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1753-path-with-minimum-effort) |
 | [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2914-find-the-safest-path-in-a-grid) |
@@ -395,6 +396,7 @@
 | [0332-reconstruct-itinerary](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0332-reconstruct-itinerary) |
 | [0813-all-paths-from-source-to-target](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0813-all-paths-from-source-to-target) |
 | [1229-shortest-path-with-alternating-colors](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1229-shortest-path-with-alternating-colors) |
+| [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
 | [2176-parallel-courses-iii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2176-parallel-courses-iii) |
 | [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
 | [2686-minimum-cost-of-a-path-with-special-roads](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2686-minimum-cost-of-a-path-with-special-roads) |
