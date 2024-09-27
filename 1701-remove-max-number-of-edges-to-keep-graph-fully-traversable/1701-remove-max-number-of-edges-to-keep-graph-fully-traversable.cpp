@@ -1,63 +1,61 @@
-class DSU {
+class DSU{
 public:
-    vector<int> parent, rank;
+    vector<int> parent;
+    vector<int> rank;
     DSU(int n){
-        parent.resize(n, 0);
-        rank.resize(n, 0);
-        
-        for(int i=0;i<n;i++) parent[i] = i;
+        parent.resize(n);
+        rank.resize(n,1);
+        for(int i=1;i<n;i++) parent[i]=i;
     }
-    
-    int Find(int x){
-        return parent[x] = parent[x] == x ? x : Find(parent[x]);
+
+    int findUltimateParent(int a){
+        if(a==parent[a]) return a;
+        int p=findUltimateParent(parent[a]);
+        return parent[a]=p;
     }
-    
-    bool Union(int x, int y){
-        int xset = Find(x), yset = Find(y);
-        if(xset != yset){
-            rank[xset] < rank[yset] ? parent[xset] = yset : parent[yset] = xset;
-            rank[xset] += rank[xset] == rank[yset];
+
+    bool merge(int a, int b){
+        int ultimateParent_a=findUltimateParent(a);
+        int ultimateParent_b=findUltimateParent(b);
+
+        if(ultimateParent_a==ultimateParent_b){
             return true;
         }
-        return false;
+        else if(rank[ultimateParent_a]>=rank[ultimateParent_b]){
+            rank[ultimateParent_a]+=rank[ultimateParent_b];
+            parent[ultimateParent_b]=ultimateParent_a;
+            return false;
+        }
+        else{
+            rank[ultimateParent_b]+=rank[ultimateParent_a];
+            parent[ultimateParent_a]=ultimateParent_b;
+            return false;
+        }
     }
+
 };
 
 class Solution {
 public:
     int maxNumEdgesToRemove(int n, vector<vector<int>>& edges) {
-        sort(edges.begin(), edges.end(), [&](auto const &a, auto const &b){
-            return a[0] > b[0];
-        });
-
-        DSU dsu_alice(n+1);
-        DSU dsu_bob(n+1);
-
-        int removed_edge = 0, alice_edges=0, bob_edges=0;
-        for(auto edge : edges){
-            if(edge[0] == 3){
-                if(dsu_alice.Union(edge[1], edge[2])){ // Both Alice & Bob
-                    dsu_bob.Union(edge[1], edge[2]);
-                    alice_edges++;
-                    bob_edges++;
-                }else{
-                    removed_edge++;
-                }
-            }else if(edge[0] == 2){ //Only Bob
-                if(dsu_bob.Union(edge[1], edge[2])){
-                    bob_edges++;
-                }else{
-                    removed_edge++;
-                }
-            }else{ // Only Alice
-                if(dsu_alice.Union(edge[1], edge[2])){
-                    alice_edges++;
-                }else{
-                    removed_edge++;
-                }
+        sort(edges.begin(),edges.end(),greater<>());
+        DSU* alice= new DSU(n+1);
+        DSU* bob= new DSU(n+1);
+        int ans=0;
+        for(int i=0;i<edges.size();i++){
+            if(edges[i][0]==3){
+                bob->merge(edges[i][1],edges[i][2]);
+                if ( alice->merge(edges[i][1],edges[i][2]) ) ans++;
+            }
+            else if(edges[i][0]==2){
+                if (bob->merge(edges[i][1],edges[i][2]) ) ans++;
+            }
+            else{
+                if ( alice->merge(edges[i][1],edges[i][2]) ) ans++;
             }
         }
 
-        return (bob_edges == n - 1 && alice_edges == n - 1) ? removed_edge : -1;
+        if(alice->rank[alice->findUltimateParent(1)]<n || bob->rank[bob->findUltimateParent(1)]<n) return -1;
+        return ans;
     }
 };
