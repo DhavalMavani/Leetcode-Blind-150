@@ -7,9 +7,7 @@ public:
     }
     
     int query(int left, int right, int value) {
-        auto l=lower_bound(ump[value].begin(),ump[value].end(),left );
-        auto r=upper_bound(ump[value].begin(),ump[value].end(),right );
-        return r-l;
+        return upper_bound(ump[value].begin(),ump[value].end(),right ) - lower_bound(ump[value].begin(),ump[value].end(),left );
     }
 };
 
