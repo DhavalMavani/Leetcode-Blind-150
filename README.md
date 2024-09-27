@@ -169,6 +169,7 @@
 | [1171-shortest-path-in-binary-matrix](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1240-stone-game-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1240-stone-game-ii) |
 | [1290-make-array-strictly-increasing](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1290-make-array-strictly-increasing) |
+| [1294-range-frequency-queries](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1294-range-frequency-queries) |
 | [1322-minimum-moves-to-reach-target-with-rotations](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1322-minimum-moves-to-reach-target-with-rotations) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1418-fair-distribution-of-cookies](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1418-fair-distribution-of-cookies) |
@@ -196,6 +197,7 @@
 | [0794-swim-in-rising-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0794-swim-in-rising-water) |
 | [1087-longest-arithmetic-subsequence](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1087-longest-arithmetic-subsequence) |
 | [1290-make-array-strictly-increasing](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1290-make-array-strictly-increasing) |
+| [1294-range-frequency-queries](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1294-range-frequency-queries) |
 | [1753-path-with-minimum-effort](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1753-path-with-minimum-effort) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2914-find-the-safest-path-in-a-grid) |
 | [3485-maximize-score-of-numbers-in-ranges](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3485-maximize-score-of-numbers-in-ranges) |
@@ -265,6 +267,7 @@
 | [0833-bus-routes](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0833-bus-routes) |
 | [0966-binary-subarrays-with-sum](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0966-binary-subarrays-with-sum) |
 | [1087-longest-arithmetic-subsequence](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1087-longest-arithmetic-subsequence) |
+| [1294-range-frequency-queries](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1294-range-frequency-queries) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -369,6 +372,7 @@
 | [0173-binary-search-tree-iterator](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0173-binary-search-tree-iterator) |
 | [0295-find-median-from-data-stream](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [1294-range-frequency-queries](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1294-range-frequency-queries) |
 ## Binary Tree
 |  |
 | ------- |
@@ -504,4 +508,8 @@
 |  |
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0173-binary-search-tree-iterator) |
+## Segment Tree
+|  |
+| ------- |
+| [1294-range-frequency-queries](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1294-range-frequency-queries) |
 <!---LeetCode Topics End-->
