@@ -273,6 +273,7 @@
 | [0966-binary-subarrays-with-sum](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0966-binary-subarrays-with-sum) |
 | [1087-longest-arithmetic-subsequence](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1087-longest-arithmetic-subsequence) |
 | [1294-range-frequency-queries](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1294-range-frequency-queries) |
+| [2532-remove-letter-to-equalize-frequency](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2532-remove-letter-to-equalize-frequency) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -363,6 +364,7 @@
 | [0443-string-compression](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0443-string-compression) |
 | [0516-longest-palindromic-subsequence](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0516-longest-palindromic-subsequence) |
 | [1250-longest-common-subsequence](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1250-longest-common-subsequence) |
+| [2532-remove-letter-to-equalize-frequency](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2532-remove-letter-to-equalize-frequency) |
 ## Tree
 |  |
 | ------- |
@@ -533,4 +535,8 @@
 |  |
 | ------- |
 | [2512-longest-uploaded-prefix](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2512-longest-uploaded-prefix) |
+## Counting
+|  |
+| ------- |
+| [2532-remove-letter-to-equalize-frequency](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2532-remove-letter-to-equalize-frequency) |
 <!---LeetCode Topics End-->
