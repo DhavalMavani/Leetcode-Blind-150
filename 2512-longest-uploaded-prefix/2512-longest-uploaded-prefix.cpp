@@ -1,16 +1,16 @@
 class LUPrefix {
 public:
     vector<bool> arr;
-    int lastIndex=0;
+    int lastIndex=0,size;
     LUPrefix(int n) {
+        size=n+1;
         arr.resize(n+1,false);
     }
     
     void upload(int video) {
         arr[video]=true;
         if(video-1==lastIndex){
-            int n=arr.size();
-            while(video<n && arr[video]) video++;
+            while(video<size && arr[video]) video++;
             lastIndex=video-1;
         }
     }
