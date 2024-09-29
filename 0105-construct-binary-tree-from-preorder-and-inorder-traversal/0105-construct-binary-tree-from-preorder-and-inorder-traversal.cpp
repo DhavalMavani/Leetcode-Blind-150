@@ -17,14 +17,8 @@ public:
     unordered_map<int,int> inorderHash;
     TreeNode* build(int pl,int pr,int il,int ir,vector<int>& preorder, vector<int>& inorder){
         if(pl>pr || il>ir) return NULL;
-
-        TreeNode* curr=new TreeNode(preorder[pl]);
-        
         int ind=inorderHash[preorder[pl]],numsOnleft=ind-il;
-
-        curr->left=build( pl+1,pl+numsOnleft, il,ind-1  ,preorder,inorder);
-        curr->right=build( pl+numsOnleft+1, pr, ind+1,ir  ,preorder,inorder);
-
+        TreeNode* curr=new TreeNode(preorder[pl],build( pl+1,pl+numsOnleft, il,ind-1  ,preorder,inorder),build( pl+numsOnleft+1, pr, ind+1,ir  ,preorder,inorder));
         return curr;
     }
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
