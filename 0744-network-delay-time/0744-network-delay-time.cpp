@@ -21,11 +21,9 @@ public:
             ans=max(ans,dist);
             visited[currNode]=true;
             
-            for(auto i: edge[currNode] ){
+            for(auto &i: edge[currNode] ){
                 if(!visited[i.first]) pq.emplace(dist+i.second,i.first);
             }
-
-            while(!pq.empty() && visited[pq.top().second]) pq.pop();
         }
 
         for(int i=1;i<=n;i++) if(!visited[i]) return -1;
