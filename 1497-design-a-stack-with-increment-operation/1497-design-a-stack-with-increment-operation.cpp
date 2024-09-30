@@ -17,8 +17,7 @@ public:
     }
     
     void increment(int k, int val) {
-        if(curr<k) k=curr;
-        for(int i=0;i<k;i++) st[i]+=val;
+        for(int i=0;i<min(k,curr);i++) st[i]+=val;
     }
 };
 
