@@ -525,6 +525,7 @@
 |  |
 | ------- |
 | [0031-next-permutation](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0031-next-permutation) |
+| [0061-rotate-list](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0061-rotate-list) |
 | [0295-find-median-from-data-stream](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0295-find-median-from-data-stream) |
 | [0443-string-compression](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0443-string-compression) |
 | [1028-interval-list-intersections](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1028-interval-list-intersections) |
@@ -567,4 +568,8 @@
 |  |
 | ------- |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
+## Linked List
+|  |
+| ------- |
+| [0061-rotate-list](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0061-rotate-list) |
 <!---LeetCode Topics End-->
