@@ -56,19 +56,6 @@ public:
             level++;
         }
 
-        for(auto i: dict){
-            cout<<"("<<i.first<<" -> "<<i.second<<") ";
-        }
-            cout<<endl;
-        for(auto i: ump){
-            cout<<i.first<<" -> ";
-            for(auto j: i.second){
-                cout<<j<<" , ";
-            }
-            cout<<endl;
-        }
-
-
         if(reachable) dfs(ump,endWord,{});
         return ans;
     }
