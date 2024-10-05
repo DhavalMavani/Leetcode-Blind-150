@@ -147,6 +147,7 @@
 |  |
 | ------- |
 | [0031-next-permutation](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0031-next-permutation) |
+| [0042-trapping-rain-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0042-trapping-rain-water) |
 | [0063-unique-paths-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0063-unique-paths-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0118-pascals-triangle](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0118-pascals-triangle) |
@@ -298,6 +299,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0042-trapping-rain-water) |
 | [0063-unique-paths-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0063-unique-paths-ii) |
 | [0070-climbing-stairs](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0070-climbing-stairs) |
 | [0118-pascals-triangle](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0118-pascals-triangle) |
@@ -549,6 +551,7 @@
 |  |
 | ------- |
 | [0031-next-permutation](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0031-next-permutation) |
+| [0042-trapping-rain-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0061-rotate-list) |
 | [0295-find-median-from-data-stream](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0295-find-median-from-data-stream) |
 | [0443-string-compression](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0443-string-compression) |
@@ -564,6 +567,7 @@
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0042-trapping-rain-water) |
 | [0094-binary-tree-inorder-traversal](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0094-binary-tree-inorder-traversal) |
 | [0173-binary-search-tree-iterator](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0173-binary-search-tree-iterator) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1497-design-a-stack-with-increment-operation) |
@@ -607,4 +611,8 @@
 |  |
 | ------- |
 | [0750-contain-virus](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0750-contain-virus) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
