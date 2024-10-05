@@ -1,21 +1,28 @@
 class Solution {
 public:
-    long long ans = 0; int s;
-    int dfs(int i, int prev, vector<vector<int>>& graph, int people = 1) {
-        for (int& x: graph[i]) {
-            if (x != prev) people += dfs(x, i, graph);
+    int s=0;
+    int dfs(int currCity,int parentCity,long long &ans,vector<vector<int>> &city){
+        int numPassengers=0;
+        for(auto &i: city[currCity]){
+            if(i!=parentCity){
+                int p = dfs(i,currCity,ans,city);
+                ans+= p/s ;
+                if(p%s) ans++;
+                numPassengers+=p;
+            }
         }
-        if (i != 0) ans += (people + s - 1) / s;
-        return people;
+        return numPassengers+1;
     }
-
     long long minimumFuelCost(vector<vector<int>>& roads, int seats) {
-        vector<vector<int>> graph(roads.size() + 1); s = seats;
-        for (vector<int>& r: roads) {
-            graph[r[0]].emplace_back(r[1]);
-            graph[r[1]].emplace_back(r[0]);
+        s=seats;
+        int n=roads.size();
+        long long ans=0;
+        vector<vector<int>> city(n+1);
+        for(auto &i: roads){
+            city[i[0]].emplace_back(i[1]);
+            city[i[1]].emplace_back(i[0]);
         }
-        dfs(0, 0, graph);
+        dfs(0,-1,ans,city);
         return ans;
     }
 };
