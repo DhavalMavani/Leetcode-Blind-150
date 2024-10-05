@@ -291,6 +291,7 @@
 | [0966-binary-subarrays-with-sum](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0966-binary-subarrays-with-sum) |
 | [1087-longest-arithmetic-subsequence](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1087-longest-arithmetic-subsequence) |
 | [1294-range-frequency-queries](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1294-range-frequency-queries) |
+| [2429-design-a-food-rating-system](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2429-design-a-food-rating-system) |
 | [2532-remove-letter-to-equalize-frequency](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2532-remove-letter-to-equalize-frequency) |
 ## Dynamic Programming
 |  |
@@ -358,6 +359,7 @@
 | [1753-path-with-minimum-effort](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1753-path-with-minimum-effort) |
 | [1788-stone-game-vi](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1788-stone-game-vi) |
 | [1962-single-threaded-cpu](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1962-single-threaded-cpu) |
+| [2429-design-a-food-rating-system](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2429-design-a-food-rating-system) |
 | [2512-longest-uploaded-prefix](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2512-longest-uploaded-prefix) |
 | [2686-minimum-cost-of-a-path-with-special-roads](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2686-minimum-cost-of-a-path-with-special-roads) |
 ## Math
@@ -416,6 +418,7 @@
 | [0732-my-calendar-iii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0732-my-calendar-iii) |
 | [1294-range-frequency-queries](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1294-range-frequency-queries) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1497-design-a-stack-with-increment-operation) |
+| [2429-design-a-food-rating-system](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2429-design-a-food-rating-system) |
 | [2512-longest-uploaded-prefix](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2512-longest-uploaded-prefix) |
 ## Binary Tree
 |  |
@@ -583,6 +586,7 @@
 | [0729-my-calendar-i](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0731-my-calendar-ii) |
 | [0732-my-calendar-iii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0732-my-calendar-iii) |
+| [2429-design-a-food-rating-system](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2429-design-a-food-rating-system) |
 | [2512-longest-uploaded-prefix](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2512-longest-uploaded-prefix) |
 ## Counting
 |  |
