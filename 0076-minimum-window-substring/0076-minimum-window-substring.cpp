@@ -9,7 +9,7 @@ public:
 
         int ansInd=0, ansLen=1e9, l=0,r=0, currChars=0;
 
-        while(r<n && currChars<requiredChars){
+        while(r<n){
             if(ump[s[r]]>0) currChars++;
             ump[s[r]]--;
             r++;
