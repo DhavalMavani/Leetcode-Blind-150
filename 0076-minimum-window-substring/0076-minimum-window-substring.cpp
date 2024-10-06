@@ -10,17 +10,21 @@ public:
         int ansInd=0, ansLen=1e9, l=0,r=0, currChars=0;
 
         while(r<n){
-            if(ump[s[r]]>0) currChars++;
-            ump[s[r]]--;
+
+            if(ump.count(s[r])){
+                if(ump[s[r]]>0) currChars++;
+                ump[s[r]]--;
+            }
             r++;
             while(currChars==requiredChars){
-                // int currLen=r-l;
                 if(r-l<ansLen){
                     ansLen=r-l;
                     ansInd=l;
                 }
-                ump[s[l]]++;
-                if(ump[s[l]]>0) currChars--;
+                if(ump.count(s[l])){
+                    ump[s[l]]++;
+                    if(ump[s[l]]>0) currChars--;
+                }
                 l++;
             }
         }
