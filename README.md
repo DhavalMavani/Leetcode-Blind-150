@@ -284,6 +284,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0076-minimum-window-substring](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0126-word-ladder-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0127-word-ladder) |
@@ -388,6 +389,7 @@
 ## String
 |  |
 | ------- |
+| [0076-minimum-window-substring](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0076-minimum-window-substring) |
 | [0126-word-ladder-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0127-word-ladder) |
 | [0132-palindrome-partitioning-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0132-palindrome-partitioning-ii) |
@@ -559,6 +561,7 @@
 ## Sliding Window
 |  |
 | ------- |
+| [0076-minimum-window-substring](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0076-minimum-window-substring) |
 | [0966-binary-subarrays-with-sum](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0966-binary-subarrays-with-sum) |
 ## Data Stream
 |  |
