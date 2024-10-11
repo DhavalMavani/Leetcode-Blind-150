@@ -11,10 +11,9 @@ public:
         for(int i=0;i<26;i++){
             if(freq[i]!=0){
                 idleSpace-=min(maxi-1,freq[i]);
+                if(idleSpace<=0) return s;
             }
         }
-
-        if(idleSpace<=0) return s;
         return s+idleSpace;
     }
 };
