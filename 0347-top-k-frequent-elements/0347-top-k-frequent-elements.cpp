@@ -1,21 +1,21 @@
 class Solution {
 public:
 
+    static bool comp( pair <int,int> &a, pair <int,int> &b){
+        return a.second>=b.second;
+    }
+
     vector<int> topKFrequent(vector<int>& nums, int k) {
-        int n=nums.size();
+        
         unordered_map <int,int> ump;
+        for (int i=0; i<nums.size();i++) ump[ nums[i] ] ++;
 
-        for (int i=0; i<n; i++) ump[nums[i]]++;
-
-        priority_queue < pair<int,int> > pq;
-
-        for (auto &i: ump) pq.push({i.second,i.first});
+        vector <pair<int,int>> v2={};
+        copy (ump.begin(),ump.end(),back_inserter(v2));
+        sort(v2.begin(),v2.end(), comp);
 
         vector <int> ans;
-        while(k--){
-            ans.emplace_back( (pq.top()).second );
-            pq.pop();
-        }
+        for(int i=0; i<k;i++) ans.emplace_back( (*(v2.begin()+i)).first );
 
         return ans;
     }
