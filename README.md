@@ -153,6 +153,7 @@
 | [0118-pascals-triangle](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0118-pascals-triangle) |
 | [0239-sliding-window-maximum](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0239-sliding-window-maximum) |
 | [0284-peeking-iterator](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0284-peeking-iterator) |
+| [0347-top-k-frequent-elements](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0347-top-k-frequent-elements) |
 | [0354-russian-doll-envelopes](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0354-russian-doll-envelopes) |
 | [0403-frog-jump](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0403-frog-jump) |
 | [0407-trapping-rain-water-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0407-trapping-rain-water-ii) |
@@ -299,6 +300,7 @@
 | [0127-word-ladder](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0127-word-ladder) |
 | [0205-isomorphic-strings](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0242-valid-anagram) |
+| [0347-top-k-frequent-elements](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0347-top-k-frequent-elements) |
 | [0525-contiguous-array](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0525-contiguous-array) |
 | [0621-task-scheduler](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0621-task-scheduler) |
 | [0833-bus-routes](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0833-bus-routes) |
@@ -375,6 +377,7 @@
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0239-sliding-window-maximum) |
 | [0295-find-median-from-data-stream](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0295-find-median-from-data-stream) |
+| [0347-top-k-frequent-elements](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0347-top-k-frequent-elements) |
 | [0407-trapping-rain-water-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0407-trapping-rain-water-ii) |
 | [0621-task-scheduler](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0621-task-scheduler) |
 | [0630-course-schedule-iii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0630-course-schedule-iii) |
@@ -509,6 +512,7 @@
 | ------- |
 | [0242-valid-anagram](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0242-valid-anagram) |
 | [0295-find-median-from-data-stream](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0295-find-median-from-data-stream) |
+| [0347-top-k-frequent-elements](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0347-top-k-frequent-elements) |
 | [0354-russian-doll-envelopes](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0354-russian-doll-envelopes) |
 | [0435-non-overlapping-intervals](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0621-task-scheduler) |
@@ -564,6 +568,7 @@
 |  |
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0347-top-k-frequent-elements](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0347-top-k-frequent-elements) |
 | [1692-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1692-number-of-ways-to-reorder-array-to-get-same-bst) |
 ## Binary Search Tree
 |  |
@@ -630,6 +635,7 @@
 ## Counting
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0621-task-scheduler) |
 | [2532-remove-letter-to-equalize-frequency](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2532-remove-letter-to-equalize-frequency) |
 ## Strongly Connected Component
@@ -656,4 +662,12 @@
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0239-sliding-window-maximum) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0347-top-k-frequent-elements) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
