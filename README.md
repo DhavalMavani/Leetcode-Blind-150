@@ -150,6 +150,7 @@
 | [0042-trapping-rain-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0042-trapping-rain-water) |
 | [0063-unique-paths-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0063-unique-paths-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0118-pascals-triangle](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0118-pascals-triangle) |
 | [0239-sliding-window-maximum](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0239-sliding-window-maximum) |
 | [0284-peeking-iterator](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0284-peeking-iterator) |
@@ -434,6 +435,7 @@
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0094-binary-tree-inorder-traversal) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0113-path-sum-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0113-path-sum-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -463,6 +465,7 @@
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0094-binary-tree-inorder-traversal) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0113-path-sum-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0113-path-sum-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -578,11 +581,13 @@
 |  |
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0347-top-k-frequent-elements](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0347-top-k-frequent-elements) |
 | [1692-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1692-number-of-ways-to-reorder-array-to-get-same-bst) |
 ## Binary Search Tree
 |  |
 | ------- |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0173-binary-search-tree-iterator](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0173-binary-search-tree-iterator) |
 | [1692-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1692-number-of-ways-to-reorder-array-to-get-same-bst) |
 ## Memoization
