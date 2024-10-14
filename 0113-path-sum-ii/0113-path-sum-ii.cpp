@@ -19,8 +19,9 @@ public:
         }
         vector<vector<int>> l=isPossible(node->left,target-node->val);
         vector<vector<int>> r=isPossible(node->right,target-node->val);
-        if(!l.empty()) for(auto &i: l) i.emplace_back(node->val);
-        if(!r.empty()) for(auto &i: r) i.emplace_back(node->val);
+        
+        for(auto &i: l) i.emplace_back(node->val);
+        for(auto &i: r) i.emplace_back(node->val);
 
         l.insert(l.end(), r.begin(), r.end());
         return l;
