@@ -4,9 +4,8 @@ public:
         
         string s;
         
-        while(columnNumber) {
-            columnNumber--;
-            s.push_back(columnNumber%26 + 'A');
+        while(columnNumber--){
+            s+=columnNumber%26 + 'A';
             columnNumber /= 26;
         }
         
