@@ -11,24 +11,23 @@
  */
 class Solution {
 public:
-    vector<vector<int>> isPossible(TreeNode* node,int target){
-        if(node==NULL) return {};
-        if(!node->left && !node->right){
-            if(target-node->val==0) return {{node->val}};
-            return {};
+    void isPossible(TreeNode* node,int target, vector<int> &path,vector<vector<int>> &ans){
+        if(!node) return;
+        if(!node->left && !node->right && node->val==target){
+            path.emplace_back(node->val);
+            ans.emplace_back(path);
+            path.pop_back();
+            return;
         }
-        vector<vector<int>> l=isPossible(node->left,target-node->val);
-        vector<vector<int>> r=isPossible(node->right,target-node->val);
-        
-        for(auto &i: l) i.emplace_back(node->val);
-        for(auto &i: r) i.emplace_back(node->val);
-
-        l.insert(l.end(), r.begin(), r.end());
-        return l;
+        path.emplace_back(node->val);
+        isPossible(node->left,target-node->val,path,ans);
+        isPossible(node->right,target-node->val,path,ans);
+        path.pop_back();
     }
     vector<vector<int>> pathSum(TreeNode* root, int targetSum) {
-        vector<vector<int>> ans=isPossible(root,targetSum);
-        for(auto &i: ans) reverse(i.begin(),i.end());
+        vector<vector<int>> ans;
+        vector<int> path;
+        isPossible(root,targetSum,path,ans);
         return ans;
     }
 };
