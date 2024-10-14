@@ -1,5 +1,4 @@
 class SegmentTree{
-private:
 public:
     vector<int> segTree;
 
@@ -37,13 +36,13 @@ public:
     int sumRange(int start, int end,int ind,int l,int r){
         if(l>=start && end>=r) return segTree[ind]; // complete overlap 
         else if(l>end || start>r) return 0; // no overlap 
-        else{
-            // partial overlap
-            int mid=(l+r)/2;
-            int leftSide=sumRange(start,end,ind*2+1,l,mid);
-            int rightSide=sumRange(start,end,ind*2+2,mid+1,r);
-            return leftSide+rightSide;
-        }
+
+        // partial overlap
+        int mid=(l+r)/2;
+        int leftSide=sumRange(start,end,ind*2+1,l,mid);
+        int rightSide=sumRange(start,end,ind*2+2,mid+1,r);
+        
+        return leftSide+rightSide;
     }
 };
 
