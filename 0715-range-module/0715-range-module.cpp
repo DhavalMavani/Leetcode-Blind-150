@@ -21,8 +21,13 @@ public:
     void update(int l, int r, bool state, SegmentTree* root) {
         if(root->l >= l && root->r <= r) {
             root->state = state;
+            
+            delete root->left;
             root->left = NULL;
+
+            delete root->right;
             root->right = NULL;
+            
             return;
         }
         if(l >= root->r || r <= root->l) return;
