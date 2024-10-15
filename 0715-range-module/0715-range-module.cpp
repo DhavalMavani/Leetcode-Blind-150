@@ -1,72 +1,53 @@
-class SegmentTree {
-public:
-    int l, r;
-    bool state;
-    SegmentTree *left = nullptr, *right = nullptr;
-
-    SegmentTree(int l, int r, bool state) : l(l), r(r), state(state) {}
-
-    void createChildren() {
-        if (!left) {
-            int mid = l + (r - l) / 2;
-            left = new SegmentTree(l, mid, state);
-            right = new SegmentTree(mid, r, state);
-        }
-    }
-
-    void update(int start, int end, bool newState) {
-        // If the current node's range is completely within the [start, end] range
-        if (start <= l && r <= end) {
-            state = newState;
-            delete left;  // Clean up child nodes
-            delete right;
-            left = right = nullptr;
-            return;
-        }
-        // No overlap
-        if (end <= l || start >= r) return;
-
-        // Partial overlap: split the range into children
-        createChildren();
-
-        // Recursively update the children
-        left->update(start, end, newState);
-        right->update(start, end, newState);
-
-        // Update current node's state based on the children's states
-        state = left->state && right->state;
-    }
-
-    bool query(int start, int end) {
-        // If the current node's range is fully within the query range
-        if ((start <= l && r <= end) || !left) return state;
-
-        int mid = l + (r - l) / 2;
-        // Check query for partial overlaps
-        if (end <= mid) return left->query(start, end);
-        else if (start >= mid) return right->query(start, end);
-        else return left->query(start, end) && right->query(start, end);
-    }
-};
-
 class RangeModule {
-private:
-    SegmentTree* root;
-
 public:
-    RangeModule() {
-        root = new SegmentTree(0, 1e9, false);  // Full range [0, 10^9) initially inactive
-    }
+    map<int, int> ranges;
 
     void addRange(int left, int right) {
-        root->update(left, right, true);
+        auto it = ranges.upper_bound(left);
+        // erase everything that starts in between left and right
+        // update right to be the end of merged range
+        while(it != ranges.end() && it->first <= right){
+            right = max(it->second, right);
+            ++it;
+            ranges.erase(prev(it));
+        }
+        if(it != ranges.begin() && left <= (--it)->second ) it->second = max(it->second, right); // if you can add on to the previous range do it
+        else ranges[left] = right; // otherwise add new range
     }
-
+    
     bool queryRange(int left, int right) {
-        return root->query(left, right);
+        auto it = ranges.upper_bound(left);
+        if(it == ranges.begin()) return false;
+        return prev(it)->second >= right;
     }
-
+    
     void removeRange(int left, int right) {
-        root->update(left, right, false);
+        auto it = ranges.lower_bound(left);
+        int cutEnd = -1;
+        // erase every range that starts before right
+        // keep track of latest end using cutEnd
+        while(it != ranges.end() && it->first < right){
+            cutEnd = max(cutEnd, it->second);
+            it++;
+            ranges.erase(prev(it));
+        }
+        // if current range overlaps with a range that starts before it
+        // update ranges and cutEnd
+        if(it != ranges.begin() && left < (--it)->second){
+            cutEnd = max(cutEnd, it->second);
+            it->second = left;
+        }
+        // if you left a range hanging then put it in.
+        if(right<cutEnd){
+            ranges[right] = cutEnd;
+        }
     }
 };
+
+/**
+ * Your RangeModule object will be instantiated and called as such:
+ * RangeModule* obj = new RangeModule();
+ * obj->addRange(left,right);
+ * bool param_2 = obj->queryRange(left,right);
+ * obj->removeRange(left,right);
+ */
