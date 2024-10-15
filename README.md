@@ -464,6 +464,7 @@
 | [0295-find-median-from-data-stream](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0307-range-sum-query-mutable](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0307-range-sum-query-mutable) |
+| [0715-range-module](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0715-range-module) |
 | [0729-my-calendar-i](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0731-my-calendar-ii) |
 | [0732-my-calendar-iii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0732-my-calendar-iii) |
@@ -647,6 +648,7 @@
 |  |
 | ------- |
 | [0307-range-sum-query-mutable](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0307-range-sum-query-mutable) |
+| [0715-range-module](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0715-range-module) |
 | [0729-my-calendar-i](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0731-my-calendar-ii) |
 | [0732-my-calendar-iii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0732-my-calendar-iii) |
@@ -660,6 +662,7 @@
 ## Ordered Set
 |  |
 | ------- |
+| [0715-range-module](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0715-range-module) |
 | [0729-my-calendar-i](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0731-my-calendar-ii) |
 | [0732-my-calendar-iii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0732-my-calendar-iii) |
