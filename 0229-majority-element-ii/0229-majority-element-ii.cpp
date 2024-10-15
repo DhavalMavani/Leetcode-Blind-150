@@ -1,28 +1,36 @@
 class Solution {
 public:
     vector<int> majorityElement(vector<int>& nums) {
-        vector<int> ans;
+        
+        int n=nums.size(), ct1=0,ct2=0,  ele1=INT_MIN, ele2=INT_MIN;
 
-        unordered_map<int,int> ump;
-
-        for(auto &i: nums){
-            ump[i]++;
-            if(ump.size()==3){
-                vector<int> remove;
-                for(auto &it: ump){
-                    it.second--;
-                    if(it.second==0) remove.emplace_back(it.first);
-                }
-                for(auto &j: remove) ump.erase(j);
+        for(int i=0;i<n;i++){
+            if(ct1==0 && nums[i]!=ele2){
+                ele1=nums[i];
+                ct1++;
+            }
+            else if(ct2==0 && nums[i]!=ele1){
+                ele2=nums[i];
+                ct2++;
+            }
+            else if(nums[i]==ele1) ct1++;
+            else if(nums[i]==ele2) ct2++;
+            else{
+                ct1--;
+                ct2--;
             }
         }
-        for(auto &it: ump) it.second=0;
+        
+        ct1=0,ct2=0;
+        for(int i=0;i<n;i++){
+            if(nums[i]==ele1) ct1++;
+            else if(nums[i]==ele2) ct2++;
+        }
 
-        for(auto &i: nums) if(ump.count(i)) ump[i]++;
-
-        int n=nums.size()/3;
-        for(auto &it: ump) if(it.second>n) ans.emplace_back(it.first);
-
+        vector<int> ans;
+        if(ct1>n/3) ans.emplace_back(ele1);
+        if(ct2>n/3) ans.emplace_back(ele2);
+        
         return ans;
     }
 };
