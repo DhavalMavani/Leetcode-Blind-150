@@ -8,6 +8,41 @@ class SegmentTree{
         this->r = r;
         this->state = st;
     }
+
+    void update(int start, int end, bool state, SegmentTree* root) {
+        if(root->l >= start && root->r <= end) {
+            // complete overlap
+            root->state = state;
+            root->left = NULL;
+            root->right = NULL;
+            return;
+        }
+        else if(start >= root->r || end <= root->l) return; // no overlap
+
+        // partial overlap
+        int mid = root->l + (root->r - root->l) / 2;
+        if(root->left == NULL) {
+            root->left = new SegmentTree(root->l, mid, root->state);
+            root->right = new SegmentTree(mid, root->r, root->state);
+        }
+
+        update(start, end, state, root->left);
+        update(start, end, state, root->right);
+
+        root->state = root->left->state && root->right->state;
+    }
+
+    bool query(SegmentTree *root, int start, int end) {
+
+        if((root->l >= start && root->r <= end) || root->left == NULL) return root->state;
+
+        int mid = root->l + (root->r - root->l) / 2;
+
+        if(end <= mid) return query(root->left, start, end);
+        else if(start >= mid) return query(root->right, start, end);
+        else return query(root->left, start, end) && query(root->right, start, end);
+    }
+
 };
 
 class RangeModule {
@@ -18,53 +53,18 @@ public:
         root = new SegmentTree(0, 1e9, false);
     }
 
-    void update(int l, int r, bool state, SegmentTree* root) {
-        if(root->l >= l && root->r <= r) {
-            root->state = state;
-            
-            delete root->left;
-            root->left = NULL;
-
-            delete root->right;
-            root->right = NULL;
-            
-            return;
-        }
-        if(l >= root->r || r <= root->l) return;
-
-        int mid = root->l + (root->r - root->l) / 2;
-        if(root->left == NULL) {
-            root->left = new SegmentTree(root->l, mid, root->state);
-            root->right = new SegmentTree(mid, root->r, root->state);
-        }
-
-        update(l, r, state, root->left);
-        update(l, r, state, root->right);
-
-        root->state = root->left->state && root->right->state;
-    }
 
     void addRange(int left, int right){
-        update(left, right, true, root);
+        root->update(left, right, true, root);
     }
 
-    bool q(SegmentTree *root, int l, int r) {
-
-        if((root->l >= l && root->r <= r) || root->left == NULL) return root->state;
-
-        int mid = root->l + (root->r - root->l) / 2;
-
-        if(r <= mid) return q(root->left, l, r);
-        else if(l >= mid) return q(root->right, l, r);
-        else return q(root->left, l, r) && q(root->right, l, r);
-    }
     
     bool queryRange(int left, int right) {
-        return q(root, left, right);
+        return root->query(root, left, right);
     }
     
     void removeRange(int left, int right) {
-        update(left, right, false, root);
+        root->update(left, right, false, root);
     }
 };
 
