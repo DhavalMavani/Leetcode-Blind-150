@@ -1,77 +1,72 @@
-class SegmentTree{
-    public:
+class SegmentTree {
+public:
     int l, r;
     bool state;
-    SegmentTree *left=NULL, *right=NULL;
-    SegmentTree(int l, int r, bool st) {
-        this->l = l;
-        this->r = r;
-        this->state = st;
+    SegmentTree *left = nullptr, *right = nullptr;
+
+    SegmentTree(int l, int r, bool state) : l(l), r(r), state(state) {}
+
+    void createChildren() {
+        if (!left) {
+            int mid = l + (r - l) / 2;
+            left = new SegmentTree(l, mid, state);
+            right = new SegmentTree(mid, r, state);
+        }
     }
 
-    void update(int start, int end, bool state, SegmentTree* root) {
-        if(root->l >= start && root->r <= end) {
-            // complete overlap
-            root->state = state;
-            root->left = NULL;
-            root->right = NULL;
+    void update(int start, int end, bool newState) {
+        // If the current node's range is completely within the [start, end] range
+        if (start <= l && r <= end) {
+            state = newState;
+            delete left;  // Clean up child nodes
+            delete right;
+            left = right = nullptr;
             return;
         }
-        else if(start >= root->r || end <= root->l) return; // no overlap
+        // No overlap
+        if (end <= l || start >= r) return;
 
-        // partial overlap
-        int mid = root->l + (root->r - root->l) / 2;
-        if(root->left == NULL) {
-            root->left = new SegmentTree(root->l, mid, root->state);
-            root->right = new SegmentTree(mid, root->r, root->state);
-        }
+        // Partial overlap: split the range into children
+        createChildren();
 
-        update(start, end, state, root->left);
-        update(start, end, state, root->right);
+        // Recursively update the children
+        left->update(start, end, newState);
+        right->update(start, end, newState);
 
-        root->state = root->left->state && root->right->state;
+        // Update current node's state based on the children's states
+        state = left->state && right->state;
     }
 
-    bool query(SegmentTree *root, int start, int end) {
+    bool query(int start, int end) {
+        // If the current node's range is fully within the query range
+        if ((start <= l && r <= end) || !left) return state;
 
-        if((root->l >= start && root->r <= end) || root->left == NULL) return root->state;
-
-        int mid = root->l + (root->r - root->l) / 2;
-
-        if(end <= mid) return query(root->left, start, end);
-        else if(start >= mid) return query(root->right, start, end);
-        else return query(root->left, start, end) && query(root->right, start, end);
+        int mid = l + (r - l) / 2;
+        // Check query for partial overlaps
+        if (end <= mid) return left->query(start, end);
+        else if (start >= mid) return right->query(start, end);
+        else return left->query(start, end) && right->query(start, end);
     }
-
 };
 
 class RangeModule {
-public:
+private:
     SegmentTree* root;
 
+public:
     RangeModule() {
-        root = new SegmentTree(0, 1e9, false);
+        root = new SegmentTree(0, 1e9, false);  // Full range [0, 10^9) initially inactive
     }
 
-
-    void addRange(int left, int right){
-        root->update(left, right, true, root);
+    void addRange(int left, int right) {
+        root->update(left, right, true);
     }
 
-    
     bool queryRange(int left, int right) {
-        return root->query(root, left, right);
+        return root->query(left, right);
     }
-    
+
     void removeRange(int left, int right) {
-        root->update(left, right, false, root);
+        root->update(left, right, false);
     }
 };
-
-/**
- * Your RangeModule object will be instantiated and called as such:
- * RangeModule* obj = new RangeModule();
- * obj->addRange(left,right);
- * bool param_2 = obj->queryRange(left,right);
- * obj->removeRange(left,right);
- */
