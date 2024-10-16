@@ -23,7 +23,6 @@ public:
                 }
                 if(i==n-1) return false;
             }
-
             else if(s[i]=='.'){
                 if(decimal || exponent ) return false;
                 else if(i>0){
@@ -42,6 +41,3 @@ public:
         return true;
     }
 };
-
-        // cout<<int('0')<<" "<<int('9');
-// 0->48 9->57
