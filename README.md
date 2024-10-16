@@ -425,6 +425,7 @@
 ## String
 |  |
 | ------- |
+| [0065-valid-number](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0065-valid-number) |
 | [0076-minimum-window-substring](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0076-minimum-window-substring) |
 | [0126-word-ladder-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0127-word-ladder) |
