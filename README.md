@@ -149,6 +149,7 @@
 | [0031-next-permutation](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0042-trapping-rain-water) |
 | [0063-unique-paths-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0063-unique-paths-ii) |
+| [0068-text-justification](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0068-text-justification) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0118-pascals-triangle](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0118-pascals-triangle) |
@@ -428,6 +429,7 @@
 |  |
 | ------- |
 | [0065-valid-number](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0065-valid-number) |
+| [0068-text-justification](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0068-text-justification) |
 | [0076-minimum-window-substring](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0076-minimum-window-substring) |
 | [0126-word-ladder-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0127-word-ladder) |
@@ -691,6 +693,7 @@
 ## Simulation
 |  |
 | ------- |
+| [0068-text-justification](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0068-text-justification) |
 | [0750-contain-virus](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0750-contain-virus) |
 ## Monotonic Stack
 |  |
