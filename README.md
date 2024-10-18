@@ -163,6 +163,7 @@
 | [0403-frog-jump](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0403-frog-jump) |
 | [0407-trapping-rain-water-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0407-trapping-rain-water-ii) |
 | [0435-non-overlapping-intervals](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0435-non-overlapping-intervals) |
+| [0472-concatenated-words](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0472-concatenated-words) |
 | [0486-predict-the-winner](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0486-predict-the-winner) |
 | [0518-coin-change-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0518-coin-change-ii) |
 | [0525-contiguous-array](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0525-contiguous-array) |
@@ -339,6 +340,7 @@
 | [0354-russian-doll-envelopes](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0354-russian-doll-envelopes) |
 | [0403-frog-jump](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0403-frog-jump) |
 | [0435-non-overlapping-intervals](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0435-non-overlapping-intervals) |
+| [0472-concatenated-words](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0472-concatenated-words) |
 | [0486-predict-the-winner](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0486-predict-the-winner) |
 | [0516-longest-palindromic-subsequence](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0518-coin-change-ii) |
@@ -377,6 +379,7 @@
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0310-minimum-height-trees](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0310-minimum-height-trees) |
 | [0332-reconstruct-itinerary](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0332-reconstruct-itinerary) |
+| [0472-concatenated-words](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0472-concatenated-words) |
 | [0744-network-delay-time](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0744-network-delay-time) |
 | [0750-contain-virus](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0750-contain-virus) |
 | [0794-swim-in-rising-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0794-swim-in-rising-water) |
@@ -445,6 +448,7 @@
 | [0301-remove-invalid-parentheses](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0301-remove-invalid-parentheses) |
 | [0443-string-compression](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0443-string-compression) |
 | [0451-sort-characters-by-frequency](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0451-sort-characters-by-frequency) |
+| [0472-concatenated-words](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0472-concatenated-words) |
 | [0516-longest-palindromic-subsequence](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0516-longest-palindromic-subsequence) |
 | [1250-longest-common-subsequence](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1250-longest-common-subsequence) |
 | [2532-remove-letter-to-equalize-frequency](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2532-remove-letter-to-equalize-frequency) |
@@ -719,4 +723,8 @@
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0347-top-k-frequent-elements) |
+## Trie
+|  |
+| ------- |
+| [0472-concatenated-words](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0472-concatenated-words) |
 <!---LeetCode Topics End-->
