@@ -7,10 +7,7 @@ public:
 
         for(int i=0;i<r;i++){
             for(int j=0;j<c;j++){
-                if(grid[i][j]){
-                    row[i]++;
-                    col[j]++;
-                }
+                if(grid[i][j]) row[i]++,col[j]++;
             }
         }
         for(int i=0;i<r;i++){
