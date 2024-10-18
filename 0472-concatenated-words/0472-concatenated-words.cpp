@@ -5,8 +5,7 @@ public:
 
         if(dp[ind]!=-1) return dp[ind];
         for(int i=1;i<=word.size()-ind;i++){
-            string s=word.substr(ind,i);
-            if( ust.count(s) && s!=word){
+            if( ust.count(word.substr(ind,i)) && word.substr(ind,i)!=word){
                 if (dfs(ind+i,word,ust,dp)) return dp[ind]=true;
             }
         }
