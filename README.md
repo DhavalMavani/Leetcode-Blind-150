@@ -154,6 +154,7 @@
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0118-pascals-triangle](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0118-pascals-triangle) |
 | [0130-surrounded-regions](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0130-surrounded-regions) |
+| [0162-find-peak-element](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0162-find-peak-element) |
 | [0229-majority-element-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0229-majority-element-ii) |
 | [0239-sliding-window-maximum](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0239-sliding-window-maximum) |
 | [0284-peeking-iterator](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0284-peeking-iterator) |
@@ -217,6 +218,7 @@
 ## Binary Search
 |  |
 | ------- |
+| [0162-find-peak-element](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0162-find-peak-element) |
 | [0354-russian-doll-envelopes](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0354-russian-doll-envelopes) |
 | [0729-my-calendar-i](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0731-my-calendar-ii) |
