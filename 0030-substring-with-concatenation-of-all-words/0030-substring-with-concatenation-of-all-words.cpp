@@ -1,37 +1,38 @@
 class Solution {
 public:
     vector<int> findSubstring(string s, vector<string>& words) {
-        unordered_map<string, unsigned int> map;
-        vector<int> result;
-        unsigned int length = words[0].size();
-        
-        for (string &word : words) map[word]++;
+        unordered_map<string, int> map;
+        vector<int> ans;
 
-        for (unsigned int offset = 0; offset < length; ++offset) {
-            unsigned int size = 0;
-            unordered_map<string, unsigned int> seen;
-            for (unsigned int i = offset; i + length <= s.size(); i += length) {
-                string sub = s.substr(i, length);
+        for(auto &i: words) map[i]++;
+        int len=words[0].size(),n=s.size();
 
-                auto itr = map.find(sub);
-                if (itr == map.end()) {
-                    seen.clear();
-                    size = 0;
-                    continue;
-                }
-
-                seen[sub]++;
-                size++;
-                while (seen[sub] > itr->second) {
-                    string first = s.substr(i - (size - 1) * length, length);
-                    seen[first]--;
-                    size--;
-                }
+        for(int i=0;i<len;i++){
+            unordered_map<string, int> seen;
+            int windowSize=0;
+            for(int j=i; j+len<=n;j+=len){
                 
-                if (size == words.size()) result.push_back(i - (size - 1) * length);
+                string sub=s.substr(j,len);
+                auto itr=map.find(sub);
+
+                if(itr==map.end()){
+                    seen.clear();
+                    windowSize=0;
+                }
+                else{
+                    seen[sub]++;
+                    windowSize++;
+
+                    while( windowSize > words.size() ||  seen[sub]>itr->second ){
+                        string prev=s.substr(j-(windowSize-1)*len ,len);
+                        seen[prev]--;
+                        windowSize--;
+                    }
+                    if(windowSize==words.size()) ans.emplace_back(j-(windowSize-1)*len);
+                }
+
             }
         }
-
-        return result;
+        return ans;
     }
 };
