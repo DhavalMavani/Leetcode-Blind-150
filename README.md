@@ -154,6 +154,7 @@
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0118-pascals-triangle](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0118-pascals-triangle) |
 | [0130-surrounded-regions](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0130-surrounded-regions) |
+| [0135-candy](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0135-candy) |
 | [0162-find-peak-element](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0162-find-peak-element) |
 | [0229-majority-element-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0229-majority-element-ii) |
 | [0239-sliding-window-maximum](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0239-sliding-window-maximum) |
@@ -544,6 +545,7 @@
 ## Greedy
 |  |
 | ------- |
+| [0135-candy](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0135-candy) |
 | [0435-non-overlapping-intervals](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0621-task-scheduler) |
 | [0630-course-schedule-iii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0630-course-schedule-iii) |
