@@ -39,7 +39,7 @@ public:
         board[r][c]=temp;
 
     }
-    void insert(string word){
+    void insert(string &word){
         tireNode* curr=root;
         for(int i=0;i<word.size();i++){
             if(curr->child[word[i]-'a']==NULL){
