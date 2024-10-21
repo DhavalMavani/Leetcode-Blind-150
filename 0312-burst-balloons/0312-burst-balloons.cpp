@@ -14,9 +14,10 @@ public:
         return dp[left][right]= maxVal;
     }
     int maxCoins(vector<int>& nums) {
-        nums.emplace_back(1);
         nums.emplace(nums.begin(),1);
-        dp.resize(nums.size(),vector<int> (nums.size(),-1));
-        return maxCoinsCollected(nums,1,nums.size()-2);
+        nums.emplace_back(1);
+        int n=nums.size();
+        dp.resize(n,vector<int> (n,-1));
+        return maxCoinsCollected(nums,1,n-2);
     }
 };
