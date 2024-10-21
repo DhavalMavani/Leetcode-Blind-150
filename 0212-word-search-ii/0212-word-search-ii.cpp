@@ -21,7 +21,7 @@ public:
         return ans;
     }
 
-    void dfs(int r, int c,vector<vector<char>>& board,string s,tireNode* &curr){
+    void dfs(int r, int c,vector<vector<char>>& board,string s,tireNode* curr){
 
         if(curr->isWord){
             ans.emplace_back(s);
