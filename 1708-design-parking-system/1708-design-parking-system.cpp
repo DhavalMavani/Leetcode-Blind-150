@@ -1,6 +1,6 @@
 class ParkingSystem {
 public:
-    int bigCarSpace,smallCarSpace,mediumCarSpace,currBig=0,currMedium=0,currSmall=0;
+    int bigCarSpace,smallCarSpace,mediumCarSpace;
     ParkingSystem(int big, int medium, int small) {
         bigCarSpace=big;
         mediumCarSpace=medium;
@@ -8,9 +8,9 @@ public:
     }
     
     bool addCar(int carType) {
-        if(carType==3) return ++currSmall<=smallCarSpace;
-        else if(carType==2) return ++currMedium<=mediumCarSpace;
-        else return ++currBig<=bigCarSpace;
+        if(carType==3) return --smallCarSpace>=0;
+        else if(carType==2) return --mediumCarSpace>=0;
+        else return --bigCarSpace>=0;
     }
 };
 
