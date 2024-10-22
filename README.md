@@ -254,6 +254,7 @@
 | [0310-minimum-height-trees](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0310-minimum-height-trees) |
 | [0407-trapping-rain-water-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0407-trapping-rain-water-ii) |
 | [0542-01-matrix](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0542-01-matrix) |
+| [0685-redundant-connection-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0685-redundant-connection-ii) |
 | [0744-network-delay-time](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0744-network-delay-time) |
 | [0750-contain-virus](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0750-contain-virus) |
 | [0794-swim-in-rising-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0794-swim-in-rising-water) |
@@ -279,6 +280,7 @@
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0130-surrounded-regions) |
+| [0685-redundant-connection-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0685-redundant-connection-ii) |
 | [0794-swim-in-rising-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0794-swim-in-rising-water) |
 | [0960-minimize-malware-spread](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0960-minimize-malware-spread) |
 | [0964-minimize-malware-spread-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0964-minimize-malware-spread-ii) |
@@ -397,6 +399,7 @@
 | [0332-reconstruct-itinerary](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0332-reconstruct-itinerary) |
 | [0437-path-sum-iii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0437-path-sum-iii) |
 | [0472-concatenated-words](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0472-concatenated-words) |
+| [0685-redundant-connection-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0685-redundant-connection-ii) |
 | [0744-network-delay-time](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0744-network-delay-time) |
 | [0750-contain-virus](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0750-contain-virus) |
 | [0794-swim-in-rising-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0794-swim-in-rising-water) |
@@ -529,6 +532,7 @@
 | [0210-course-schedule-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0210-course-schedule-ii) |
 | [0310-minimum-height-trees](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0310-minimum-height-trees) |
 | [0332-reconstruct-itinerary](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0332-reconstruct-itinerary) |
+| [0685-redundant-connection-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0685-redundant-connection-ii) |
 | [0744-network-delay-time](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0744-network-delay-time) |
 | [0813-all-paths-from-source-to-target](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0813-all-paths-from-source-to-target) |
 | [0960-minimize-malware-spread](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0960-minimize-malware-spread) |
