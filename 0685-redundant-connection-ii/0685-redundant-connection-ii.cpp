@@ -35,15 +35,14 @@ public:
         vector<int> indegree(edges.size()+1,-1);
         int n=edges.size();
         for(int i=0;i<n;i++){
-            int n1=edges[i][0],n2=edges[i][1];
+            int n2=edges[i][1];
             if( indegree[n2]!=-1){
                 DisjointSet* dsu=new DisjointSet(n+1);
-                int b1=indegree[n2],b2=i;
                 for(int j=0;j<n;j++){
-                    if(j==b2) continue;
-                    if (dsu->merge(edges[j][0],edges[j][1]) ) return edges[b1];
+                    if(j==i) continue;
+                    if (dsu->merge(edges[j][0],edges[j][1]) ) return edges[indegree[n2]];
                 }
-                return edges[b2];
+                return edges[i];
             }
             indegree[n2]=i;
         }
