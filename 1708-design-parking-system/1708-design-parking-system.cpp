@@ -1,16 +1,12 @@
 class ParkingSystem {
 public:
-    int bigCarSpace,smallCarSpace,mediumCarSpace;
+    vector<int>slots;
     ParkingSystem(int big, int medium, int small) {
-        bigCarSpace=big;
-        mediumCarSpace=medium;
-        smallCarSpace=small;
+        slots = {big, medium, small};
     }
     
     bool addCar(int carType) {
-        if(carType==3) return --smallCarSpace>=0;
-        else if(carType==2) return --mediumCarSpace>=0;
-        else return --bigCarSpace>=0;
+        return --slots[carType-1]>=0;
     }
 };
 
