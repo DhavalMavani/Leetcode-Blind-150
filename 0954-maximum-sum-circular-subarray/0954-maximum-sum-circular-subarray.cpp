@@ -11,7 +11,6 @@ public:
             if(sum>=0) sum=0;
         }
 
-        sum=0;
         for(int r=0;r<n;r++){
             sum+=nums[r];
             maxSum=max(sum,maxSum);
