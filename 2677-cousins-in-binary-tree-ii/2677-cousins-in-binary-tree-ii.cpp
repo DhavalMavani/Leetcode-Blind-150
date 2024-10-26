@@ -15,7 +15,7 @@ public:
     void solve(TreeNode* root, int d){
         if(root==NULL) return;
 
-        if(d>=depthsum.size()) depthsum.push_back(root->val);
+        if(d>=depthsum.size()) depthsum.emplace_back(root->val);
         else depthsum[d] += root->val;
 
         solve(root->left, d+1);
