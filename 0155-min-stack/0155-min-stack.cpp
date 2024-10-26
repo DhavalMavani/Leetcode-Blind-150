@@ -2,32 +2,24 @@
 
 class MinStack {
 public:
-    stack <int> s1,min;
-    MinStack() {
-    }
-    
+    stack <pair<int,int>> st;
+
     void push(int val) {
-        if (s1.empty()){
-            s1.emplace(val);
-            min.emplace(val);
-        }
-        else{
-            min.emplace( std::min(min.top(),val) );
-            s1.emplace(val);
-        }
+
+        if (st.empty()) st.push({val,val});
+        else st.push({val,min(val,st.top().second) });
     }
     
     void pop() {
-        s1.pop();
-        min.pop();
+        st.pop();
     }
     
     int top() {
-        return s1.top(); 
+        return st.top().first; 
     }
     
     int getMin() {
-        return min.top();
+        return st.top().second;
     }
 };
 
