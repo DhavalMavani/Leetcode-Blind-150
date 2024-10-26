@@ -12,25 +12,36 @@
 class Solution {
 public:
     TreeNode* replaceValueInTree(TreeNode* root) {
-        root->val = 0;
-        queue<TreeNode*> q;  q.push(root);
+        int levelSum=-root->val;
+        queue<TreeNode*> q;
+        q.emplace(root);
+
         while(!q.empty()){
-            int n = q.size(), sum = 0;
-            vector<TreeNode*> buf;
+            int n=q.size();
+            int nextLevelSum=0;
             while(n--){
-                TreeNode* node = q.front(); q.pop();
-                buf.push_back(node);
-                if(node->left) { q.push(node->left); sum += node->left->val; }
-                if(node->right){ q.push(node->right); sum += node->right->val; }
+                TreeNode* currNode=q.front();
+                q.pop();
+
+                currNode->val+=levelSum;
+                
+                int childSum=0;
+                if(currNode->left){
+                    nextLevelSum+=currNode->left->val;
+                    childSum+=currNode->left->val;
+                    q.emplace(currNode->left);
+                }
+                if(currNode->right){
+                    nextLevelSum+=currNode->right->val;
+                    childSum+=currNode->right->val;
+                    q.emplace(currNode->right);
+                }
+                if(currNode->left) currNode->left->val=-childSum;
+                if(currNode->right) currNode->right->val=-childSum;
             }
-            for(auto &node: buf){
-                int  t = sum;
-                if(node->left)  t -= node->left->val;
-                if(node->right) t -= node->right->val;
-                if(node->left)  node->left->val = t;
-                if(node->right) node->right->val = t;
-            }
+            levelSum=nextLevelSum;
         }
+
         return root;
     }
 };
