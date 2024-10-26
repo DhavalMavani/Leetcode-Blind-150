@@ -23,7 +23,7 @@ public:
                 if(node->left) { q.push(node->left); sum += node->left->val; }
                 if(node->right){ q.push(node->right); sum += node->right->val; }
             }
-            for(auto node: buf){
+            for(auto &node: buf){
                 int  t = sum;
                 if(node->left)  t -= node->left->val;
                 if(node->right) t -= node->right->val;
