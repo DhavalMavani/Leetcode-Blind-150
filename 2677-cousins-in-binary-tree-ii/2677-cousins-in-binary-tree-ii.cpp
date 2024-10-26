@@ -1,8 +1,17 @@
-
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
 class Solution {
 public:
     vector<int> depthsum;
-    
     void solve(TreeNode* root, int d){
         if(root==NULL) return;
 
@@ -13,30 +22,28 @@ public:
         solve(root->right, d+1);
     }
     
-    // Function to recreate the tree 
-    void fill(TreeNode* root, int d){  
-        if(root==NULL) return;
-        int ded = 0;
 
-        // storing the value of children of current node in ded which to be deducted.
-        if(root->left) ded += root->left->val;
-        if(root->right) ded += root->right->val;
+    void builtTree(TreeNode* node,int level){
 
-        // then assigning the sum of all nodes at that depth and subtracting it's own value and the value of its siblings which are stored in ded
-        if(root->left) root->left->val = depthsum[d+1] -ded;
-        if(root->right) root->right->val = depthsum[d+1] -ded;
-        
-        // then recursively do the same for all the nodes.
-        fill(root->left, d+1);
-        fill(root->right, d+1);
-        
+        int childSum=0;
+        if(node->left) childSum+=node->left->val;
+        if(node->right) childSum+=node->right->val;
+
+        if(node->left){
+            node->left->val=depthsum[level+1]-childSum;
+            builtTree(node->left,level+1);
+        }
+        if(node->right){
+            node->right->val=depthsum[level+1]-childSum;
+            builtTree(node->right,level+1);
+        }
+
     }
-    
+
     TreeNode* replaceValueInTree(TreeNode* root) {
-        if(root==NULL) return NULL;
+        solve(root,0);
         root->val=0;
-        solve(root, 0); // Function to find the depth of each element.
-        fill(root, 0); // Function to recreate the tree 
-        return root;    
+        builtTree(root,0);
+        return root;
     }
 };
