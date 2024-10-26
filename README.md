@@ -498,6 +498,7 @@
 ## Design
 |  |
 | ------- |
+| [0155-min-stack](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0173-binary-search-tree-iterator) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0284-peeking-iterator](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0284-peeking-iterator) |
@@ -686,6 +687,7 @@
 | ------- |
 | [0042-trapping-rain-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0042-trapping-rain-water) |
 | [0094-binary-tree-inorder-traversal](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0094-binary-tree-inorder-traversal) |
+| [0155-min-stack](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0173-binary-search-tree-iterator) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1497-design-a-stack-with-increment-operation) |
 ## Iterator
