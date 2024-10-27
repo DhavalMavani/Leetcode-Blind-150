@@ -11,7 +11,7 @@ public:
         if(dp[currSum][n]!=-1) return dp[currSum][n];
         int ans=0;
         for(int i=1;i<=K;i++){
-            ans=((long long) ans+helper(currSum-i,n-1))%m;
+            ans=( ans+helper(currSum-i,n-1))%m;
         }
         return dp[currSum][n]=ans;
     }
