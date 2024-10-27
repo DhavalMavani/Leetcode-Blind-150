@@ -382,6 +382,7 @@
 | [1087-longest-arithmetic-subsequence](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1087-longest-arithmetic-subsequence) |
 | [1240-stone-game-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1240-stone-game-ii) |
 | [1250-longest-common-subsequence](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1250-longest-common-subsequence) |
+| [1263-number-of-dice-rolls-with-target-sum](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1263-number-of-dice-rolls-with-target-sum) |
 | [1290-make-array-strictly-increasing](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1290-make-array-strictly-increasing) |
 | [1418-fair-distribution-of-cookies](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1418-fair-distribution-of-cookies) |
 | [1451-minimum-number-of-taps-to-open-to-water-a-garden](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1451-minimum-number-of-taps-to-open-to-water-a-garden) |
