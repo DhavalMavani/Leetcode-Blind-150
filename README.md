@@ -402,6 +402,7 @@
 | [0199-binary-tree-right-side-view](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0199-binary-tree-right-side-view) |
 | [0210-course-schedule-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0210-course-schedule-ii) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0310-minimum-height-trees](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0310-minimum-height-trees) |
 | [0332-reconstruct-itinerary](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0332-reconstruct-itinerary) |
@@ -497,6 +498,7 @@
 | [0124-binary-tree-maximum-path-sum](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0173-binary-search-tree-iterator](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0173-binary-search-tree-iterator) |
 | [0199-binary-tree-right-side-view](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0199-binary-tree-right-side-view) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0437-path-sum-iii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0437-path-sum-iii) |
 | [1008-binary-tree-cameras](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1008-binary-tree-cameras) |
@@ -534,6 +536,7 @@
 | [0124-binary-tree-maximum-path-sum](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0173-binary-search-tree-iterator](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0173-binary-search-tree-iterator) |
 | [0199-binary-tree-right-side-view](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0199-binary-tree-right-side-view) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0437-path-sum-iii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0437-path-sum-iii) |
 | [1008-binary-tree-cameras](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1008-binary-tree-cameras) |
