@@ -7,11 +7,12 @@ public:
             if(currSum==0) return 1;
             return 0;
         }
-        if(currSum<=0) return 0;
         if(dp[currSum][n]!=-1) return dp[currSum][n];
         int ans=0;
         for(int i=1;i<=K;i++){
-            ans=( ans+helper(currSum-i,n-1))%m;
+            if(i<=currSum){
+                ans=( ans+helper(currSum-i,n-1))%m;
+            }
         }
         return dp[currSum][n]=ans;
     }
