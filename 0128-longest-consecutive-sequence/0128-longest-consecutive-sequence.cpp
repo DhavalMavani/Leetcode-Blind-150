@@ -1,17 +1,26 @@
 class Solution {
 public:
-    int longestConsecutive(vector<int>& nums) {
-        unordered_set<int>s(nums.begin(), nums.end());
-        int longest = 0;
-        for(auto &n: s){
-            if(!s.count(n - 1)){
-                int length = 1; 
-                while(s.count(n + length))
-                    ++length;
-                longest = max(longest, length);
-            } 
+int longestConsecutive(vector<int> &nums){
+    int longest_cons_chain = 0;
+    unordered_map<int, bool> present;
+    unordered_map<int, bool> checked;
+    for (auto &a : nums) present[a] = true;
 
+    for (int i = 0; i < nums.size(); i++)
+    {
+        if (!checked[nums[i]] && !present.count(nums[i] - 1))
+        {
+            int current_chain = 0, start = nums[i];
+            while ( present.count(start) ){
+                current_chain++;
+                checked[start] = true;
+                start++;
+            }
+            longest_cons_chain = max(longest_cons_chain, current_chain);
         }
-        return longest;
     }
+    return longest_cons_chain;
+}
+
+
 };
