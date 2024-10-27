@@ -8,30 +8,15 @@
  * };
  */
 class Solution {
-
 public:
-
-    TreeNode* findLCA(TreeNode* node,TreeNode* p,TreeNode* q){
-        if(node==NULL || node==p || node==q){
-            return node;
-        }
-
-        TreeNode* l=findLCA(node->left,p,q);
-        TreeNode* r=findLCA(node->right,p,q);
-
-        if(l && r){
-            return node;
-        }
-        else if(l){
-            return l;
-        }
-        else{
-            return r;
-        }
-    };
-
-
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        return findLCA(root,p,q);
+        if( !root || root==p || root==q) return root;
+
+        TreeNode* l=lowestCommonAncestor(root->left,p,q);
+        TreeNode* r=lowestCommonAncestor(root->right,p,q);
+
+        if(l && r) return root;
+        else if(l) return l;
+        else return r;
     }
 };
