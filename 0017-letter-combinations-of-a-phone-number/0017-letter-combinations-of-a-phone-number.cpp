@@ -8,7 +8,7 @@ public:
             return;
         }
 
-        for(auto &i: keyPad[ digits[index] -'0' ]){
+        for(auto i: keyPad[ digits[index] -'0' ]){
             helper(digits,index+1,ans,res+i);
         }
     }
