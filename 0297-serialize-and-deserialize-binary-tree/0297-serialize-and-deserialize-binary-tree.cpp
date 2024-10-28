@@ -9,43 +9,40 @@
  */
 class Codec {
 public:
-    void dfs(TreeNode* node,string &ans){
-        ans+=to_string(node->val)+'b';
-        if( node->left ) dfs(node->left,ans);
-        else ans+='n';
 
-        if( node->right ) dfs(node->right,ans);
-        else ans+='n';
+    void dfs(TreeNode* node,string &ans){
+        if(!node){
+            ans+="nb";
+            return;
+        }
+        ans+=to_string(node->val)+'b';
+        dfs(node->left,ans);
+        dfs(node->right,ans);
     }
     // Encodes a tree to a single string.
     string serialize(TreeNode* root) {
-        if(!root) return "n";
         string ans;
         dfs(root,ans);
         return ans;
     }
+    TreeNode* construct(int &i,string &data){
+        int str=i;
+        while(data[i]!='b') i++;
 
-    // Decodes your encoded data to tree.
-    TreeNode* construct(int &ind,string &data){
-        if(data[ind]=='n'){
-            ind++;
-            return NULL;
-        }
+        string temp=data.substr(str,i-str);
+        i+=1;
 
-        string curr;
-        while(data[ind]!='b' ){
-            curr+=data[ind];
-            ind++;
-        }
-        ind++;
-        TreeNode* node= new TreeNode( stoi(curr) );
-        node->left=construct(ind,data);
-        node->right=construct(ind,data);
-        return node;
+        if(temp=="n") return NULL;
+
+        TreeNode* ans=new TreeNode(stoi(temp) );
+        ans->left=construct(i,data);
+        ans->right=construct(i,data);
+        return ans;
     }
+    // Decodes your encoded data to tree.
     TreeNode* deserialize(string data) {
-        int ind=0;
-        return construct(ind,data);    
+        int i=0;
+        return construct(i,data);
     }
 };
 
