@@ -348,6 +348,7 @@
 | [0966-binary-subarrays-with-sum](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0966-binary-subarrays-with-sum) |
 | [1087-longest-arithmetic-subsequence](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1087-longest-arithmetic-subsequence) |
 | [1294-range-frequency-queries](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1294-range-frequency-queries) |
+| [1777-determine-if-two-strings-are-close](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1777-determine-if-two-strings-are-close) |
 | [2429-design-a-food-rating-system](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2429-design-a-food-rating-system) |
 | [2532-remove-letter-to-equalize-frequency](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2532-remove-letter-to-equalize-frequency) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2677-cousins-in-binary-tree-ii) |
@@ -491,6 +492,7 @@
 | [0472-concatenated-words](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0472-concatenated-words) |
 | [0516-longest-palindromic-subsequence](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0516-longest-palindromic-subsequence) |
 | [1250-longest-common-subsequence](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1250-longest-common-subsequence) |
+| [1777-determine-if-two-strings-are-close](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1777-determine-if-two-strings-are-close) |
 | [2532-remove-letter-to-equalize-frequency](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2532-remove-letter-to-equalize-frequency) |
 | [3376-longest-common-suffix-queries](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3376-longest-common-suffix-queries) |
 ## Tree
@@ -614,6 +616,7 @@
 | [0630-course-schedule-iii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0630-course-schedule-iii) |
 | [0646-maximum-length-of-pair-chain](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0646-maximum-length-of-pair-chain) |
 | [1290-make-array-strictly-increasing](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1290-make-array-strictly-increasing) |
+| [1777-determine-if-two-strings-are-close](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1777-determine-if-two-strings-are-close) |
 | [1788-stone-game-vi](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1788-stone-game-vi) |
 | [1962-single-threaded-cpu](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1962-single-threaded-cpu) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1966-frequency-of-the-most-frequent-element) |
@@ -749,6 +752,7 @@
 | [0621-task-scheduler](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0621-task-scheduler) |
 | [1396-count-servers-that-communicate](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1396-count-servers-that-communicate) |
 | [1708-design-parking-system](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1708-design-parking-system) |
+| [1777-determine-if-two-strings-are-close](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1777-determine-if-two-strings-are-close) |
 | [2532-remove-letter-to-equalize-frequency](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2532-remove-letter-to-equalize-frequency) |
 ## Strongly Connected Component
 |  |
