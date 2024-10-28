@@ -12,10 +12,10 @@ public:
     bool validPath(int n, vector<vector<int>>& edges, int source, int destination) {
         visited.resize(n,false);
         adj.resize(n);
-        d=destination;
+        d=source;
 
         for(auto &i: edges) adj[i[0]].emplace_back(i[1]),adj[i[1]].emplace_back(i[0]);
 
-        return dfs(source);
+        return dfs(destination);
     }
 };
