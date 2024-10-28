@@ -11,7 +11,7 @@ public:
         if(K*n<currSum) return dp[currSum][n]=0;
         
         int ans=0;
-        for(int i=1;i<=K;i++) if(i<=currSum) ans=( ans+helper(currSum-i,n-1))%m;
+        for(int i=1;i<=min(K,currSum);i++) ans=( ans+helper(currSum-i,n-1))%m;
 
         return dp[currSum][n]=ans;
     }
