@@ -148,6 +148,7 @@
 | ------- |
 | [0031-next-permutation](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0042-trapping-rain-water) |
+| [0057-insert-interval](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0057-insert-interval) |
 | [0063-unique-paths-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0063-unique-paths-ii) |
 | [0068-text-justification](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0068-text-justification) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
