@@ -10,8 +10,8 @@ public:
         if(dp[currSum][n]!=-1) return dp[currSum][n];
         if(K*n<currSum) return dp[currSum][n]=0;
         
-        int ans=0;
-        for(int i=1;i<=min(K,currSum);i++) ans=( ans+helper(currSum-i,n-1))%m;
+        int ans=0,lim=min(K,currSum);
+        for(int i=1;i<=lim;i++) ans=( ans+helper(currSum-i,n-1))%m;
 
         return dp[currSum][n]=ans;
     }
