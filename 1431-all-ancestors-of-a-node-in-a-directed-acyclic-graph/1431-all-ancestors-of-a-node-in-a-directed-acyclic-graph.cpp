@@ -2,7 +2,6 @@ class Solution {
 public:
     vector<vector<int>> getAncestors(int n, vector<vector<int>>& edges) {
         vector<vector<int>> ans(n);
-        sort(edges.begin(),edges.end());
         vector<vector<int>> adj(n);
         vector<int> inDegree(n,0);
         for(auto &edge: edges){
@@ -27,7 +26,6 @@ public:
             }
         }
 
-        
         return ans;
     }
 };
