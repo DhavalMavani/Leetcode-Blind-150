@@ -276,6 +276,7 @@
 | [1322-minimum-moves-to-reach-target-with-rotations](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1322-minimum-moves-to-reach-target-with-rotations) |
 | [1396-count-servers-that-communicate](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1396-count-servers-that-communicate) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
+| [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1753-path-with-minimum-effort](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1753-path-with-minimum-effort) |
 | [2121-find-if-path-exists-in-graph](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2121-find-if-path-exists-in-graph) |
@@ -430,6 +431,7 @@
 | [0964-minimize-malware-spread-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0964-minimize-malware-spread-ii) |
 | [1008-binary-tree-cameras](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1008-binary-tree-cameras) |
 | [1396-count-servers-that-communicate](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1396-count-servers-that-communicate) |
+| [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1753-path-with-minimum-effort](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1753-path-with-minimum-effort) |
 | [2121-find-if-path-exists-in-graph](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2121-find-if-path-exists-in-graph) |
@@ -573,6 +575,7 @@
 | [0960-minimize-malware-spread](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0960-minimize-malware-spread) |
 | [0964-minimize-malware-spread-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0964-minimize-malware-spread-ii) |
 | [1229-shortest-path-with-alternating-colors](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1229-shortest-path-with-alternating-colors) |
+| [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
 | [2121-find-if-path-exists-in-graph](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2121-find-if-path-exists-in-graph) |
@@ -601,6 +604,7 @@
 | ------- |
 | [0210-course-schedule-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0210-course-schedule-ii) |
 | [0310-minimum-height-trees](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0310-minimum-height-trees) |
+| [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [2176-parallel-courses-iii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2176-parallel-courses-iii) |
 ## Greedy
 |  |
