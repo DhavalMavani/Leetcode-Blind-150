@@ -11,12 +11,11 @@ public:
 
         vector<int> completionTime(n+1,0);
         queue<int> q;
-        int ans=0;
+
         for(int i=1;i<=n;i++){
             if(inDegree[i]==0){
                 q.emplace(i);
                 completionTime[i]=time[i-1];
-                ans=max(ans,time[i-1]);
             }
         }
             
@@ -26,13 +25,12 @@ public:
 
             for(auto &i: adj[curr]){
                 completionTime[i]=max(completionTime[i],completionTime[curr]+time[i-1]);
-                ans=max(ans,completionTime[i]);
                 inDegree[i]--;
                 if(inDegree[i]==0) q.emplace(i);
             }
-
         }
 
-        return ans;
+
+        return *max_element(completionTime.begin(), completionTime.end());;
     }
 };
