@@ -486,6 +486,7 @@
 ## String
 |  |
 | ------- |
+| [0008-string-to-integer-atoi](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0008-string-to-integer-atoi) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0065-valid-number](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0065-valid-number) |
