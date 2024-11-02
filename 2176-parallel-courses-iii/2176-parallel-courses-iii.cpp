@@ -12,7 +12,7 @@ public:
     }
     int minimumTime(int n, vector<vector<int>>& relations, vector<int>& time) {
         vector<vector<int>> adj(n+1);
-        for(auto &relation: relations) adj[relation[1]].emplace_back(relation[0]);
+        for(auto &relation: relations) adj[relation[0]].emplace_back(relation[1]);
 
         vector<int> timeTaken(n+1,-1);
         int ans=0;
