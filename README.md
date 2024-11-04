@@ -148,6 +148,7 @@
 | ------- |
 | [0031-next-permutation](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0042-trapping-rain-water) |
+| [0055-jump-game](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0055-jump-game) |
 | [0057-insert-interval](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0057-insert-interval) |
 | [0063-unique-paths-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0063-unique-paths-ii) |
 | [0068-text-justification](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0068-text-justification) |
@@ -368,6 +369,7 @@
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0042-trapping-rain-water) |
+| [0055-jump-game](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0055-jump-game) |
 | [0063-unique-paths-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0063-unique-paths-ii) |
 | [0070-climbing-stairs](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0070-climbing-stairs) |
 | [0091-decode-ways](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0091-decode-ways) |
@@ -623,6 +625,7 @@
 ## Greedy
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0055-jump-game) |
 | [0135-candy](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0135-candy) |
 | [0435-non-overlapping-intervals](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0621-task-scheduler) |
