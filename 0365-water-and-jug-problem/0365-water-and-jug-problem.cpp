@@ -1,20 +1,20 @@
 class Solution
 {
 public:
-    bool dfs(int x, int y, int z, int m, int curr, vector<int> &vis)
+    int j1,j2,t;
+    bool dfs(int curr, vector<bool> &vis)
     {
-        if (curr < 0 || curr > m || vis[curr] == 1) return false;
-        if (curr == z) return true;
+        if (curr < 0 || curr > j1+j2 || vis[curr] ) return false;
+        if (curr == t) return true;
         vis[curr] = 1;
-        return dfs(x, y, z, m, curr + x, vis) || dfs(x, y, z, m, curr - x, vis) ||
-        dfs(x, y, z, m, curr + y, vis) || dfs(x, y, z, m, curr - y, vis);
+        return dfs(curr+j1,vis) || dfs(curr+j2,vis) || dfs(curr-j1,vis) || dfs(curr-j2,vis);
     }
-    bool canMeasureWater(int x, int y, int z)
+    bool canMeasureWater(int x, int y, int target)
     {
-        if (x + y == z || x == z || y == z) return true;
-        if (x + y < z) return false;
-        int m = x + y; // max capacity
-        vector<int> vis(m + 1, 0);
-        return dfs(x, y, z, m, 0, vis);
+        j1=x,j2=y,t=target;
+        if (j1+j2 < t) return false;
+        if (j1+j2 == t || j1 == t || j2 == t) return true;
+        vector<bool> vis( j1+j2+1, false);
+        return dfs(0,vis);
     }
 };
