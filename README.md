@@ -148,6 +148,7 @@
 | ------- |
 | [0011-container-with-most-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0011-container-with-most-water) |
 | [0031-next-permutation](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0031-next-permutation) |
+| [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0042-trapping-rain-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0042-trapping-rain-water) |
 | [0055-jump-game](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0055-jump-game) |
 | [0057-insert-interval](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0057-insert-interval) |
@@ -236,6 +237,7 @@
 ## Binary Search
 |  |
 | ------- |
+| [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0162-find-peak-element](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0162-find-peak-element) |
 | [0354-russian-doll-envelopes](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0354-russian-doll-envelopes) |
 | [0729-my-calendar-i](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0729-my-calendar-i) |
