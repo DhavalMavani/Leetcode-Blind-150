@@ -9,7 +9,7 @@ public:
             return;
         }
 
-        if(num > N) return;
+        if(num > N || K-path.size()>N-num+1 ) return;
        
         helper(num+1,path);
         path.emplace_back(num);
