@@ -154,6 +154,7 @@
 | [0057-insert-interval](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0057-insert-interval) |
 | [0063-unique-paths-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0063-unique-paths-ii) |
 | [0068-text-justification](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0068-text-justification) |
+| [0084-largest-rectangle-in-histogram](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0084-largest-rectangle-in-histogram) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0118-pascals-triangle](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0118-pascals-triangle) |
@@ -769,6 +770,7 @@
 | ------- |
 | [0020-valid-parentheses](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0042-trapping-rain-water) |
+| [0084-largest-rectangle-in-histogram](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0084-largest-rectangle-in-histogram) |
 | [0094-binary-tree-inorder-traversal](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0094-binary-tree-inorder-traversal) |
 | [0155-min-stack](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0173-binary-search-tree-iterator) |
@@ -833,6 +835,7 @@
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0042-trapping-rain-water) |
+| [0084-largest-rectangle-in-histogram](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0084-largest-rectangle-in-histogram) |
 ## Queue
 |  |
 | ------- |
