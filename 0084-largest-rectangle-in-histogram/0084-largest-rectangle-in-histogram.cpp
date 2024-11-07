@@ -7,10 +7,10 @@ public:
         for(int i=0;i<n;i++){
             int str=i;
             while(!st.empty() && heights[st.top()] > heights[i] ){
-                ans=max(ans,(i-st.top() )*heights[st.top()]);
                 str=st.top();
-                heights[str]=heights[i];
                 st.pop();
+                ans=max(ans,(i-str)*heights[str]);
+                heights[str]=heights[i];
             }
             st.emplace(str);
         }
