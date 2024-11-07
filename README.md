@@ -239,6 +239,7 @@
 |  |
 | ------- |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
+| [0069-sqrtx](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0069-sqrtx) |
 | [0162-find-peak-element](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0162-find-peak-element) |
 | [0354-russian-doll-envelopes](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0354-russian-doll-envelopes) |
 | [0729-my-calendar-i](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0729-my-calendar-i) |
@@ -481,6 +482,7 @@
 ## Math
 |  |
 | ------- |
+| [0069-sqrtx](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0070-climbing-stairs) |
 | [0166-fraction-to-recurring-decimal](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0166-fraction-to-recurring-decimal) |
 | [0168-excel-sheet-column-title](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0168-excel-sheet-column-title) |
