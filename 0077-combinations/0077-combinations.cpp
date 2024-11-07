@@ -10,7 +10,7 @@ public:
             return;
         }
 
-        for(int i=num; i <= N ;i++ ){
+        for(int i=num; i + K-path.size()-1 <= N ;i++ ){
             path.emplace_back(i);
             helper(i+1);
             path.pop_back();
