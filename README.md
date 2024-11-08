@@ -278,6 +278,7 @@
 | [0744-network-delay-time](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0744-network-delay-time) |
 | [0750-contain-virus](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0750-contain-virus) |
 | [0794-swim-in-rising-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0794-swim-in-rising-water) |
+| [0801-is-graph-bipartite](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0801-is-graph-bipartite) |
 | [0813-all-paths-from-source-to-target](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0813-all-paths-from-source-to-target) |
 | [0833-bus-routes](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0833-bus-routes) |
 | [0895-shortest-path-to-get-all-keys](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0895-shortest-path-to-get-all-keys) |
@@ -306,6 +307,7 @@
 | [0130-surrounded-regions](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0130-surrounded-regions) |
 | [0685-redundant-connection-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0685-redundant-connection-ii) |
 | [0794-swim-in-rising-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0794-swim-in-rising-water) |
+| [0801-is-graph-bipartite](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0801-is-graph-bipartite) |
 | [0960-minimize-malware-spread](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0960-minimize-malware-spread) |
 | [0964-minimize-malware-spread-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0964-minimize-malware-spread-ii) |
 | [1396-count-servers-that-communicate](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1396-count-servers-that-communicate) |
@@ -449,6 +451,7 @@
 | [0744-network-delay-time](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0744-network-delay-time) |
 | [0750-contain-virus](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0750-contain-virus) |
 | [0794-swim-in-rising-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0794-swim-in-rising-water) |
+| [0801-is-graph-bipartite](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0801-is-graph-bipartite) |
 | [0813-all-paths-from-source-to-target](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0813-all-paths-from-source-to-target) |
 | [0960-minimize-malware-spread](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0960-minimize-malware-spread) |
 | [0964-minimize-malware-spread-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0964-minimize-malware-spread-ii) |
@@ -609,6 +612,7 @@
 | [0332-reconstruct-itinerary](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0332-reconstruct-itinerary) |
 | [0685-redundant-connection-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0685-redundant-connection-ii) |
 | [0744-network-delay-time](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0744-network-delay-time) |
+| [0801-is-graph-bipartite](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0801-is-graph-bipartite) |
 | [0813-all-paths-from-source-to-target](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0813-all-paths-from-source-to-target) |
 | [0960-minimize-malware-spread](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0960-minimize-malware-spread) |
 | [0964-minimize-malware-spread-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0964-minimize-malware-spread-ii) |
