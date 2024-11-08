@@ -2,37 +2,24 @@ class Solution {
 public:
     int swimInWater(vector<vector<int>>& grid) {
         int n=grid.size();
-        int offset[]={0,-1,0,1,0};
-        vector<bool> time(n*n, false);
-        int maxh=grid[0][0], target=grid[n-1][n-1];
-        priority_queue <pair<int,pair<int,int>>,vector<pair<int,pair<int,int>>>,greater<pair<int,pair<int,int>>> > pq;
-        pq.push({grid[0][0],{0,0}});
-        time[grid[0][0]]=true;
+        vector<int> vis(n*n,false);
+        priority_queue< pair<int,int> , vector<pair<int,int>>, greater<pair<int,int>> >pq;
+        pq.push({grid[0][0],0});
+            vis[0]=true;
         while(!pq.empty()){
-            int node=pq.top().first;
-            int row=pq.top().second.first;
-            int col=pq.top().second.second;
+            auto [time,cell]=pq.top();
             pq.pop();
-            maxh=max(node,maxh);
-            if(node==target){
-                return maxh;
-            }
-            for(int k=0;k<4;k++){
-                int r=row+offset[k];
-                int c=col+offset[k+1];
-                if(r<0 || c<0 || r>=n || c>=n || time[grid[r][c]]){
-                    continue;
+            if(cell==n*n-1) return time;
+            int x=cell/n,y=cell%n;
+            int dirs[]={0,-1,0,1,0};
+            for(int i=0;i<4;i++){
+                int nx=x+dirs[i],ny=y+dirs[i+1], nc=nx*n+ny;
+                if(nx>=0 && ny>=0 && nx<n && ny<n && !vis[nc]){
+                    vis[nc]=true;
+                    pq.push({max(grid[nx][ny],time),nc});
                 }
-                pq.push({grid[r][c],{r,c}});
-                time[grid[r][c]]=true;
             }
-            
         }
-        return -1;
+        return 0;
     }
 };
-
-                
-                    
-                    
-                        
