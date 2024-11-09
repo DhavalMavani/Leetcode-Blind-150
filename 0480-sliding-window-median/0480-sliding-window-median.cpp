@@ -9,21 +9,18 @@ public:
         
         for(int i=0;i<k;i++) maxh.push(nums[i]);
 
-        for(int i=0;i<(k/2);i++) {
-            minh.push(maxh.top());
-            maxh.pop();
-        }
-        // always try to main the middle element on the top of maxh heap
-        // if we have even elements in both the heaps, median is avg of top of both heaps
+        for(int i=0;i<(k/2);i++) minh.push(maxh.top()),maxh.pop();
+
         for(int i=k;i<n;i++) {
             if(k&1) medians.push_back(maxh.top()*1.0);
             else medians.push_back(((double)maxh.top()+(double)minh.top())/2);
 
             int p=nums[i-k], q=nums[i]; 
             // we need to remove p and add q;
-            // we will delete p when it will come on the top
-            // to keep track we will maintain map
-            int balance = 0; // keep heaps in balance, for correct ans
+            // we will delete p when it will come on the top, to keep track we will maintain map
+            
+            int balance = 0; 
+            // keep heaps in balance, for correct ans
             // we decrese balance when remove elements from maxh, so basically if balance<0 it means maxheap has lesser elemets the minheap
             // removing p or adding p to map to delete it later
             if(p<=maxh.top()) { // p is in maxheap
@@ -38,36 +35,19 @@ public:
             }
             
             // inserting q to the right heap
-            if(!maxh.empty() and q<=maxh.top()) { // pushing q to maxheap
-                maxh.push(q);
-                balance++;
-            }
-            else { // pushing q to minheap
-                minh.push(q);
-                balance--;
-            }
+            if(!maxh.empty() and q<=maxh.top()) maxh.push(q),balance++; // pushing q to maxheap
+            else minh.push(q),balance--; // pushing q to minheap
             
             // balancing both the heaps
-            if(balance<0) {
-                maxh.push(minh.top());
-                minh.pop();
-            }
-            else if(balance>0) {
-                minh.push(maxh.top());
-                maxh.pop();
-            }
+            if(balance<0) maxh.push(minh.top()), minh.pop();
+            else if(balance>0) minh.push(maxh.top()),maxh.pop();
             
             // removing top elements if they exist in our map(late deletion)
-            while(!maxh.empty() and mp[maxh.top()]) {
-                mp[maxh.top()]--;
-                maxh.pop();
-            }
-            while(!minh.empty() and mp[minh.top()]) {
-                mp[minh.top()]--;
-                minh.pop();
-            }
+            while(!maxh.empty() and mp[maxh.top()]) mp[maxh.top()]--,maxh.pop();
+
+            while(!minh.empty() and mp[minh.top()]) mp[minh.top()]--,minh.pop();
         }
-        
+
         if(k&1) medians.push_back(maxh.top()*1.0);
         else medians.push_back(((double)maxh.top()+(double)minh.top())/2.0);
 
