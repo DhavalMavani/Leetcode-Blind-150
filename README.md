@@ -344,6 +344,7 @@
 | ------- |
 | [0895-shortest-path-to-get-all-keys](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0895-shortest-path-to-get-all-keys) |
 | [1418-fair-distribution-of-cookies](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1418-fair-distribution-of-cookies) |
+| [3394-minimum-array-end](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3394-minimum-array-end) |
 | [3560-maximum-number-of-moves-to-kill-all-pawns](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3560-maximum-number-of-moves-to-kill-all-pawns) |
 ## Hash Table
 |  |
