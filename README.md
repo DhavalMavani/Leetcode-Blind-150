@@ -357,6 +357,7 @@
 | [0126-word-ladder-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0128-longest-consecutive-sequence) |
+| [0146-lru-cache](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0146-lru-cache) |
 | [0166-fraction-to-recurring-decimal](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0166-fraction-to-recurring-decimal) |
 | [0205-isomorphic-strings](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0205-isomorphic-strings) |
 | [0229-majority-element-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0229-majority-element-ii) |
@@ -575,6 +576,7 @@
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0173-binary-search-tree-iterator) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0211-design-add-and-search-words-data-structure) |
@@ -848,6 +850,7 @@
 |  |
 | ------- |
 | [0061-rotate-list](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0061-rotate-list) |
+| [0146-lru-cache](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0146-lru-cache) |
 ## Simulation
 |  |
 | ------- |
@@ -894,4 +897,8 @@
 |  |
 | ------- |
 | [0274-h-index](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0274-h-index) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
