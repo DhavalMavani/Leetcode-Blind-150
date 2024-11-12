@@ -1,15 +1,16 @@
 class Solution {
 public:
     vector<int> cycleLengthQueries(int n, vector<vector<int>>& queries) {
-        vector<int> ans;
-        for(auto &i: queries){
-            int a=i[0],b=i[1],steps=1;
-            while(a!=b){
-                if(a>b) a/=2;
-                else b/=2;
+        int s=queries.size();
+        vector<int> ans(s);
+        for(int i=0;i<s;i++){
+            int steps=1;
+            while(queries[i][0]!=queries[i][1]){
+                if(queries[i][0]>queries[i][1]) queries[i][0]/=2;
+                else queries[i][1]/=2;
                 steps++;
             }
-            ans.emplace_back(steps);
+            ans[i]=steps;
         }
         return ans;
     }
