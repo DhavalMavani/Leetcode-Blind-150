@@ -2,7 +2,6 @@ class Node{
 public:
     int val,key;
     Node *next, *prev;
-    Node(){ next=NULL,prev=NULL;}
     Node(int v,int k){key=k,val=v, next=NULL,prev=NULL;}
     Node(int v,int k,Node *p,Node *n){key=k,val=v, next=n,prev=p;}
 };
