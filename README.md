@@ -154,6 +154,7 @@
 | [0057-insert-interval](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0057-insert-interval) |
 | [0063-unique-paths-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0063-unique-paths-ii) |
 | [0068-text-justification](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0068-text-justification) |
+| [0073-set-matrix-zeroes](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0073-set-matrix-zeroes) |
 | [0084-largest-rectangle-in-histogram](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0084-largest-rectangle-in-histogram) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
@@ -324,6 +325,7 @@
 |  |
 | ------- |
 | [0063-unique-paths-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0063-unique-paths-ii) |
+| [0073-set-matrix-zeroes](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0073-set-matrix-zeroes) |
 | [0130-surrounded-regions](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0130-surrounded-regions) |
 | [0212-word-search-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0212-word-search-ii) |
 | [0407-trapping-rain-water-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0407-trapping-rain-water-ii) |
@@ -352,6 +354,7 @@
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0030-substring-with-concatenation-of-all-words) |
+| [0073-set-matrix-zeroes](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0126-word-ladder-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0126-word-ladder-ii) |
