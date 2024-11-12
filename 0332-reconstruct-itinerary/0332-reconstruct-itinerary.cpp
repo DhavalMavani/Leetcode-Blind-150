@@ -15,6 +15,6 @@ public:
         for(auto &i: tickets) adj[i[0]].emplace_back(i[1]);
         dfs("JFK");
         reverse(ans.begin(),ans.end());
-        return ans;    
+        return ans;
     }
 };
