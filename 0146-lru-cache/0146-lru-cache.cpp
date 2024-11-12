@@ -25,10 +25,8 @@ public:
         if(!ump.count(key)) return -1;
 
         Node* n=ump[key];
-        Node* tempP=n->prev;
-        Node* tempN=n->next;
-        tempP->next=tempN;
-        tempN->prev=tempP;
+        n->prev->next=n->next;
+        n->next->prev=n->prev;
 
         mr->prev->next=n;
         n->prev=mr->prev;
@@ -42,10 +40,8 @@ public:
         if( ump.count(key) ){
 
             Node* n=ump[key];
-            Node* tempP=n->prev;
-            Node* tempN=n->next;
-            tempP->next=tempN;
-            tempN->prev=tempP;
+            n->prev->next=n->next;
+            n->next->prev=n->prev;
 
             mr->prev->next=n;
             n->prev=mr->prev;
