@@ -1,22 +1,20 @@
 class Solution {
 public:
-    void dfs(unordered_map<string, vector<string>> &m, string airport, vector<string>& result) {
-        while (!m[airport].empty()) {
-            string next = m[airport].back();
-            m[airport].pop_back();
-            dfs(m, next, result);
+    vector<string> ans;
+    unordered_map<string,vector<string>> adj;
+    void dfs(string airport){
+        while(!adj[airport].empty()){
+            string t=adj[airport][adj[airport].size()-1];
+            adj[airport].pop_back();
+            dfs(t);
         }
-        result.push_back(airport);
+        ans.emplace_back(airport);
     }
-
     vector<string> findItinerary(vector<vector<string>>& tickets) {
-        sort(tickets.begin(),tickets.end());
-        unordered_map<string, vector<string>> m;
-        for (int i = tickets.size()-1; i >=0 ; i--) m[tickets[i][0]].push_back(tickets[i][1]);
-        
-        vector<string> result;
-        dfs(m, "JFK", result);
-        reverse(result.begin(), result.end());
-        return result;
+        sort(tickets.begin(),tickets.end(),greater<>());
+        for(auto &i: tickets) adj[i[0]].emplace_back(i[1]);
+        dfs("JFK");
+        reverse(ans.begin(),ans.end());
+        return ans;    
     }
 };
