@@ -563,6 +563,7 @@
 | [1777-determine-if-two-strings-are-close](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1777-determine-if-two-strings-are-close) |
 | [2532-remove-letter-to-equalize-frequency](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2532-remove-letter-to-equalize-frequency) |
 | [3376-longest-common-suffix-queries](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3376-longest-common-suffix-queries) |
+| [3636-check-balanced-string](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3636-check-balanced-string) |
 ## Tree
 |  |
 | ------- |
