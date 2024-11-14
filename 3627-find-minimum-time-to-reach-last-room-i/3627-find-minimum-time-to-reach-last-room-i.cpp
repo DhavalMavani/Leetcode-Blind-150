@@ -4,13 +4,13 @@ public:
         int r=moveTime.size(),c=moveTime[0].size();
         vector<vector<bool>> vis(r,vector<bool>(c,false));
         
-        priority_queue<pair<int,int>,vector<pair<int,int>>, greater<pair<int,int>> >pq;
+        priority_queue<vector<int>,vector<vector<int>>, greater<vector<int>> >pq;
         pq.push({0,0});
         vis[0][0]=1;
         int dirs[]={0,1,0,-1,0};
 
         while(!pq.empty()){
-            auto [time,cell]=pq.top();
+            int time=pq.top()[0],cell=pq.top()[1];
             pq.pop();
             if(cell==r*c-1) return time;
             int x=cell/c,y=cell%c;
