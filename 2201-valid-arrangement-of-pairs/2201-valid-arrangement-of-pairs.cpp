@@ -1,13 +1,13 @@
 class Solution {
 public:
     vector<vector<int>> ans;
-    unordered_map<int,vector<int>> adj;
+    unordered_map<int,stack<int>> adj;
     unordered_map<int,int> out;
 
     void dfs(int node){
         while(!adj[node].empty() ){
-            int nxt=adj[node].back();
-            adj[node].pop_back();
+            int nxt=adj[node].top();
+            adj[node].pop();
             dfs(nxt);
             ans.push_back({node,nxt});
         }
@@ -15,7 +15,7 @@ public:
     vector<vector<int>> validArrangement(vector<vector<int>>& pairs) {
         unordered_map<int,int> in;
         for(auto &i: pairs){
-            adj[i[0]].emplace_back(i[1]);
+            adj[i[0]].emplace(i[1]);
             in[i[1]]++;
             out[i[0]]++;
         }
