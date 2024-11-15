@@ -474,6 +474,7 @@
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1753-path-with-minimum-effort](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1753-path-with-minimum-effort) |
 | [2121-find-if-path-exists-in-graph](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2121-find-if-path-exists-in-graph) |
+| [2201-valid-arrangement-of-pairs](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2201-valid-arrangement-of-pairs) |
 | [2568-minimum-fuel-cost-to-report-to-the-capital](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2568-minimum-fuel-cost-to-report-to-the-capital) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2677-cousins-in-binary-tree-ii) |
 | [2739-minimize-the-total-price-of-the-trips](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2739-minimize-the-total-price-of-the-trips) |
@@ -642,6 +643,7 @@
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
 | [2121-find-if-path-exists-in-graph](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2121-find-if-path-exists-in-graph) |
 | [2176-parallel-courses-iii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2176-parallel-courses-iii) |
+| [2201-valid-arrangement-of-pairs](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2201-valid-arrangement-of-pairs) |
 | [2505-number-of-good-paths](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2505-number-of-good-paths) |
 | [2568-minimum-fuel-cost-to-report-to-the-capital](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2568-minimum-fuel-cost-to-report-to-the-capital) |
 | [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
@@ -665,6 +667,7 @@
 |  |
 | ------- |
 | [0332-reconstruct-itinerary](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0332-reconstruct-itinerary) |
+| [2201-valid-arrangement-of-pairs](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2201-valid-arrangement-of-pairs) |
 ## Topological Sort
 |  |
 | ------- |
