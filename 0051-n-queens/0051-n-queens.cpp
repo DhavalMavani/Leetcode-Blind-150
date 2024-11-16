@@ -1,7 +1,6 @@
 class Solution {
 private:
-    void NQueens(int n,vector<string> board,int col,
-                vector <bool> leftRow,vector <bool> upperLeftDiagonal,vector <bool> lowerLeftDiagonal)
+    void NQueens(int n,vector<string> &board,int col,vector <bool> &leftRow,vector <bool> &upperLeftDiagonal,vector <bool> &lowerLeftDiagonal)
     {
         if(col==n){
             ans.emplace_back(board);
