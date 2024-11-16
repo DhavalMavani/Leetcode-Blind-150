@@ -150,6 +150,7 @@
 | [0031-next-permutation](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0031-next-permutation) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0042-trapping-rain-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0042-trapping-rain-water) |
+| [0051-n-queens](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0051-n-queens) |
 | [0055-jump-game](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0055-jump-game) |
 | [0057-insert-interval](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0057-insert-interval) |
 | [0063-unique-paths-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0063-unique-paths-ii) |
@@ -657,6 +658,7 @@
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0051-n-queens](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0051-n-queens) |
 | [0077-combinations](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0077-combinations) |
 | [0113-path-sum-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0113-path-sum-ii) |
 | [0126-word-ladder-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0126-word-ladder-ii) |
