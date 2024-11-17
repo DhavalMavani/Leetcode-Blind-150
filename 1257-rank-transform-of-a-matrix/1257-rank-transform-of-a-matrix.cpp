@@ -41,16 +41,15 @@ public:
         vector<vector<int>> ans(n,vector<int>(m));
         vector<int> row(n,0),col(m,0);
         vector<int> rank(m+n);
+
         for(auto &it:mp){
             DisjointSet ds(n+m); 
-            vector<pair<int,int>> v=it.second;
 
-            for(auto &i: v) ds.unionBySize(i.first,i.second+n);
+            for(auto &i: it.second) ds.unionBySize(i.first,i.second+n);
 
-            for(auto &i: v) rank[ds.findUPar(i.first)]=max(rank[ds.findUPar(i.first)],max(row[i.first],col[i.second])); 
+            for(auto &i: it.second) rank[ds.findUPar(i.first)]=max(rank[ds.findUPar(i.first)],max(row[i.first],col[i.second])); 
 
-            for(auto &i: v) ans[i.first][i.second]=row[i.first]=col[i.second]=rank[ds.findUPar(i.first)]+1;
-
+            for(auto &i: it.second) ans[i.first][i.second]=row[i.first]=col[i.second]=rank[ds.findUPar(i.first)]+1;
         }
         return ans;
     }
