@@ -508,6 +508,7 @@
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0050-powx-n) |
+| [0060-permutation-sequence](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0060-permutation-sequence) |
 | [0069-sqrtx](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0070-climbing-stairs) |
 | [0166-fraction-to-recurring-decimal](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0166-fraction-to-recurring-decimal) |
@@ -732,6 +733,7 @@
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0050-powx-n) |
+| [0060-permutation-sequence](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0060-permutation-sequence) |
 | [0486-predict-the-winner](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0486-predict-the-winner) |
 ## Game Theory
 |  |
