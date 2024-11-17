@@ -42,7 +42,7 @@ public:
         vector<int> row(n,0),col(m,0);
         vector<int> rank(m+n);
         for(auto &it:mp){
-            DisjointSet ds(n+m+1); 
+            DisjointSet ds(n+m); 
             vector<pair<int,int>> v=it.second;
             for(int i=0;i<v.size();i++) ds.unionBySize(v[i].first,v[i].second+n);
 
