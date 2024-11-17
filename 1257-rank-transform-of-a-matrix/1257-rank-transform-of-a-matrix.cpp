@@ -41,18 +41,15 @@ public:
         vector<vector<int>> ans(n,vector<int>(m));
         vector<int> row(n,0),col(m,0);
         vector<int> rank(m+n);
-        for(auto it:mp){
-            DisjointSet ds(1005); 
+        for(auto &it:mp){
+            DisjointSet ds(n+m+1); 
             vector<pair<int,int>> v=it.second;
-            for(int i=0;i<v.size();i++){
-                ds.unionBySize(v[i].first,v[i].second+n);
-            } 
-            for(int i=0;i<v.size();i++){
-                rank[ds.findUPar(v[i].first)]=max(rank[ds.findUPar(v[i].first)],max(row[v[i].first],col[v[i].second])); 
-            }
-            for(int i=0;i<v.size();i++){
-                ans[v[i].first][v[i].second]=row[v[i].first]=col[v[i].second]=rank[ds.findUPar(v[i].first)]+1;
-            }
+            for(int i=0;i<v.size();i++) ds.unionBySize(v[i].first,v[i].second+n);
+
+            for(int i=0;i<v.size();i++) rank[ds.findUPar(v[i].first)]=max(rank[ds.findUPar(v[i].first)],max(row[v[i].first],col[v[i].second])); 
+
+            for(int i=0;i<v.size();i++) ans[v[i].first][v[i].second]=row[v[i].first]=col[v[i].second]=rank[ds.findUPar(v[i].first)]+1;
+
         }
         return ans;
     }
