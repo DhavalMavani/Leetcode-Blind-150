@@ -208,6 +208,7 @@
 | [1087-longest-arithmetic-subsequence](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1087-longest-arithmetic-subsequence) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1240-stone-game-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1240-stone-game-ii) |
+| [1257-rank-transform-of-a-matrix](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1257-rank-transform-of-a-matrix) |
 | [1290-make-array-strictly-increasing](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1290-make-array-strictly-increasing) |
 | [1294-range-frequency-queries](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1294-range-frequency-queries) |
 | [1322-minimum-moves-to-reach-target-with-rotations](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1322-minimum-moves-to-reach-target-with-rotations) |
@@ -316,6 +317,7 @@
 | [0801-is-graph-bipartite](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0801-is-graph-bipartite) |
 | [0960-minimize-malware-spread](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0960-minimize-malware-spread) |
 | [0964-minimize-malware-spread-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0964-minimize-malware-spread-ii) |
+| [1257-rank-transform-of-a-matrix](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1257-rank-transform-of-a-matrix) |
 | [1396-count-servers-that-communicate](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1396-count-servers-that-communicate) |
 | [1692-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1692-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
@@ -339,6 +341,7 @@
 | [0895-shortest-path-to-get-all-keys](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0895-shortest-path-to-get-all-keys) |
 | [0945-snakes-and-ladders](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0945-snakes-and-ladders) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1257-rank-transform-of-a-matrix](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1257-rank-transform-of-a-matrix) |
 | [1322-minimum-moves-to-reach-target-with-rotations](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1322-minimum-moves-to-reach-target-with-rotations) |
 | [1396-count-servers-that-communicate](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1396-count-servers-that-communicate) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
@@ -642,6 +645,7 @@
 | [0960-minimize-malware-spread](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0960-minimize-malware-spread) |
 | [0964-minimize-malware-spread-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0964-minimize-malware-spread-ii) |
 | [1229-shortest-path-with-alternating-colors](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1229-shortest-path-with-alternating-colors) |
+| [1257-rank-transform-of-a-matrix](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1257-rank-transform-of-a-matrix) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
@@ -680,6 +684,7 @@
 | ------- |
 | [0210-course-schedule-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0210-course-schedule-ii) |
 | [0310-minimum-height-trees](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0310-minimum-height-trees) |
+| [1257-rank-transform-of-a-matrix](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1257-rank-transform-of-a-matrix) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [2176-parallel-courses-iii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2176-parallel-courses-iii) |
 ## Greedy
@@ -712,6 +717,7 @@
 | [0630-course-schedule-iii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0630-course-schedule-iii) |
 | [0646-maximum-length-of-pair-chain](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0646-maximum-length-of-pair-chain) |
 | [0692-top-k-frequent-words](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0692-top-k-frequent-words) |
+| [1257-rank-transform-of-a-matrix](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1257-rank-transform-of-a-matrix) |
 | [1290-make-array-strictly-increasing](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1290-make-array-strictly-increasing) |
 | [1397-search-suggestions-system](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1397-search-suggestions-system) |
 | [1777-determine-if-two-strings-are-close](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1777-determine-if-two-strings-are-close) |
