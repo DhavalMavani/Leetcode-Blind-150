@@ -44,11 +44,12 @@ public:
         for(auto &it:mp){
             DisjointSet ds(n+m); 
             vector<pair<int,int>> v=it.second;
-            for(int i=0;i<v.size();i++) ds.unionBySize(v[i].first,v[i].second+n);
 
-            for(int i=0;i<v.size();i++) rank[ds.findUPar(v[i].first)]=max(rank[ds.findUPar(v[i].first)],max(row[v[i].first],col[v[i].second])); 
+            for(auto &i: v) ds.unionBySize(i.first,i.second+n);
 
-            for(int i=0;i<v.size();i++) ans[v[i].first][v[i].second]=row[v[i].first]=col[v[i].second]=rank[ds.findUPar(v[i].first)]+1;
+            for(auto &i: v) rank[ds.findUPar(i.first)]=max(rank[ds.findUPar(i.first)],max(row[i.first],col[i.second])); 
+
+            for(auto &i: v) ans[i.first][i.second]=row[i.first]=col[i.second]=rank[ds.findUPar(i.first)]+1;
 
         }
         return ans;
