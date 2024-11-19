@@ -220,6 +220,7 @@
 | [1451-minimum-number-of-taps-to-open-to-water-a-garden](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1451-minimum-number-of-taps-to-open-to-water-a-garden) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1522-stone-game-iii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1522-stone-game-iii) |
+| [1582-design-browser-history](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1582-design-browser-history) |
 | [1685-stone-game-v](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1685-stone-game-v) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1692-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1692-number-of-ways-to-reorder-array-to-get-same-bst) |
@@ -618,6 +619,7 @@
 | [0746-prefix-and-suffix-search](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0746-prefix-and-suffix-search) |
 | [1294-range-frequency-queries](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1294-range-frequency-queries) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1497-design-a-stack-with-increment-operation) |
+| [1582-design-browser-history](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1582-design-browser-history) |
 | [1708-design-parking-system](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1708-design-parking-system) |
 | [2429-design-a-food-rating-system](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2429-design-a-food-rating-system) |
 | [2512-longest-uploaded-prefix](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2512-longest-uploaded-prefix) |
@@ -830,6 +832,7 @@
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0295-find-median-from-data-stream) |
+| [1582-design-browser-history](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1582-design-browser-history) |
 ## Stack
 |  |
 | ------- |
@@ -842,6 +845,7 @@
 | [0173-binary-search-tree-iterator](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0173-binary-search-tree-iterator) |
 | [1017-odd-even-jump](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1017-odd-even-jump) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1497-design-a-stack-with-increment-operation) |
+| [1582-design-browser-history](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1582-design-browser-history) |
 ## Iterator
 |  |
 | ------- |
@@ -894,6 +898,7 @@
 | ------- |
 | [0061-rotate-list](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0061-rotate-list) |
 | [0146-lru-cache](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0146-lru-cache) |
+| [1582-design-browser-history](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1582-design-browser-history) |
 ## Simulation
 |  |
 | ------- |
@@ -944,4 +949,5 @@
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0146-lru-cache) |
+| [1582-design-browser-history](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1582-design-browser-history) |
 <!---LeetCode Topics End-->
