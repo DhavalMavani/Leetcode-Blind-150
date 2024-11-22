@@ -41,11 +41,8 @@ public:
                 else curr=curr->left;
             }
         }
-
         return ans;
-
     }
-
 };
 
 class Solution {
