@@ -9,7 +9,7 @@ public:
     TrieNode* root;
     Trie(){root=new TrieNode();}
 
-    void insert(int num){
+    void insert(int &num){
         TrieNode* curr=root;
 
         for(int i=31;i>=0;i--){
@@ -23,7 +23,7 @@ public:
         }
     }
 
-    int maxXOR(int num){
+    int maxXOR(int &num){
         TrieNode* curr=root;
         int ans=0;
         for(int i=31;i>=0;i--){
