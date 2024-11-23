@@ -5,7 +5,7 @@
 class Solution {
 public:
     int countPrimes(int n) {
-        vector<bool> arr(n,false);
+        vector<bool> arr(n);
         int ans=0;
 
         for(int i=2;i<n;i++){
