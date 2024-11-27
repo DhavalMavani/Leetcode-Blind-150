@@ -146,6 +146,7 @@
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0011-container-with-most-water) |
 | [0027-remove-element](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0027-remove-element) |
 | [0031-next-permutation](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0031-next-permutation) |
@@ -374,6 +375,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0001-two-sum) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0073-set-matrix-zeroes](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0073-set-matrix-zeroes) |
