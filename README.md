@@ -147,6 +147,7 @@
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0011-container-with-most-water) |
+| [0027-remove-element](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0027-remove-element) |
 | [0031-next-permutation](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0031-next-permutation) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0042-trapping-rain-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0042-trapping-rain-water) |
@@ -829,6 +830,7 @@
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0011-container-with-most-water) |
+| [0027-remove-element](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0027-remove-element) |
 | [0031-next-permutation](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0061-rotate-list) |
