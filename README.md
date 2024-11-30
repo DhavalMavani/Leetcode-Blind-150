@@ -291,6 +291,7 @@
 | [0322-coin-change](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0322-coin-change) |
 | [0365-water-and-jug-problem](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0365-water-and-jug-problem) |
 | [0407-trapping-rain-water-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0407-trapping-rain-water-ii) |
+| [0514-freedom-trail](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0514-freedom-trail) |
 | [0542-01-matrix](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0542-01-matrix) |
 | [0685-redundant-connection-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0685-redundant-connection-ii) |
 | [0695-max-area-of-island](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0695-max-area-of-island) |
@@ -437,6 +438,7 @@
 | [0472-concatenated-words](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0472-concatenated-words) |
 | [0486-predict-the-winner](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0486-predict-the-winner) |
 | [0494-target-sum](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0494-target-sum) |
+| [0514-freedom-trail](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0514-freedom-trail) |
 | [0516-longest-palindromic-subsequence](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0542-01-matrix) |
@@ -486,6 +488,7 @@
 | [0365-water-and-jug-problem](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0365-water-and-jug-problem) |
 | [0437-path-sum-iii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0437-path-sum-iii) |
 | [0472-concatenated-words](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0472-concatenated-words) |
+| [0514-freedom-trail](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0514-freedom-trail) |
 | [0685-redundant-connection-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0685-redundant-connection-ii) |
 | [0695-max-area-of-island](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0695-max-area-of-island) |
 | [0744-network-delay-time](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0744-network-delay-time) |
@@ -588,6 +591,7 @@
 | [0443-string-compression](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0443-string-compression) |
 | [0451-sort-characters-by-frequency](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0451-sort-characters-by-frequency) |
 | [0472-concatenated-words](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0472-concatenated-words) |
+| [0514-freedom-trail](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0514-freedom-trail) |
 | [0516-longest-palindromic-subsequence](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0516-longest-palindromic-subsequence) |
 | [0692-top-k-frequent-words](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0692-top-k-frequent-words) |
 | [0746-prefix-and-suffix-search](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0746-prefix-and-suffix-search) |
