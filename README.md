@@ -842,6 +842,7 @@
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0011-container-with-most-water) |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0027-remove-element](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0027-remove-element) |
 | [0031-next-permutation](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0042-trapping-rain-water) |
@@ -930,6 +931,7 @@
 ## Linked List
 |  |
 | ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0061-rotate-list](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0061-rotate-list) |
 | [0146-lru-cache](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0146-lru-cache) |
 | [1582-design-browser-history](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1582-design-browser-history) |
