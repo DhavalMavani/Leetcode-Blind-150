@@ -9,10 +9,9 @@ private:
         if(int(s[index]-'0')==0) return 0;
 
         int a=decode(s,index+1,dp);
-        int b=0;
-        if(index+1<s.size() && stoi(s.substr(index,2))<=26) b=decode(s,index+2,dp);
+        if(index+1<s.size() && stoi(s.substr(index,2))<=26) a+=decode(s,index+2,dp);
         
-        return dp[index]=a+b;
+        return dp[index]=a;
     }
 public:
     vector <vector<int>> ans;
