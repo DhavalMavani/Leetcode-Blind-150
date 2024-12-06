@@ -321,6 +321,7 @@
 | [2914-find-the-safest-path-in-a-grid](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2914-find-the-safest-path-in-a-grid) |
 | [3092-minimum-moves-to-spread-stones-over-grid](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3092-minimum-moves-to-spread-stones-over-grid) |
 | [3560-maximum-number-of-moves-to-kill-all-pawns](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3560-maximum-number-of-moves-to-kill-all-pawns) |
+| [3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
 ## Union Find
 |  |
 | ------- |
@@ -511,6 +512,7 @@
 | [2568-minimum-fuel-cost-to-report-to-the-capital](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2568-minimum-fuel-cost-to-report-to-the-capital) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2677-cousins-in-binary-tree-ii) |
 | [2739-minimize-the-total-price-of-the-trips](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2739-minimize-the-total-price-of-the-trips) |
+| [3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -625,6 +627,7 @@
 | [2597-cycle-length-queries-in-a-tree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2597-cycle-length-queries-in-a-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2677-cousins-in-binary-tree-ii) |
 | [2739-minimize-the-total-price-of-the-trips](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2739-minimize-the-total-price-of-the-trips) |
+| [3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
 ## Design
 |  |
 | ------- |
