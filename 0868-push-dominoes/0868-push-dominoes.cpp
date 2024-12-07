@@ -35,9 +35,8 @@ public:
         }
 
         for(int i=0;i<n;i++){
-            if(prevL[i]==prevR[i]) continue;
-            else if(prevL[i]<prevR[i] ) dominoes[i]='L';
-            else dominoes[i]='R';
+            if(prevL[i]<prevR[i] ) dominoes[i]='L';
+            else if(prevL[i]>prevR[i]) dominoes[i]='R';
         }
 
         return dominoes;        
