@@ -159,6 +159,7 @@
 | [0068-text-justification](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0068-text-justification) |
 | [0073-set-matrix-zeroes](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0073-set-matrix-zeroes) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
+| [0081-search-in-rotated-sorted-array-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0084-largest-rectangle-in-histogram) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
@@ -258,6 +259,7 @@
 | ------- |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0069-sqrtx](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0069-sqrtx) |
+| [0081-search-in-rotated-sorted-array-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0162-find-peak-element](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0162-find-peak-element) |
 | [0354-russian-doll-envelopes](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0354-russian-doll-envelopes) |
 | [0729-my-calendar-i](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0729-my-calendar-i) |
