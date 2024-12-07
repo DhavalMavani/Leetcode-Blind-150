@@ -7,10 +7,7 @@ public:
             int mid=(l+r)/2;
             if(nums[mid]==target) return true;
 
-            if(nums[mid] == nums[l] && nums[mid] == nums[r]) {
-                l++;
-                r--;
-            }
+            if(nums[mid] == nums[l] && nums[mid] == nums[r]) l++,r--;
             else if(nums[l]<=nums[mid]){
                 // left array is sorted
                 if(target<nums[l] || target>nums[mid] ) l=mid+1;
@@ -18,7 +15,7 @@ public:
             }
             else{
                 // right array is sorted
-                if(target>nums[r] || target<nums[mid]  ) r=mid-1;
+                if(target>nums[r] || target<nums[mid] ) r=mid-1;
                 else l=mid+1;
             }
         }
