@@ -1,45 +1,45 @@
 class Solution {
 public:
-    string pushDominoes(string dom) {
-        int n=dom.size();
-        
-        string dominoes=dom;
-        vector<bool> vis(n,false);
-        queue<int> q;
+    string pushDominoes(string dominoes) {
+        int n=dominoes.size();
+
+        vector<int> prevL(n,1e9);
+        vector<int> prevR(n,1e9);
+
+
+        int time=0;
+        char prev='.';
+
         for(int i=0;i<n;i++){
-            if(dominoes[i]=='L' || dominoes[i]=='R'){
-                q.push(i);
-                vis[i]=true;
+            if(dominoes[i]=='R'){
+                prevR[i]=0;
+                prev='R';
+                time=1;
+            }else if(prev=='R' && dominoes[i]=='.'){
+                prevR[i]=time;
+                time++;
             }
+            else if(dominoes[i]=='L') prev='L';
+        }
+        prev='.';
+        for(int i=n-1;i>=0;i--){
+            if(dominoes[i]=='L'){
+                prevL[i]=0;
+                prev='L';
+                time=1;
+            }else if(prev=='L' && dominoes[i]=='.'){
+                prevL[i]=time;
+                time++;
+            }
+            else if(dominoes[i]=='R') prev='R';
         }
 
-        while(!q.empty()){
-            int s=q.size();
-
-            for(int i=0;i<s;i++){
-                int ind=q.front();
-                q.pop();
-
-                if(dominoes[ind]=='R' && ind+1<n && !vis[ind+1]){
-                    if(ind+2>=n ||  dominoes[ind+2]!='L'){
-                        dom[ind+1]='R';
-                        vis[ind+1]=true;
-                        q.emplace(ind+1);
-                    }
-                }
-
-                if(dominoes[ind]=='L' && ind-1>=0 && !vis[ind-1]){
-                    if(ind-2<0 ||  dominoes[ind-2]!='R'){
-                        dom[ind-1]='L';
-                        vis[ind-1]=true;
-                        q.emplace(ind-1);
-                    }
-                }
-                
-
-            }
-            dominoes=dom;
+        for(int i=0;i<n;i++){
+            if(prevL[i]==prevR[i]) continue;
+            else if(prevL[i]<prevR[i] ) dominoes[i]='L';
+            else dominoes[i]='R';
         }
-        return dom;
+
+        return dominoes;        
     }
 };
