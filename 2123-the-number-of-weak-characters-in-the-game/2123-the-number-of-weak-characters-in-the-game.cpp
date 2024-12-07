@@ -1,20 +1,37 @@
 class Solution {
 public:
-    static bool comp(vector<int> &v1,vector<int> &v2){
-        if(v1[0]==v2[0]) return v1[1]<v2[1];
-        return v1[0]>v2[0];
-    }
-
 
     int numberOfWeakCharacters(vector<vector<int>>& properties) {
-        sort(properties.begin(),properties.end(),comp);
-        int n=properties.size(),ans=0, defense=properties[0][1];
+        unordered_map<int, vector<int>> bucket;
+        int min_atk = INT_MAX;
+        int max_atk = INT_MIN;
 
-        for(int i=0;i<n;i++){
-            if(properties[i][1]<defense) ans++;
-            else defense=properties[i][1];
+        // Group the defense values by attack values and find min and max attack values
+        for (const auto &prop : properties) {
+            int attack = prop[0], defense = prop[1];
+            bucket[attack].push_back(defense);
+            min_atk = min(min_atk, attack);
+            max_atk = max(max_atk, attack);
         }
 
-        return ans;
+        int count = 0;
+        int max_def = -1;
+
+        // Iterate from max attack to min attack
+        for (int i = max_atk; i >= min_atk; --i) {
+            if (bucket.find(i) == bucket.end()) continue;
+
+            // Count the number of properties with defense less than max_def
+            for (int defense : bucket[i]) {
+                if (defense < max_def) {
+                    count++;
+                }
+            }
+
+            // Update max_def with the maximum defense value in the current bucket
+            max_def = max(max_def, *max_element(bucket[i].begin(), bucket[i].end()));
+        }
+
+        return count;
     }
 };
