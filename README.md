@@ -201,6 +201,7 @@
 | [0746-prefix-and-suffix-search](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0746-prefix-and-suffix-search) |
 | [0750-contain-virus](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0750-contain-virus) |
 | [0794-swim-in-rising-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0794-swim-in-rising-water) |
+| [0802-k-th-smallest-prime-fraction](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0802-k-th-smallest-prime-fraction) |
 | [0833-bus-routes](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0833-bus-routes) |
 | [0895-shortest-path-to-get-all-keys](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0895-shortest-path-to-get-all-keys) |
 | [0909-stone-game](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0909-stone-game) |
@@ -267,6 +268,7 @@
 | [0731-my-calendar-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0731-my-calendar-ii) |
 | [0732-my-calendar-iii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0732-my-calendar-iii) |
 | [0794-swim-in-rising-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0794-swim-in-rising-water) |
+| [0802-k-th-smallest-prime-fraction](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0802-k-th-smallest-prime-fraction) |
 | [1087-longest-arithmetic-subsequence](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1087-longest-arithmetic-subsequence) |
 | [1290-make-array-strictly-increasing](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1290-make-array-strictly-increasing) |
 | [1294-range-frequency-queries](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1294-range-frequency-queries) |
@@ -537,6 +539,7 @@
 | [0692-top-k-frequent-words](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0692-top-k-frequent-words) |
 | [0744-network-delay-time](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0744-network-delay-time) |
 | [0794-swim-in-rising-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0794-swim-in-rising-water) |
+| [0802-k-th-smallest-prime-fraction](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0802-k-th-smallest-prime-fraction) |
 | [1397-search-suggestions-system](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1397-search-suggestions-system) |
 | [1753-path-with-minimum-effort](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1753-path-with-minimum-effort) |
 | [1762-furthest-building-you-can-reach](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1762-furthest-building-you-can-reach) |
@@ -773,6 +776,7 @@
 | [0630-course-schedule-iii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0630-course-schedule-iii) |
 | [0646-maximum-length-of-pair-chain](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0646-maximum-length-of-pair-chain) |
 | [0692-top-k-frequent-words](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0692-top-k-frequent-words) |
+| [0802-k-th-smallest-prime-fraction](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0802-k-th-smallest-prime-fraction) |
 | [1257-rank-transform-of-a-matrix](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1257-rank-transform-of-a-matrix) |
 | [1290-make-array-strictly-increasing](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1290-make-array-strictly-increasing) |
 | [1397-search-suggestions-system](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1397-search-suggestions-system) |
@@ -868,6 +872,7 @@
 | [0151-reverse-words-in-a-string](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0151-reverse-words-in-a-string) |
 | [0295-find-median-from-data-stream](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0295-find-median-from-data-stream) |
 | [0443-string-compression](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0443-string-compression) |
+| [0802-k-th-smallest-prime-fraction](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0802-k-th-smallest-prime-fraction) |
 | [0868-push-dominoes](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0868-push-dominoes) |
 | [1028-interval-list-intersections](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1028-interval-list-intersections) |
 ## Sliding Window
