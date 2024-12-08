@@ -1,24 +1,33 @@
 class Solution {
 public:
-    bool dfs(int node,vector<vector<int>>& graph, vector<int> &ans, vector<bool> &hasVisited,vector<bool> &isTerminal){
-        if(hasVisited[node]) return isTerminal[node];
-        hasVisited[node]=true;
-
-        for(auto &i: graph[node]){
-            if(!dfs(i,graph,ans,hasVisited,isTerminal)) return false;
-        }
-        isTerminal[node]=true;
-        ans.emplace_back(node);
-        return true;
-    }
     vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
-        int n=graph.size();
-        vector<bool> hasVisited(n,false);
-        vector<bool> isTerminal(n,false);
-        vector<int> ans;
+        int n = graph.size();
+
+        vector<vector<int>> revgraph(n);
+        vector<int> inDegree(n);
+
         for(int i=0;i<n;i++){
-            if(!hasVisited[i]) dfs(i,graph,ans,hasVisited,isTerminal);
+            for(auto &neighbour: graph[i]){
+                revgraph[neighbour].emplace_back(i);
+                inDegree[i]++;
+            }
         }
+
+        queue<int> q;
+        for(int i=0;i<n;i++) if(inDegree[i]==0) q.push(i);
+
+        vector<int> ans;
+
+        while(!q.empty()){
+            int t=q.front();
+            q.pop();
+            ans.emplace_back(t);
+            for(auto &i: revgraph[t]){
+                inDegree[i]--;
+                if(inDegree[i]==0) q.emplace(i);
+            }
+        }
+
         sort(ans.begin(),ans.end());
         return ans;
     }
