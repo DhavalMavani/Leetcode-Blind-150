@@ -14,8 +14,8 @@ public:
             fraction f = pq.top();
             pq.pop();
             
-            int i = f.second.first;
-            int j = f.second.second-1;
+            auto [i,j] = f.second;
+            j--;
             
             pq.push({1.0*arr[i]/arr[j], {i,j} });
         }
