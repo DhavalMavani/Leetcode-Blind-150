@@ -16,16 +16,9 @@ public:
         int UltimateParents_B=findUltimateParents(b);
         if(UltimateParents_A==UltimateParents_B) return;
 
-        if(size[UltimateParents_A] >= size[UltimateParents_B] ){
-            parents[UltimateParents_B]=UltimateParents_A;
-            size[UltimateParents_A]+=size[UltimateParents_B];
-            size[UltimateParents_B]=0;
-        }
-        else{
-            parents[UltimateParents_A]=UltimateParents_B;
-            size[UltimateParents_B]+=size[UltimateParents_A];
-            size[UltimateParents_A]=0;
-        }
+        parents[UltimateParents_B]=UltimateParents_A;
+        size[UltimateParents_A]+=size[UltimateParents_B];
+        size[UltimateParents_B]=0;
     }
 };
 
@@ -45,6 +38,7 @@ public:
             ans+= sum*arr[i];
             sum+=arr[i];
         }
+
 
         return ans;
     }
