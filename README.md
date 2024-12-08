@@ -575,6 +575,7 @@
 | [1788-stone-game-vi](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1788-stone-game-vi) |
 | [1808-stone-game-vii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1808-stone-game-vii) |
 | [2002-stone-game-viii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2002-stone-game-viii) |
+| [2383-add-two-integers](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2383-add-two-integers) |
 | [3560-maximum-number-of-moves-to-kill-all-pawns](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3560-maximum-number-of-moves-to-kill-all-pawns) |
 ## String
 |  |
