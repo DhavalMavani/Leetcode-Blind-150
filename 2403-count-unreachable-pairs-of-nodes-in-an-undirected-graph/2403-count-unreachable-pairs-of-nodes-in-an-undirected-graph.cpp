@@ -29,16 +29,17 @@ public:
 
         for(auto &i: edges) dsu->merge(i[0],i[1]);
 
-        vector<int> arr;
-        for(auto &i: dsu->size) if(i) arr.emplace_back(i);
+        long long ans=0,sum=-1;
 
-        long long ans=0,sum=arr[0];
-
-        for(int i=1;i<arr.size();i++){
-            ans+= sum*arr[i];
-            sum+=arr[i];
-        }
-
+        for(auto &i: dsu->size){
+            if(i){
+                if(sum==-1) sum=i;
+                else{
+                    ans+= sum*i;
+                    sum+=i;
+                }
+            }
+        } 
 
         return ans;
     }
