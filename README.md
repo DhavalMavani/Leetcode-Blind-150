@@ -161,6 +161,7 @@
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0084-largest-rectangle-in-histogram) |
+| [0088-merge-sorted-array](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0088-merge-sorted-array) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0118-pascals-triangle](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0118-pascals-triangle) |
@@ -767,6 +768,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0088-merge-sorted-array](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0088-merge-sorted-array) |
 | [0229-majority-element-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0242-valid-anagram) |
 | [0274-h-index](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0274-h-index) |
@@ -872,6 +874,7 @@
 | [0042-trapping-rain-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0061-rotate-list) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
+| [0088-merge-sorted-array](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0088-merge-sorted-array) |
 | [0151-reverse-words-in-a-string](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0151-reverse-words-in-a-string) |
 | [0295-find-median-from-data-stream](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0295-find-median-from-data-stream) |
 | [0443-string-compression](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0443-string-compression) |
