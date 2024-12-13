@@ -176,6 +176,7 @@
 | [0238-product-of-array-except-self](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0239-sliding-window-maximum) |
 | [0274-h-index](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0274-h-index) |
+| [0283-move-zeroes](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0283-move-zeroes) |
 | [0284-peeking-iterator](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0284-peeking-iterator) |
 | [0307-range-sum-query-mutable](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0307-range-sum-query-mutable) |
 | [0312-burst-balloons](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0312-burst-balloons) |
@@ -876,6 +877,7 @@
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0088-merge-sorted-array) |
 | [0151-reverse-words-in-a-string](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0151-reverse-words-in-a-string) |
+| [0283-move-zeroes](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0283-move-zeroes) |
 | [0295-find-median-from-data-stream](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0295-find-median-from-data-stream) |
 | [0443-string-compression](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0443-string-compression) |
 | [0802-k-th-smallest-prime-fraction](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0802-k-th-smallest-prime-fraction) |
