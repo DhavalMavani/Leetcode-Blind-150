@@ -171,6 +171,7 @@
 | [0130-surrounded-regions](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0130-surrounded-regions) |
 | [0135-candy](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0135-candy) |
 | [0162-find-peak-element](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0162-find-peak-element) |
+| [0169-majority-element](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0169-majority-element) |
 | [0204-count-primes](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0204-count-primes) |
 | [0212-word-search-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0212-word-search-ii) |
 | [0229-majority-element-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0229-majority-element-ii) |
@@ -404,6 +405,7 @@
 | [0128-longest-consecutive-sequence](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0128-longest-consecutive-sequence) |
 | [0146-lru-cache](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0146-lru-cache) |
 | [0166-fraction-to-recurring-decimal](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0166-fraction-to-recurring-decimal) |
+| [0169-majority-element](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0205-isomorphic-strings) |
 | [0229-majority-element-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0242-valid-anagram) |
@@ -775,6 +777,7 @@
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0088-merge-sorted-array) |
+| [0169-majority-element](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0242-valid-anagram) |
 | [0274-h-index](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0274-h-index) |
@@ -856,6 +859,7 @@
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0169-majority-element](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0347-top-k-frequent-elements) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0954-maximum-sum-circular-subarray](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0954-maximum-sum-circular-subarray) |
@@ -953,6 +957,7 @@
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0229-majority-element-ii) |
 | [0299-bulls-and-cows](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0299-bulls-and-cows) |
 | [0347-top-k-frequent-elements](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0347-top-k-frequent-elements) |
