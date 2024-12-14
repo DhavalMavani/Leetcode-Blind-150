@@ -217,6 +217,7 @@
 | [0960-minimize-malware-spread](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0960-minimize-malware-spread) |
 | [0964-minimize-malware-spread-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0964-minimize-malware-spread-ii) |
 | [0966-binary-subarrays-with-sum](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0966-binary-subarrays-with-sum) |
+| [0976-minimum-area-rectangle](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0976-minimum-area-rectangle) |
 | [0993-tallest-billboard](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0993-tallest-billboard) |
 | [1017-odd-even-jump](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1017-odd-even-jump) |
 | [1019-squares-of-a-sorted-array](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1019-squares-of-a-sorted-array) |
@@ -426,6 +427,7 @@
 | [0960-minimize-malware-spread](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0960-minimize-malware-spread) |
 | [0964-minimize-malware-spread-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0964-minimize-malware-spread-ii) |
 | [0966-binary-subarrays-with-sum](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0966-binary-subarrays-with-sum) |
+| [0976-minimum-area-rectangle](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0976-minimum-area-rectangle) |
 | [1087-longest-arithmetic-subsequence](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1087-longest-arithmetic-subsequence) |
 | [1294-range-frequency-queries](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1294-range-frequency-queries) |
 | [1777-determine-if-two-strings-are-close](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1777-determine-if-two-strings-are-close) |
@@ -579,6 +581,7 @@
 | [0523-continuous-subarray-sum](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0523-continuous-subarray-sum) |
 | [0909-stone-game](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0909-stone-game) |
 | [0956-number-of-music-playlists](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0956-number-of-music-playlists) |
+| [0976-minimum-area-rectangle](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0976-minimum-area-rectangle) |
 | [1240-stone-game-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1240-stone-game-ii) |
 | [1522-stone-game-iii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1522-stone-game-iii) |
 | [1617-stone-game-iv](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1617-stone-game-iv) |
@@ -793,6 +796,7 @@
 | [0646-maximum-length-of-pair-chain](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0646-maximum-length-of-pair-chain) |
 | [0692-top-k-frequent-words](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0692-top-k-frequent-words) |
 | [0802-k-th-smallest-prime-fraction](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0802-k-th-smallest-prime-fraction) |
+| [0976-minimum-area-rectangle](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0976-minimum-area-rectangle) |
 | [1019-squares-of-a-sorted-array](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1019-squares-of-a-sorted-array) |
 | [1257-rank-transform-of-a-matrix](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1257-rank-transform-of-a-matrix) |
 | [1290-make-array-strictly-increasing](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1290-make-array-strictly-increasing) |
@@ -1045,4 +1049,8 @@
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0204-count-primes) |
+## Geometry
+|  |
+| ------- |
+| [0976-minimum-area-rectangle](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0976-minimum-area-rectangle) |
 <!---LeetCode Topics End-->
