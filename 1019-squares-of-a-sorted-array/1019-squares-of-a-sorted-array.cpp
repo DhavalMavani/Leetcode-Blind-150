@@ -11,7 +11,7 @@ public:
         
         vector<int> ans;
         while(l>=0 && r<n){
-            if( abs(nums[l]) <= abs(nums[r]) ) ans.emplace_back(nums[l]*nums[l]), l--;
+            if( abs(nums[l]) < abs(nums[r]) ) ans.emplace_back(nums[l]*nums[l]), l--;
             else ans.emplace_back(nums[r]*nums[r]),r++;
         }
 
