@@ -17,7 +17,7 @@ public:
 
                 int p1x=points[i][0], p1y = points[j][1], p2x= points[j][0] ,p2y = points[i][1];
 
-                if(st.count(p1x) && st[p1x].count(p1y) && st.count(p2x) && st[p2x].count(p2y)){
+                if(st[p1x].count(p1y) && st[p2x].count(p2y)){
                     int area=calcDist(x1,y1,p1x,p1y)*calcDist(x1,y1,p2x,p2y);
                     ans=min(ans,area);
                 }
