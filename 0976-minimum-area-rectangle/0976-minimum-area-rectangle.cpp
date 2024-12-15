@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int calcDist(int x1, int y1, int x2, int y2) {
+    int calcDist(int &x1, int &y1, int &x2, int &y2) {
         if (x1 == x2) return abs(y2 - y1);
         else return abs(x2 - x1);
     }
@@ -18,8 +18,7 @@ public:
                 int p1x=points[i][0], p1y = points[j][1], p2x= points[j][0] ,p2y = points[i][1];
 
                 if(st[p1x].count(p1y) && st[p2x].count(p2y)){
-                    int area=calcDist(x1,y1,p1x,p1y)*calcDist(x1,y1,p2x,p2y);
-                    ans=min(ans,area);
+                    ans=min(ans,calcDist(x1,y1,p1x,p1y)*calcDist(x1,y1,p2x,p2y));
                 }
             }
         }
