@@ -4,24 +4,16 @@ public:
         vector<int> freq(26,0);
         for(auto &i: tasks) freq[i-'A']++;
 
-        int time=0;
-        priority_queue<int> pq;
-        for(int i=0;i<26;i++) if(freq[i]!=0) pq.push(freq[i]);
-        
-        while(!pq.empty()){
-            vector<int> temp;
-            int i=0;
-            for(;i<=n && !pq.empty();i++){
-                int curr=pq.top();
-                pq.pop();
-                if(curr-1>0)temp.emplace_back(curr-1);
+        auto itr=max_element(freq.begin(),freq.end());
+        int maxi= *itr,s=tasks.size(),idleSpots=maxi-1,idleSpace=idleSpots*n;
+        *itr=0;
+
+        for(int i=0;i<26;i++){
+            if(freq[i]!=0){
+                idleSpace-=min(idleSpots,freq[i]);
+                if(idleSpace<=0) return s;
             }
-
-            if(!temp.empty()) time+=n+1;
-            else time+=i;
-
-            for(auto &i: temp) pq.push(i);
         }
-        return time;
+        return s+idleSpace;
     }
 };
