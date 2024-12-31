@@ -17,12 +17,12 @@ public:
 
         for(int i=len-1;i<n;i++){
             int currChar=s[i]-'a', prevChar=s[i-len+1]-'a';
-            if(freqP[currChar]>0 && freqS[currChar]<freqP[currChar]) match++;
+            if(freqS[currChar]<freqP[currChar]) match++;
             freqS[currChar]++;
 
             if(match==len) ans.emplace_back(i-len+1);
 
-            if(freqP[prevChar]>0 &&  freqS[prevChar]<=freqP[prevChar]) match--;
+            if( freqS[prevChar]<=freqP[prevChar]) match--;
             freqS[prevChar]--;
         }
         return ans;
