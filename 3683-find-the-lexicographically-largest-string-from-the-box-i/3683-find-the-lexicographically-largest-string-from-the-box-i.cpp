@@ -7,11 +7,11 @@ public:
 
         if(i==n1 || i==n2){
             if(n1>n2)return a;
-            else return b;
+            else return a=b;
         }
         if((a[i]-'a')>(b[i]-'a')) return a;
 
-        return b;
+        return a=b;
     }
     string answerString(string word, int numFriends) {
         int n=word.size(),windowSize=n-numFriends+1,ind=n-1;
@@ -19,12 +19,12 @@ public:
         string ans="";
 
         while(ind>=n-windowSize){
-            ans=comp(ans,word.substr(ind));
+            comp(ans,word.substr(ind));
             ind--;
         }
 
         while(ind>=0){
-            ans=comp(ans,word.substr(ind,windowSize));
+            comp(ans,word.substr(ind,windowSize));
             ind--;
         }
 
