@@ -18,7 +18,6 @@ public:
     }
     
     int getRandom() {
-        // return *ust.begin();
         return *next(ust.begin(),rand()%ust.size());
     }
 };
