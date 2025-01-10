@@ -1,24 +1,32 @@
 class RandomizedSet {
 public:
+    unordered_map<int,int> ump;
+    vector<int> arr;
+    int n=0;
 
-    unordered_set<int> ust;
-    // vector<int> 
     bool insert(int val) {
-        if(ust.count(val)) return false;
-        ust.emplace(val);
+        if(ump.count(val)) return false;
+        arr.emplace_back(val);
+        ump[val]=n;
+        n++;
         return true;
     }
     
     bool remove(int val) {
-        if(ust.count(val)){
-            ust.erase(val);
-            return true;
+        if(!ump.count(val)) return false;
+        int ind=ump[val];
+        ump.erase(val);
+        n--;
+        if(ind!=arr.size()-1){
+            swap(arr[ind],arr[n]);
+            ump[arr[ind]]=ind;
         }
-        return false;
+        arr.pop_back();
+        return true;
     }
     
     int getRandom() {
-        return *next(ust.begin(),rand()%ust.size());
+        return arr[rand()%n];
     }
 };
 
