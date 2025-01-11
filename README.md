@@ -201,6 +201,7 @@
 | [0523-continuous-subarray-sum](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0525-contiguous-array) |
 | [0542-01-matrix](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0542-01-matrix) |
+| [0560-subarray-sum-equals-k](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0621-task-scheduler) |
 | [0630-course-schedule-iii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0630-course-schedule-iii) |
 | [0646-maximum-length-of-pair-chain](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0646-maximum-length-of-pair-chain) |
@@ -428,6 +429,7 @@
 | [0480-sliding-window-median](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0480-sliding-window-median) |
 | [0523-continuous-subarray-sum](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0525-contiguous-array) |
+| [0560-subarray-sum-equals-k](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0621-task-scheduler) |
 | [0692-top-k-frequent-words](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0692-top-k-frequent-words) |
 | [0746-prefix-and-suffix-search](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0746-prefix-and-suffix-search) |
@@ -862,6 +864,7 @@
 | [0238-product-of-array-except-self](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0238-product-of-array-except-self) |
 | [0523-continuous-subarray-sum](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0525-contiguous-array) |
+| [0560-subarray-sum-equals-k](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0724-find-pivot-index) |
 | [0731-my-calendar-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0731-my-calendar-ii) |
 | [0732-my-calendar-iii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0732-my-calendar-iii) |
