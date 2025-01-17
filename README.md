@@ -161,6 +161,7 @@
 | [0063-unique-paths-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0063-unique-paths-ii) |
 | [0068-text-justification](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0068-text-justification) |
 | [0073-set-matrix-zeroes](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0073-set-matrix-zeroes) |
+| [0079-word-search](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0079-word-search) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0084-largest-rectangle-in-histogram) |
@@ -376,6 +377,7 @@
 | [0054-spiral-matrix](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0054-spiral-matrix) |
 | [0063-unique-paths-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0063-unique-paths-ii) |
 | [0073-set-matrix-zeroes](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0073-set-matrix-zeroes) |
+| [0079-word-search](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0130-surrounded-regions) |
 | [0212-word-search-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0212-word-search-ii) |
 | [0407-trapping-rain-water-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0407-trapping-rain-water-ii) |
@@ -511,6 +513,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0079-word-search) |
 | [0094-binary-tree-inorder-traversal](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0098-validate-binary-search-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0111-minimum-depth-of-binary-tree) |
@@ -620,6 +623,7 @@
 | [0065-valid-number](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0065-valid-number) |
 | [0068-text-justification](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0068-text-justification) |
 | [0076-minimum-window-substring](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0076-minimum-window-substring) |
+| [0079-word-search](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0079-word-search) |
 | [0091-decode-ways](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0091-decode-ways) |
 | [0097-interleaving-string](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0097-interleaving-string) |
 | [0126-word-ladder-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0126-word-ladder-ii) |
@@ -759,6 +763,7 @@
 | [0051-n-queens](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0051-n-queens) |
 | [0052-n-queens-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0052-n-queens-ii) |
 | [0077-combinations](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0077-combinations) |
+| [0079-word-search](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0079-word-search) |
 | [0113-path-sum-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0113-path-sum-ii) |
 | [0126-word-ladder-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0126-word-ladder-ii) |
 | [0212-word-search-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0212-word-search-ii) |
