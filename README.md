@@ -155,6 +155,7 @@
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0042-trapping-rain-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0042-trapping-rain-water) |
 | [0051-n-queens](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0051-n-queens) |
+| [0054-spiral-matrix](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0055-jump-game) |
 | [0057-insert-interval](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0057-insert-interval) |
 | [0063-unique-paths-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0063-unique-paths-ii) |
@@ -372,6 +373,7 @@
 ## Matrix
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0054-spiral-matrix) |
 | [0063-unique-paths-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0063-unique-paths-ii) |
 | [0073-set-matrix-zeroes](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0073-set-matrix-zeroes) |
 | [0130-surrounded-regions](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0130-surrounded-regions) |
@@ -1021,6 +1023,7 @@
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0054-spiral-matrix) |
 | [0068-text-justification](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0068-text-justification) |
 | [0750-contain-virus](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0750-contain-virus) |
 | [1708-design-parking-system](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1708-design-parking-system) |
