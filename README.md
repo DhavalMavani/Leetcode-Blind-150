@@ -231,6 +231,7 @@
 | [1017-odd-even-jump](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1017-odd-even-jump) |
 | [1019-squares-of-a-sorted-array](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1019-squares-of-a-sorted-array) |
 | [1028-interval-list-intersections](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1028-interval-list-intersections) |
+| [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
 | [1087-longest-arithmetic-subsequence](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1087-longest-arithmetic-subsequence) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1240-stone-game-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1240-stone-game-ii) |
@@ -446,6 +447,7 @@
 | [0964-minimize-malware-spread-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0964-minimize-malware-spread-ii) |
 | [0966-binary-subarrays-with-sum](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0966-binary-subarrays-with-sum) |
 | [0976-minimum-area-rectangle](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0976-minimum-area-rectangle) |
+| [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
 | [1087-longest-arithmetic-subsequence](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1087-longest-arithmetic-subsequence) |
 | [1294-range-frequency-queries](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1294-range-frequency-queries) |
 | [1777-determine-if-two-strings-are-close](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1777-determine-if-two-strings-are-close) |
@@ -1015,6 +1017,7 @@
 | [0451-sort-characters-by-frequency](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0451-sort-characters-by-frequency) |
 | [0621-task-scheduler](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0621-task-scheduler) |
 | [0692-top-k-frequent-words](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0692-top-k-frequent-words) |
+| [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
 | [1396-count-servers-that-communicate](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1396-count-servers-that-communicate) |
 | [1708-design-parking-system](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1708-design-parking-system) |
 | [1777-determine-if-two-strings-are-close](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1777-determine-if-two-strings-are-close) |
