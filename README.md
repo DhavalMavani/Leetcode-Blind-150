@@ -233,6 +233,7 @@
 | [1257-rank-transform-of-a-matrix](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1257-rank-transform-of-a-matrix) |
 | [1290-make-array-strictly-increasing](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1290-make-array-strictly-increasing) |
 | [1294-range-frequency-queries](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1294-range-frequency-queries) |
+| [1305-number-of-visible-people-in-a-queue](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1305-number-of-visible-people-in-a-queue) |
 | [1322-minimum-moves-to-reach-target-with-rotations](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1322-minimum-moves-to-reach-target-with-rotations) |
 | [1396-count-servers-that-communicate](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1396-count-servers-that-communicate) |
 | [1397-search-suggestions-system](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1397-search-suggestions-system) |
@@ -958,6 +959,7 @@
 | [0155-min-stack](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0173-binary-search-tree-iterator) |
 | [1017-odd-even-jump](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1017-odd-even-jump) |
+| [1305-number-of-visible-people-in-a-queue](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1305-number-of-visible-people-in-a-queue) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1582-design-browser-history](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1582-design-browser-history) |
 | [2123-the-number-of-weak-characters-in-the-game](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2123-the-number-of-weak-characters-in-the-game) |
@@ -1028,6 +1030,7 @@
 | [0042-trapping-rain-water](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0084-largest-rectangle-in-histogram) |
 | [1017-odd-even-jump](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1017-odd-even-jump) |
+| [1305-number-of-visible-people-in-a-queue](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1305-number-of-visible-people-in-a-queue) |
 | [2123-the-number-of-weak-characters-in-the-game](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2123-the-number-of-weak-characters-in-the-game) |
 ## Queue
 |  |
