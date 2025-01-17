@@ -7,21 +7,17 @@ public:
         stack<int> st;
 
         for(int i=n-1;i>=0;i--){
-            if(st.empty()) st.emplace(i);
-            else{
-                int count=0;
+            int count=0;
 
-                while(!st.empty() && heights[st.top()] < heights[i] ){
-                    st.pop();
-                    count++;
-                }
-                if(!st.empty()) count++;
-
-                ans[i]=count;
-                
-                st.push(i);
-                
+            while(!st.empty() && heights[st.top()] < heights[i] ){
+                st.pop();
+                count++;
             }
+            if(!st.empty()) count++;
+
+            ans[i]=count;
+            
+            st.push(i);
         }
         return ans;
     }
