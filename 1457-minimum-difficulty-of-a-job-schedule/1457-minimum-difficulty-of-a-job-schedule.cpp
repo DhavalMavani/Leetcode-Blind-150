@@ -2,9 +2,8 @@ class Solution {
 public:
     int helper(vector<int>& jobDifficulty, int cut, int ind,vector<vector<int>> &dp){
         int n=jobDifficulty.size()-1, ans=INT_MAX,maxi=-1e9;
-        if(ind==n+1)return 0;
-
-        if(cut==0) return 1e9;
+        if(ind==n+1) return 0;
+        if(cut==0) return dp[ind][cut]=1e9;
 
         if(dp[ind][cut]!=-1) return dp[ind][cut];
             
