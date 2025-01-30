@@ -281,6 +281,7 @@
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3715-maximum-coins-from-k-consecutive-bags](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3715-maximum-coins-from-k-consecutive-bags) |
 | [3731-sum-of-variable-length-subarrays](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3731-sum-of-variable-length-subarrays) |
+| [3737-paint-house-iv](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3737-paint-house-iv) |
 ## Binary Search
 |  |
 | ------- |
@@ -522,6 +523,7 @@
 | [2739-minimize-the-total-price-of-the-trips](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2739-minimize-the-total-price-of-the-trips) |
 | [2808-painting-the-walls](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2808-painting-the-walls) |
 | [3092-minimum-moves-to-spread-stones-over-grid](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3092-minimum-moves-to-spread-stones-over-grid) |
+| [3737-paint-house-iv](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3737-paint-house-iv) |
 ## Depth-First Search
 |  |
 | ------- |
