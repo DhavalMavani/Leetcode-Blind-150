@@ -280,6 +280,7 @@
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3715-maximum-coins-from-k-consecutive-bags](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3715-maximum-coins-from-k-consecutive-bags) |
+| [3731-sum-of-variable-length-subarrays](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3731-sum-of-variable-length-subarrays) |
 ## Binary Search
 |  |
 | ------- |
@@ -894,6 +895,7 @@
 | [1966-frequency-of-the-most-frequent-element](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2002-stone-game-viii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2002-stone-game-viii) |
 | [3715-maximum-coins-from-k-consecutive-bags](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3715-maximum-coins-from-k-consecutive-bags) |
+| [3731-sum-of-variable-length-subarrays](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3731-sum-of-variable-length-subarrays) |
 ## Combinatorics
 |  |
 | ------- |
