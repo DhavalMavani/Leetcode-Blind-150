@@ -279,6 +279,7 @@
 | [3571-length-of-the-longest-increasing-path](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3571-length-of-the-longest-increasing-path) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+| [3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences) |
 | [3715-maximum-coins-from-k-consecutive-bags](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3715-maximum-coins-from-k-consecutive-bags) |
 | [3731-sum-of-variable-length-subarrays](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3731-sum-of-variable-length-subarrays) |
 | [3737-paint-house-iv](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3737-paint-house-iv) |
@@ -523,6 +524,7 @@
 | [2739-minimize-the-total-price-of-the-trips](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2739-minimize-the-total-price-of-the-trips) |
 | [2808-painting-the-walls](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2808-painting-the-walls) |
 | [3092-minimum-moves-to-spread-stones-over-grid](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3092-minimum-moves-to-spread-stones-over-grid) |
+| [3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences) |
 | [3737-paint-house-iv](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3737-paint-house-iv) |
 ## Depth-First Search
 |  |
@@ -626,6 +628,7 @@
 | [2002-stone-game-viii](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2002-stone-game-viii) |
 | [2383-add-two-integers](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2383-add-two-integers) |
 | [3560-maximum-number-of-moves-to-kill-all-pawns](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3560-maximum-number-of-moves-to-kill-all-pawns) |
+| [3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences) |
 ## String
 |  |
 | ------- |
@@ -853,6 +856,7 @@
 | [2505-number-of-good-paths](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/2505-number-of-good-paths) |
 | [3485-maximize-score-of-numbers-in-ranges](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3485-maximize-score-of-numbers-in-ranges) |
 | [3571-length-of-the-longest-increasing-path](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3571-length-of-the-longest-increasing-path) |
+| [3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences) |
 | [3715-maximum-coins-from-k-consecutive-bags](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3715-maximum-coins-from-k-consecutive-bags) |
 ## Shortest Path
 |  |
@@ -903,6 +907,7 @@
 | ------- |
 | [0956-number-of-music-playlists](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0956-number-of-music-playlists) |
 | [1692-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1692-number-of-ways-to-reorder-array-to-get-same-bst) |
+| [3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences) |
 ## Bitmask
 |  |
 | ------- |
