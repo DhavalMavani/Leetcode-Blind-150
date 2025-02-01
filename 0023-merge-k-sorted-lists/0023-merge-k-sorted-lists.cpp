@@ -12,22 +12,32 @@ class Solution {
 public:
     ListNode* mergeKLists(vector<ListNode*>& lists) {
 
-        ListNode* ans= new ListNode();
-        ListNode* curr= ans;
-
-        priority_queue <pair<int,int>,vector<pair<int,int>>, greater<> > pq;
-        for(int i=0;i<lists.size();i++){
-            if(lists[i]!=NULL) pq.emplace(lists[i]->val,i);
-        }
-
-        while (!pq.empty()){
-            curr->next= lists[pq.top().second];
-            curr=curr->next;
-            if(lists[pq.top().second]->next!=NULL){
-                pq.emplace(lists[pq.top().second]->next->val,pq.top().second);
-                lists[pq.top().second]=lists[pq.top().second]->next;
+        ListNode* str = new ListNode();
+        ListNode* ans=str;
+        while(true){
+            int index;
+            bool flag=false;
+            for(int i=0;i<lists.size();i++){
+                if(lists[i]!=NULL){
+                    index=i;
+                    flag=true;
+                    break;
+                }
             }
-            pq.pop();
+            if(flag){
+                for(int i=0;i<lists.size();i++){
+                    if(lists[i]!=NULL && lists[i]->val<lists[index]->val){
+                        index=i;
+                    }
+                }
+                str->next=lists[index];
+                str=str->next;
+                lists[index]=lists[index]->next;
+            }
+            else{
+                break;
+            }
+
         }
         return ans->next;
         
