@@ -896,6 +896,7 @@
 | [0002-add-two-numbers](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0002-add-two-numbers) |
 | [0010-regular-expression-matching](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0010-regular-expression-matching) |
 | [0021-merge-two-sorted-lists](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0021-merge-two-sorted-lists) |
+| [0024-swap-nodes-in-pairs](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0024-swap-nodes-in-pairs) |
 | [0050-powx-n](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0050-powx-n) |
 | [0060-permutation-sequence](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0060-permutation-sequence) |
 | [0486-predict-the-winner](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0486-predict-the-winner) |
@@ -1081,6 +1082,7 @@
 | [0019-remove-nth-node-from-end-of-list](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0021-merge-two-sorted-lists) |
 | [0023-merge-k-sorted-lists](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0023-merge-k-sorted-lists) |
+| [0024-swap-nodes-in-pairs](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0024-swap-nodes-in-pairs) |
 | [0061-rotate-list](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0061-rotate-list) |
 | [0146-lru-cache](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/0146-lru-cache) |
 | [1582-design-browser-history](https://github.com/DhavalMavani/Leetcode-Blind-150/tree/master/1582-design-browser-history) |
