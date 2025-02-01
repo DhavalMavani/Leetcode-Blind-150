@@ -20,9 +20,9 @@ public:
             ListNode* temp=head->next->next;
             head->next->next=head;
             prev->next=head->next;
-            prev=head;
             head->next=temp;
-            head=temp;
+            prev=head;
+            head=head->next;
         }
 
         return dummy->next;
