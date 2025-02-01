@@ -1,7 +1,7 @@
 class Solution {
 public:
     void generate(vector<string> &ans,int open,int close,string s){
-        if(!open && !close){
+        if(open==0 && close==0){
             ans.emplace_back(s);
             return;
         }
