@@ -13,9 +13,8 @@ class Solution {
 private:
     int ans=INT_MIN;
     int maxSum(TreeNode* root){
-        if (root == NULL){
-            return 0;
-        }
+        if (!root) return 0;
+
         int l=maxSum(root->left);
         int r=maxSum(root->right);
         if(l>=0 && r>=0){
@@ -34,7 +33,6 @@ private:
             ans=max(ans,root->val+l);
             return root->val+l;
         }
-
     }
 public:
     int maxPathSum(TreeNode* root) {
